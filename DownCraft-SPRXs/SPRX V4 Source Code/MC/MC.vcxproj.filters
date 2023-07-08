@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="prx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Buttons.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="dialog.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFunctions.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooking.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="huds.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="IDs.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="SubMenus.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="var.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="Options.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="Modules.h">
+      <Filter>header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="header">
+      <UniqueIdentifier>{deaebd56-369b-48cf-a39c-5877cd01e91f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

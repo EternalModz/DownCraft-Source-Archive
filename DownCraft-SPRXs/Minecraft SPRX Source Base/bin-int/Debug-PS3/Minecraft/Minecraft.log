@@ -1,0 +1,48 @@
+﻿  Main.cpp
+.\Util/Variables.h(8,17): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+.\Games/Vector.h(24,9): warning 432: returning reference to local temporary
+  
+.\Games\Vector.h(28,9): warning 432: returning reference to local temporary
+  
+.\Games\Vector.h(67,7): warning 429: qualified name is not allowed in member declaration
+  
+.\Games\Vector.h(44,9): warning 432: returning reference to local temporary
+  
+.\Games\Vector.h(53,9): warning 432: returning reference to local temporary
+  
+.\Games\Vector.h(56,9): warning 432: returning reference to local temporary
+  
+.\Games\Vector.h(59,9): warning 432: returning reference to local temporary
+  
+.\Games\Vector.h(62,9): warning 432: returning reference to local temporary
+  
+.\Games\Vector.h(93,9): warning 432: returning reference to local temporary
+  
+.\Games\Vector.h(97,9): warning 432: returning reference to local temporary
+  
+.\Games/Struct.h(50,6): warning 1700: class "LevelRenderer" has virtual functions but non-virtual destructor
+  
+.\Games\Struct.h(103,6): warning 1700: class "MultiPlayerLevel" has virtual functions but non-virtual destructor
+  
+.\Games\Struct.h(218,6): warning 1700: class "MultiplayerLocalPlayer" has virtual functions but non-virtual destructor
+  
+.\Games/Functions.h(223,65): warning 1322: taking the address of a temporary
+  
+.\Games\Functions.h(224): warning 942: missing return statement at end of non-void function "Font_width"
+  
+.\Games\Functions.h(227,63): warning 1322: taking the address of a temporary
+  
+.\Games\Functions.h(227,81): warning 1772: argument of type "float" is implicitly converted to parameter (3) of type "std::uint32_t"
+  
+.\Games\Functions.h(227,84): warning 1772: argument of type "float" is implicitly converted to parameter (4) of type "std::uint32_t"
+  
+.\Games\Functions.h(231,63): warning 1322: taking the address of a temporary
+  
+.\Games\Functions.h(231,87): warning 1772: argument of type "float" is implicitly converted to parameter (3) of type "std::uint32_t"
+  
+.\Games\Functions.h(231,90): warning 1772: argument of type "float" is implicitly converted to parameter (4) of type "std::uint32_t"
+  
+.\Games\Functions.h(235,89): warning 1322: taking the address of a temporary
+  
+  Minecraft.vcxproj -> C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft Better Edition SPRX\bin\Debug-PS3\Minecraft.sprx

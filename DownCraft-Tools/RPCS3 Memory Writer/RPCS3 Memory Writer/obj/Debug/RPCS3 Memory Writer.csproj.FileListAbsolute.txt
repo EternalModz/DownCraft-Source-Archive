@@ -1,0 +1,33 @@
+C:\Users\rstei\source\repos\RPCS3 Memory Writer\RPCS3 Memory Writer\bin\Debug\RPCS3 Memory Writer.exe.config
+C:\Users\rstei\source\repos\RPCS3 Memory Writer\RPCS3 Memory Writer\bin\Debug\RPCS3 Memory Writer.exe
+C:\Users\rstei\source\repos\RPCS3 Memory Writer\RPCS3 Memory Writer\bin\Debug\RPCS3 Memory Writer.pdb
+C:\Users\rstei\source\repos\RPCS3 Memory Writer\RPCS3 Memory Writer\obj\Debug\RPCS3 Memory Writer.csproj.AssemblyReference.cache
+C:\Users\rstei\source\repos\RPCS3 Memory Writer\RPCS3 Memory Writer\obj\Debug\RPCS3 Memory Writer.csproj.SuggestedBindingRedirects.cache
+C:\Users\rstei\source\repos\RPCS3 Memory Writer\RPCS3 Memory Writer\obj\Debug\RPCS3_Memory_Writer.Form1.resources
+C:\Users\rstei\source\repos\RPCS3 Memory Writer\RPCS3 Memory Writer\obj\Debug\RPCS3_Memory_Writer.Properties.Resources.resources
+C:\Users\rstei\source\repos\RPCS3 Memory Writer\RPCS3 Memory Writer\obj\Debug\RPCS3 Memory Writer.csproj.GenerateResource.cache
+C:\Users\rstei\source\repos\RPCS3 Memory Writer\RPCS3 Memory Writer\obj\Debug\RPCS3 Memory Writer.csproj.CoreCompileInputs.cache
+C:\Users\rstei\source\repos\RPCS3 Memory Writer\RPCS3 Memory Writer\obj\Debug\RPCS3 Memory Writer.exe
+C:\Users\rstei\source\repos\RPCS3 Memory Writer\RPCS3 Memory Writer\obj\Debug\RPCS3 Memory Writer.pdb
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source Csharp\RPCS3 Memory Writer\RPCS3 Memory Writer\bin\Debug\RPCS3 Memory Writer.exe.config
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source Csharp\RPCS3 Memory Writer\RPCS3 Memory Writer\bin\Debug\RPCS3 Memory Writer.exe
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source Csharp\RPCS3 Memory Writer\RPCS3 Memory Writer\bin\Debug\RPCS3 Memory Writer.pdb
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source Csharp\RPCS3 Memory Writer\RPCS3 Memory Writer\obj\Debug\RPCS3 Memory Writer.csproj.AssemblyReference.cache
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source Csharp\RPCS3 Memory Writer\RPCS3 Memory Writer\obj\Debug\RPCS3 Memory Writer.csproj.SuggestedBindingRedirects.cache
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source Csharp\RPCS3 Memory Writer\RPCS3 Memory Writer\obj\Debug\RPCS3_Memory_Writer.Form1.resources
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source Csharp\RPCS3 Memory Writer\RPCS3 Memory Writer\obj\Debug\RPCS3_Memory_Writer.Properties.Resources.resources
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source Csharp\RPCS3 Memory Writer\RPCS3 Memory Writer\obj\Debug\RPCS3 Memory Writer.csproj.GenerateResource.cache
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source Csharp\RPCS3 Memory Writer\RPCS3 Memory Writer\obj\Debug\RPCS3 Memory Writer.csproj.CoreCompileInputs.cache
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source Csharp\RPCS3 Memory Writer\RPCS3 Memory Writer\obj\Debug\RPCS3 Memory Writer.exe
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source Csharp\RPCS3 Memory Writer\RPCS3 Memory Writer\obj\Debug\RPCS3 Memory Writer.pdb
+C:\Users\EternalModz\Desktop\Everything for DownCraft\RTM Tools\RPCS3 Memory Writer\RPCS3 Memory Writer\bin\Debug\RPCS3 Memory Writer.exe.config
+C:\Users\EternalModz\Desktop\Everything for DownCraft\RTM Tools\RPCS3 Memory Writer\RPCS3 Memory Writer\bin\Debug\RPCS3 Memory Writer.exe
+C:\Users\EternalModz\Desktop\Everything for DownCraft\RTM Tools\RPCS3 Memory Writer\RPCS3 Memory Writer\bin\Debug\RPCS3 Memory Writer.pdb
+C:\Users\EternalModz\Desktop\Everything for DownCraft\RTM Tools\RPCS3 Memory Writer\RPCS3 Memory Writer\obj\Debug\RPCS3 Memory Writer.csproj.AssemblyReference.cache
+C:\Users\EternalModz\Desktop\Everything for DownCraft\RTM Tools\RPCS3 Memory Writer\RPCS3 Memory Writer\obj\Debug\RPCS3 Memory Writer.csproj.SuggestedBindingRedirects.cache
+C:\Users\EternalModz\Desktop\Everything for DownCraft\RTM Tools\RPCS3 Memory Writer\RPCS3 Memory Writer\obj\Debug\RPCS3_Memory_Writer.MainForm.resources
+C:\Users\EternalModz\Desktop\Everything for DownCraft\RTM Tools\RPCS3 Memory Writer\RPCS3 Memory Writer\obj\Debug\RPCS3_Memory_Writer.Properties.Resources.resources
+C:\Users\EternalModz\Desktop\Everything for DownCraft\RTM Tools\RPCS3 Memory Writer\RPCS3 Memory Writer\obj\Debug\RPCS3 Memory Writer.csproj.GenerateResource.cache
+C:\Users\EternalModz\Desktop\Everything for DownCraft\RTM Tools\RPCS3 Memory Writer\RPCS3 Memory Writer\obj\Debug\RPCS3 Memory Writer.csproj.CoreCompileInputs.cache
+C:\Users\EternalModz\Desktop\Everything for DownCraft\RTM Tools\RPCS3 Memory Writer\RPCS3 Memory Writer\obj\Debug\RPCS3 Memory Writer.exe
+C:\Users\EternalModz\Desktop\Everything for DownCraft\RTM Tools\RPCS3 Memory Writer\RPCS3 Memory Writer\obj\Debug\RPCS3 Memory Writer.pdb

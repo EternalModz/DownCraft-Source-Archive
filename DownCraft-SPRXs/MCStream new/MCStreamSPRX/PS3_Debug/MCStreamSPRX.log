@@ -1,0 +1,34 @@
+﻿Build started 1/12/2022 7:16:39 AM.
+     1>Project "G:\My Drive\PS3\Source\Others\mcStream new\MCStreamSPRX\MCStreamSPRX.vcxproj" on node 2 (ClCompile target(s)).
+     1>ClCompile:
+         MCStream.cpp
+         ps3ppusnc.exe -D_DEBUG -D__CELL_ASSERT__ -D__PS3__ -DLIBNAME=cellPrx_MCStreamSPRX -DSTUBNAME=cellPrx_MCStreamSPRX_stub -o PS3_Debug\MCStream.o -c -Xdepmode=1 -MD -Xmserrors -I. -IC:/usr/local/cell\target\ppu\include -IC:/usr/local/cell\target\common\include -I"C:/usr/local/cell\host-win32\sn\ppu\include" -g -O0 -Xc-=rtti "G:\My Drive\PS3\Source\Others\mcStream new\MCStreamSPRX\MCStream.cpp"
+     1>G:\My Drive\PS3\Source\Others\mcStream new\MCStreamSPRX\mc_classes.h(41,6): warning 1700: class "LevelRenderer" has virtual functions but non-virtual destructor
+         
+     1>G:\My Drive\PS3\Source\Others\mcStream new\MCStreamSPRX\mc_classes.h(84,6): warning 1700: class "MultiPlayerLevel" has virtual functions but non-virtual destructor
+         
+     1>G:\My Drive\PS3\Source\Others\mcStream new\MCStreamSPRX\mc_classes.h(213,6): warning 1700: class "MultiplayerLocalPlayer" has virtual functions but non-virtual destructor
+         
+     1>G:\My Drive\PS3\Source\Others\mcStream new\MCStreamSPRX\MCStream.cpp(139,58): warning 1322: taking the address of a temporary
+         
+     1>G:\My Drive\PS3\Source\Others\mcStream new\MCStreamSPRX\MCStream.cpp(148,58): warning 1322: taking the address of a temporary
+         
+     1>G:\My Drive\PS3\Source\Others\mcStream new\MCStreamSPRX\MCStream.cpp(157,58): warning 1322: taking the address of a temporary
+         
+     1>G:\My Drive\PS3\Source\Others\mcStream new\MCStreamSPRX\MCStream.cpp(166,58): warning 1322: taking the address of a temporary
+         
+     1>G:\My Drive\PS3\Source\Others\mcStream new\MCStreamSPRX\MCStream.cpp(177,58): warning 1322: taking the address of a temporary
+         
+     1>G:\My Drive\PS3\Source\Others\mcStream new\MCStreamSPRX\MCStream.cpp(218): warning 942: missing return statement at end of non-void function "sceNpBasicSetPresenceDetails2_Stub"
+         
+     1>G:\My Drive\PS3\Source\Others\mcStream new\MCStreamSPRX\MCStream.cpp(380,8): warning 1070: returning pointer to local variable
+         
+     1>G:\My Drive\PS3\Source\Others\mcStream new\MCStreamSPRX\MCStream.cpp(400,9): warning 1070: returning pointer to local variable
+         
+     1>G:\My Drive\PS3\Source\Others\mcStream new\MCStreamSPRX\MCStream.cpp(403): warning 942: missing return statement at end of non-void function "SendRequest"
+         
+     1>Done Building Project "G:\My Drive\PS3\Source\Others\mcStream new\MCStreamSPRX\MCStreamSPRX.vcxproj" (ClCompile target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.43

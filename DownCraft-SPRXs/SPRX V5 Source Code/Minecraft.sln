@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Minecraft", "src\Minecraft.vcxproj", "{EA3FCC7F-D264-4AAE-90F5-6A1725F4A646}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|PS3 = Debug|PS3
+		Release|PS3 = Release|PS3
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA3FCC7F-D264-4AAE-90F5-6A1725F4A646}.Debug|PS3.ActiveCfg = Debug|PS3
+		{EA3FCC7F-D264-4AAE-90F5-6A1725F4A646}.Debug|PS3.Build.0 = Debug|PS3
+		{EA3FCC7F-D264-4AAE-90F5-6A1725F4A646}.Release|PS3.ActiveCfg = Release|PS3
+		{EA3FCC7F-D264-4AAE-90F5-6A1725F4A646}.Release|PS3.Build.0 = Release|PS3
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00FF1271-4548-4131-82AD-1FFA6DBAB697}
+	EndGlobalSection
+EndGlobal

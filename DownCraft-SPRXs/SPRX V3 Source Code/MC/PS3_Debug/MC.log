@@ -1,0 +1,91 @@
+﻿  prx.cpp
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\PS3.h(485): warning 942: missing return statement at end of non-void function "cPrint"
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\PS3.h(490): warning 942: missing return statement at end of non-void function "clientIntPrint"
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Dialog.h(230,6): warning 178: variable "ret" was declared but never referenced
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Dialog.h(272,6): warning 552: variable "ret" was set but never used
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(322,27): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (2 of keyboard) of type "wchar_t *"
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(322,32): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (3 of keyboard) of type "wchar_t *"
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(407,27): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (2 of keyboard) of type "wchar_t *"
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(407,32): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (3 of keyboard) of type "wchar_t *"
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(424,27): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (2 of keyboard) of type "wchar_t *"
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(424,32): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (3 of keyboard) of type "wchar_t *"
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(2210,36): warning 69: integer conversion resulted in truncation
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(5908,102): warning 193: unrecognized character escape sequence
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(6255,8): warning 178: variable "MOD8" was declared but never referenced
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(6291,8): warning 178: variable "MOD8" was declared but never referenced
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(6327,8): warning 178: variable "MOD8" was declared but never referenced
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(6363,8): warning 178: variable "MOD8" was declared but never referenced
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(6399,8): warning 178: variable "MOD8" was declared but never referenced
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(6435,8): warning 178: variable "MOD8" was declared but never referenced
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(6471,8): warning 178: variable "MOD8" was declared but never referenced
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(6507,8): warning 178: variable "MOD8" was declared but never referenced
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(6543,8): warning 178: variable "MOD8" was declared but never referenced
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(6579,8): warning 178: variable "MOD8" was declared but never referenced
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(6615,8): warning 178: variable "MOD8" was declared but never referenced
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(6651,8): warning 178: variable "MOD8" was declared but never referenced
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(6687,8): warning 178: variable "MOD8" was declared but never referenced
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(6723,8): warning 178: variable "MOD8" was declared but never referenced
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(6759,8): warning 178: variable "MOD8" was declared but never referenced
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(6795,8): warning 178: variable "MOD8" was declared but never referenced
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(6831,8): warning 178: variable "MOD8" was declared but never referenced
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(6891,8): warning 178: variable "MOD8" was declared but never referenced
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(6927,8): warning 178: variable "MOD8" was declared but never referenced
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(6963,8): warning 178: variable "MOD8" was declared but never referenced
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(6999,8): warning 178: variable "MOD8" was declared but never referenced
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(7035,8): warning 178: variable "MOD8" was declared but never referenced
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(7071,8): warning 178: variable "MOD8" was declared but never referenced
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(7107,8): warning 178: variable "MOD8" was declared but never referenced
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(7143,8): warning 178: variable "MOD8" was declared but never referenced
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(7179,8): warning 178: variable "MOD8" was declared but never referenced
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(7215,8): warning 178: variable "MOD8" was declared but never referenced
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(7251,8): warning 178: variable "MOD8" was declared but never referenced
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(7287,8): warning 178: variable "MOD8" was declared but never referenced
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(9212,30): warning 193: unrecognized character escape sequence
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\Functions.h(10012,8): warning 1070: returning pointer to local variable
+  
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\MC\prx.cpp(1371,17): warning 1628: argument of type "const char *" is incompatible with parameter (1 of Show) of type "char *"
+  
+  MC.vcxproj -> C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\PS3_Debug\MC.sprx
+  Moving Stub Library cellPrx_MC_stub.a -> C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\SPRX V3 Source Code\PS3_Debug\

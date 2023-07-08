@@ -1,0 +1,1339 @@
+Address  Size     Align Out     In      File    Symbol
+=================================================================
+00000000 00000000     1 .interp
+00000000 00000000     1 .hash
+00000000 00000000     1 .dynsym
+00000000 00000000     1 .dynstr
+00000000 00000000     1 .gnu.version
+00000000 00000000     1 .gnu.version_d
+00000000 00000000     1 .gnu.version_r
+00000000 00000000     1 .rel.init
+00000000 00000000     1 .rela.init
+00000000 00000000     1 .rel.text
+00000000 00000000     1 .rel.text
+00000000 00000000     1 .rela.text
+00000000 00000000     1 .rel.fini
+00000000 00000000     1 .rela.fini
+00000000 00000000     1 .rel.rodata
+00000000 00000000     1 .rela.rodata
+00000000 00000000     1 .rel.sceStub.text
+00000000 00000000     1 .rel.lib.ent.top
+00000000 00000000     1 .rel.lib.ent
+00000000 00000000     1 .rel.lib.ent.btm
+00000000 00000000     1 .rel.lib.stub.top
+00000000 00000000     1 .rel.lib.stub
+00000000 00000000     1 .rel.lib.stub.btm
+00000000 00000000     1 .rel.rodata.sceModuleInfo
+00000000 00000000     1 .rel.rodata.sceResident
+00000000 00000000     1 .rel.rodata.sceVStub
+00000000 00000000     1 .rel.data
+00000000 00000000     1 .rela.data
+00000000 00000000     1 .rel.tdata
+00000000 00000000     1 .rela.tdata
+00000000 00000000     1 .rel.tbss
+00000000 00000000     1 .rela.tbss
+00000000 00000000     1 .rel.ctors
+00000000 00000000     1 .rela.ctors
+00000000 00000000     1 .rel.dtors
+00000000 00000000     1 .rela.dtors
+00000000 00000000     1 .rel.got
+00000000 00000000     1 .rela.got
+00000000 00000000     1 .rela.toc
+00000000 00000000     1 .rel.sdata
+00000000 00000000     1 .rela.sdata
+00000000 00000000     1 .rel.sbss
+00000000 00000000     1 .rela.sbss
+00000000 00000000     1 .rel.sdata2
+00000000 00000000     1 .rela.sdata2
+00000000 00000000     1 .rel.sbss2
+00000000 00000000     1 .rela.sbss2
+00000000 00000000     1 .rel.bss
+00000000 00000000     1 .rela.bss
+00000000 00000000     1 .rel.plt
+00000000 00000000     1 .rela.plt
+00000000 00000000     1 .rela.tocbss
+00000000 00000000     1 .init
+00000000 00009938     4 .text
+00000000 00007778     4         .text
+00000000 00007778     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\Main.o (TOC#1,0)
+000074b8 00000088     0                         [local to Main_cpp]::Dialog::cb_dialogText1(int, void*)
+00007540 000000c4     0                         [local to Main_cpp]::Dialog::cb_dialogText2(int, void*)
+00007604 00000140     0                         [local to Main_cpp]::Keyboard::sysutil_callback(unsigned long long, unsigned long long, void*)
+00007744 00000034     0                         .__sti___8_Main_cpp__Znwj
+00000000 0000003c     0                         operator new(unsigned int)
+0000003c 00000048     0                         operator new(unsigned int, std::nothrow_t const&)
+00000084 00000054     0                         operator new(unsigned int, unsigned int)
+000000d8 00000060     0                         operator new(unsigned int, unsigned int, std::nothrow_t const&)
+00000138 0000003c     0                         operator new[](unsigned int)
+00000174 00000048     0                         operator new[](unsigned int, std::nothrow_t const&)
+000001bc 00000054     0                         operator new[](unsigned int, unsigned int)
+00000210 00000060     0                         operator new[](unsigned int, unsigned int, std::nothrow_t const&)
+00000270 00000038     0                         operator delete(void*)
+000002a8 00000044     0                         operator delete(void*, std::nothrow_t const&)
+000002ec 00000044     0                         operator delete(void*, void*)
+00000330 00000044     0                         operator delete(void*, unsigned int)
+00000374 00000050     0                         operator delete(void*, unsigned int, std::nothrow_t const&)
+000003c4 00000050     0                         operator delete(void*, unsigned int, void*)
+00000414 00000038     0                         operator delete[](void*)
+0000044c 00000044     0                         operator delete[](void*, std::nothrow_t const&)
+00000490 00000050     0                         operator delete[](void*, void*)
+000004e0 00000050     0                         operator delete[](void*, unsigned int)
+00000530 0000005c     0                         operator delete[](void*, unsigned int, std::nothrow_t const&)
+0000058c 0000005c     0                         operator delete[](void*, unsigned int, void*)
+000005e8 00000094     0                         sys_dbg_read_process_memory(unsigned long long, void*, unsigned int)
+0000067c 00000094     0                         sys_dbg_write_process_memory(unsigned long long, void const*, unsigned int)
+00000710 000000c4     0                         sys_dbg_write_process_memory_ps3mapi(unsigned long long, void const*, unsigned int)
+000007d4 000000c4     0                         sys_dbg_read_process_memory_ps3mapi(unsigned long long, void*, unsigned int)
+00000898 0000003c     0                         WriteMemory(int, char)
+000008d4 00000048     0                         sleep(unsigned long long)
+0000091c 00000080     0                         console_write(char const*)
+0000099c 000000c4     0                         write_process(unsigned long long, void const*, unsigned int)
+00000a60 000000c4     0                         read_process(unsigned long long, void const*, unsigned int)
+00000b24 000000ac     0                         Memcpy(void*, void const*, unsigned int)
+00000bd0 00000118     0                         PatchInJump(int, int)
+00000ce8 00000118     0                         patcher(int, int, bool)
+00000e00 000001d0     0                         HookFunctionStart(unsigned int, unsigned int, unsigned int)
+00000fd0 000000b4     0                         UnHookFunctionStart(unsigned int, unsigned int)
+00001084 00000060     0                         get_temperature(unsigned int, unsigned int*)
+000010e4 00000080     0                         color(int, int, int)
+00001164 0000006c     0                         colorInt(int, int, int)
+000011d0 00000074     0                         color(int*)
+00001244 0000010c     0                         c2wc(char*)
+00001350 00000150     0                         getString(wchar_t const*)
+000014a0 0000010c     0                         StringToWideCharacter(wchar_t*, char const*, unsigned int)
+000015ac 00000100     0                         WideCharacterToString(char*, wchar_t const*, unsigned int)
+000016ac 00000190     0                         frameTime(int, int, bool)
+0000183c 0000023c     0                         scrollWait(int, int, int)
+00001a78 00000094     0                         doScroll(int, int)
+00001b0c 00000068     0                         PlayUISound(unsigned int*)
+00001b74 000000c8     0                         mc_printf(char const*, ...)
+00001c3c 00000120     0                         Font_width(wchar_t const*)
+00001d5c 00000134     0                         Font_width_char(char*)
+00001e90 000001d4     0                         DrawText(wchar_t const*, float, float, unsigned int)
+00002064 000001e8     0                         DrawTextC(char*, float, float, unsigned int)
+0000224c 0000017c     0                         DrawTextWithShadow(wchar_t const*, unsigned int, unsigned int, unsigned int)
+000023c8 000001e0     0                         DrawRectangleAlpha(float, float, float, float, Color)
+000025a8 0000020c     0                         DrawRectangle(float, float, float, float, int*)
+0000628c 00000138     0                         FUNCTIONS::Tesselator_EndVertex(unsigned int, float, float, float, int*)
+000027b4 00000188     0                         DrawRectangleBorder(float, float, float, float, int*, int*, int)
+0000293c 000003ec     0                         DrawGradientRectangle(float, float, float, float, int*, int*, bool)
+00002d28 000001b8     0                         DrawGradientBorder(float, float, float, float, int*, int*, int*, int, bool)
+00002ee0 00000254     0                         DrawGradientRectangleV2(float, float, float, float, int*, int*, int*, int*)
+00003134 00000358     0                         drawLine(Vector2 const&, Vector2 const&, int*)
+0000348c 000002ac     0                         DrawTextWithRectangle(wchar_t const*, float, float, int*, int*, bool)
+00003738 000002ac     0                         DrawTextCharWithRectangle(char*, float, float, int*, int*, bool)
+000039e4 000002b0     0                         DrawsnprintfText(char const*, int*, float, float, bool)
+00003c94 00000158     0                         DrawSnprintf(char const*, int, int, int)
+00003dec 000003e4     0                         DoRainbowColor()
+000041d0 000000ac     0                         GetThemeColor()
+0000427c 00000020     0                         InWorld()
+0000429c 00000034     0                         getOption()
+000042d0 00000068     0                         openSubmenu(int)
+00004338 00000028     0                         closeMenu()
+00004360 00000078     0                         goBack()
+000043d8 00000300     0                         Controller()
+00005048 0000005c     0                         Buttons::IsMCButtonPressed(unsigned int)
+000046d8 0000061c     0                         RenderSubMenu()
+000063c4 00000288     0                         Menu::AddHuds(int)
+0000681c 00000218     0                         Menu::AddTitle(wchar_t const*)
+00006ba0 000000dc     0                         Menu::AddOption(wchar_t const*)
+00006e98 0000033c     0                         Menu::AddIntOption(wchar_t const*, int, int, int, int&)
+00006a34 0000016c     0                         Menu::AddSubOption(wchar_t const*)
+00006c7c 0000021c     0                         Menu::AddBoolOption(wchar_t const*, bool)
+00007308 00000084     0                         Options::getTeleport()
+0000738c 0000012c     0                         Options::setTeleport(double, double, double)
+00004cf4 00000024     0                         Render()
+00004d18 00000064     0                         LoopOptions()
+000071d4 00000044     0                         Options::GOD_MODE()
+00007218 00000044     0                         Options::SUPER_SPEED()
+00004d7c 00000030     0                         RenderScreen_Stub(unsigned int, unsigned int)
+00004dac 00000044     0                         Gui_render_Stub(GuiComponent*, double)
+00004df0 000000c4     0                         RenderScreen_Hook(unsigned int, unsigned int)
+00004eb4 0000007c     0                         Gui_render_Hook(GuiComponent*, double)
+00004f30 00000054     0                         InstallHooks()
+00004f84 00000044     0                         UninstallHooks()
+00004fc8 0000004c     0                         .Minecraft_Main
+00005414 000000c8     0                         Dialog::ProgressBar(char const*, char const*, int)
+0000564c 0000001c     0                         Dialog::End()
+00005014 00000024     0                         .Minecraft_Stop
+00005038 00000010     0                         Buttons::getMCButtons()
+000050a4 00000048     0                         NyTekCFW::sleep(unsigned long long)
+000050ec 000000a0     0                         NyTekCFW::ReadBytes(int, int)
+0000518c 00000020     0                         NyTekCFW::ReadString(int)
+000051ac 000000a8     0                         NyTekCFW::WriteBytes(int, char*, int)
+00005254 000000d4     0                         NyTekCFW::WriteString(int, char*)
+00005328 0000007c     0                         NyTekCFW::Zone(int, float*)
+000053a4 00000038     0                         NyTekCFW::FloatToHex(float)
+000053dc 00000038     0                         NyTekCFW::IntToHex(int)
+000054dc 000000b0     0                         Dialog::ShowYESNO(char*)
+0000558c 000000c0     0                         Dialog::Show(char*)
+00005668 000000a8     0                         Keyboard::getkbLen(char*)
+00005710 00000128     0                         Keyboard::makekbStr(char*, char*, int)
+00005838 00000218     0                         Keyboard::keyboard(char*, wchar_t*, wchar_t*)
+00005a50 00000054     0                         myMath::abs(float)
+00005aa4 00000044     0                         myMath::DegreesToRadians(float)
+00005ae8 00000044     0                         myMath::RadiansToDegrees(float)
+00005b2c 000001f4     0                         myMath::sin(float)
+00005d20 00000068     0                         myMath::cos(float)
+00005d88 000003f4     0                         myMath::atan(double, int)
+0000617c 00000110     0                         myMath::atan2(double, double)
+0000664c 000001d0     0                         Menu::Scrollbar()
+0000725c 00000054     0                         Options::getName()
+000072b0 00000058     0                         Options::setName(char*)
+00007778 00000210     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\FileSystem.o (TOC#1,0)
+00007778 0000007c     0                         GetModuleHandle(char const*)
+000077f4 00000124     0                         GetModuleInfo(int)
+00007918 00000070     0                         GetModuleFilePath(char const*)
+00007988 00000570     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\SystemCalls.o (TOC#1,0)
+00007988 00000090     0                         sys_storage_ext_get_disc_type(unsigned int*, unsigned int*, unsigned int*)
+00007a18 0000009c     0                         sys_storage_ext_fake_storage_event(unsigned long long, unsigned long long, unsigned long long)
+00007ab4 0000008c     0                         cobra_send_fake_disc_eject_event()
+00007b40 00000090     0                         sys_map_path(char const*, char const*)
+00007bd0 0000004c     0                         DoesFileExist(char const*)
+00007c1c 0000006c     0                         is_app_dir(char const*, char const*)
+00007c88 00000144     0                         set_app_home(char const*)
+00007dcc 0000012c     0                         do_umount()
+00007ef8 000005c4     4                 C:\usr\local\cell\target\ppu\lib\fno-exceptions\libc.a(memcpy.o) (TOC#1,0)
+00007f14 00000000     0                         .L310
+00007f3c 00000000     0                         .L301
+00007fa8 00000000     0                         .L11
+00008090 00000000     0                         .L148
+000080e8 00000000     0                         .L73
+00008418 00000000     0                         .L223
+0000846c 00000000     0                         .L225
+00007ef8 000005c4     0                         .memcpy
+000084bc 000012d4     4                 C:\usr\local\cell\target\ppu\lib\fno-exceptions\libc.a(memmove.o) (TOC#1,0)
+000085e8 00000000     0                         .L9
+000086c0 00000000     0                         .L80
+00008868 00000000     0                         .L259
+00008874 00000000     0                         .L263
+00008918 00000000     0                         .L258
+00008a10 00000000     0                         .L140
+00008eb0 00000000     0                         .L51
+00009078 00000000     0                         .L55
+000084bc 000012d4     0                         .memmove
+00009790 000000a4     4                 C:\usr\local\cell\target\ppu\lib\fno-exceptions\libc.a(strlen.o) (TOC#1,0)
+000097dc 00000000     0                         .LstrlenCacheLoopOuter
+00009790 000000a4     0                         .strlen
+00009834 00000030     4                 C:\usr\local\cell\target\ppu\lib\fno-exceptions\libc.a(wcslen.o) (TOC#1,0)
+00009834 00000030     0                         .wcslen
+00009864 000000d4     4                 C:\usr\local\cell\target\ppu\lib\fno-exceptions\libc.a(memset.o) (TOC#1,0)
+00009904 00000000     0                         .L17
+00009864 000000d4     0                         .memset
+00009864 000000d4     0                         .memset_cs
+00009938 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_6.o) (TOC#1,0)
+00009938 00000000     0                         _.prx.link.border.mark.sysPrxForUser._sys_snprintf
+00009938 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_23.o) (TOC#1,0)
+00009938 00000000     0                         _.prx.link.border.mark.sysPrxForUser._sys_memalign
+00009938 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_43.o) (TOC#1,0)
+00009938 00000000     0                         _.prx.link.border.mark.sysPrxForUser._sys_memset
+00009938 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_49.o) (TOC#1,0)
+00009938 00000000     0                         _.prx.link.border.mark.sysPrxForUser.sys_prx_get_my_module_id
+00009938 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_55.o) (TOC#1,0)
+00009938 00000000     0                         _.prx.link.border.mark.sysPrxForUser.sys_prx_get_module_info
+00009938 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_90.o) (TOC#1,0)
+00009938 00000000     0                         _.prx.link.border.mark.sysPrxForUser._sys_malloc
+00009938 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_102.o) (TOC#1,0)
+00009938 00000000     0                         _.prx.link.border.mark.sysPrxForUser.sys_prx_get_module_id_by_name
+00009938 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_115.o) (TOC#1,0)
+00009938 00000000     0                         _.prx.link.border.mark.sysPrxForUser._sys_free
+00009938 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_head.o) (TOC#1,0)
+00009938 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_3.o) (TOC#1,0)
+00009938 00000000     0                         _.prx.link.border.mark.cellSysutil.cellSysutilUnregisterCallback
+00009938 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_15.o) (TOC#1,0)
+00009938 00000000     0                         _.prx.link.border.mark.cellSysutil.cellSysutilCheckCallback
+00009938 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_17.o) (TOC#1,0)
+00009938 00000000     0                         _.prx.link.border.mark.cellSysutil.cellOskDialogGetInputText
+00009938 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_23.o) (TOC#1,0)
+00009938 00000000     0                         _.prx.link.border.mark.cellSysutil.cellMsgDialogClose
+00009938 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_40.o) (TOC#1,0)
+00009938 00000000     0                         _.prx.link.border.mark.cellSysutil.cellOskDialogUnloadAsync
+00009938 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_79.o) (TOC#1,0)
+00009938 00000000     0                         _.prx.link.border.mark.cellSysutil.cellMsgDialogOpen2
+00009938 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_90.o) (TOC#1,0)
+00009938 00000000     0                         _.prx.link.border.mark.cellSysutil.cellOskDialogLoadAsync
+00009938 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_103.o) (TOC#1,0)
+00009938 00000000     0                         _.prx.link.border.mark.cellSysutil.cellMsgDialogProgressBarInc
+00009938 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_107.o) (TOC#1,0)
+00009938 00000000     0                         _.prx.link.border.mark.cellSysutil.cellMsgDialogProgressBarSetMsg
+00009938 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_108.o) (TOC#1,0)
+00009938 00000000     0                         _.prx.link.border.mark.cellSysutil.cellSysutilRegisterCallback
+00009938 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_128.o) (TOC#1,0)
+00009938 00000000     0                         _.prx.link.border.mark.cellSysutil.cellOskDialogSetKeyLayoutOption
+00009938 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_161.o) (TOC#1,0)
+00009938 00000000     0                         _.prx.link.border.mark.cellSysutil.cellOskDialogSetLayoutMode
+00009938 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_head.o) (TOC#1,0)
+00009938 00000000     1                 C:\usr\local\cell\target\ppu\lib\libfs_stub.a(_sys_fs_0001_26.o) (TOC#1,0)
+00009938 00000000     0                         _.prx.link.border.mark.sys_fs.cellFsStat
+00009938 00000000     1                 C:\usr\local\cell\target\ppu\lib\libfs_stub.a(_sys_fs_0001_28.o) (TOC#1,0)
+00009938 00000000     0                         _.prx.link.border.mark.sys_fs.cellFsUnlink
+00009938 00000000     1                 C:\usr\local\cell\target\ppu\lib\libfs_stub.a(_sys_fs_0001_36.o) (TOC#1,0)
+00009938 00000000     0                         _.prx.link.border.mark.sys_fs.cellFsChmod
+00009938 00000000     1                 C:\usr\local\cell\target\ppu\lib\libfs_stub.a(_sys_fs_0001_head.o) (TOC#1,0)
+00000000 00000000     1 .fini
+00000000 00000508     4 .sceStub.text
+00000000 00000038     4         .sceStub.text
+00000000 00000038     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_6.o) (TOC#1,0)
+00000000 00000020     0                         ._sys_snprintf
+00000038 00000038     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_23.o) (TOC#1,0)
+00000038 00000020     0                         ._sys_memalign
+00000070 00000038     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_43.o) (TOC#1,0)
+00000070 00000020     0                         ._sys_memset
+000000a8 00000038     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_49.o) (TOC#1,0)
+000000a8 00000020     0                         .sys_prx_get_my_module_id
+000000e0 00000038     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_55.o) (TOC#1,0)
+000000e0 00000020     0                         .sys_prx_get_module_info
+00000118 00000038     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_90.o) (TOC#1,0)
+00000118 00000020     0                         ._sys_malloc
+00000150 00000038     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_102.o) (TOC#1,0)
+00000150 00000020     0                         .sys_prx_get_module_id_by_name
+00000188 00000038     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_115.o) (TOC#1,0)
+00000188 00000020     0                         ._sys_free
+000001c0 00000038     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_3.o) (TOC#1,0)
+000001c0 00000020     0                         .cellSysutilUnregisterCallback
+000001f8 00000038     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_15.o) (TOC#1,0)
+000001f8 00000020     0                         .cellSysutilCheckCallback
+00000230 00000038     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_17.o) (TOC#1,0)
+00000230 00000020     0                         .cellOskDialogGetInputText
+00000268 00000038     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_23.o) (TOC#1,0)
+00000268 00000020     0                         .cellMsgDialogClose
+000002a0 00000038     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_40.o) (TOC#1,0)
+000002a0 00000020     0                         .cellOskDialogUnloadAsync
+000002d8 00000038     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_79.o) (TOC#1,0)
+000002d8 00000020     0                         .cellMsgDialogOpen2
+00000310 00000038     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_90.o) (TOC#1,0)
+00000310 00000020     0                         .cellOskDialogLoadAsync
+00000348 00000038     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_103.o) (TOC#1,0)
+00000348 00000020     0                         .cellMsgDialogProgressBarInc
+00000380 00000038     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_107.o) (TOC#1,0)
+00000380 00000020     0                         .cellMsgDialogProgressBarSetMsg
+000003b8 00000038     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_108.o) (TOC#1,0)
+000003b8 00000020     0                         .cellSysutilRegisterCallback
+000003f0 00000038     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_128.o) (TOC#1,0)
+000003f0 00000020     0                         .cellOskDialogSetKeyLayoutOption
+00000428 00000038     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_161.o) (TOC#1,0)
+00000428 00000020     0                         .cellOskDialogSetLayoutMode
+00000460 00000038     4                 C:\usr\local\cell\target\ppu\lib\libfs_stub.a(_sys_fs_0001_26.o) (TOC#1,0)
+00000460 00000020     0                         .cellFsStat
+00000498 00000038     4                 C:\usr\local\cell\target\ppu\lib\libfs_stub.a(_sys_fs_0001_28.o) (TOC#1,0)
+00000498 00000020     0                         .cellFsUnlink
+000004d0 00000038     4                 C:\usr\local\cell\target\ppu\lib\libfs_stub.a(_sys_fs_0001_36.o) (TOC#1,0)
+000004d0 00000020     0                         .cellFsChmod
+00000000 00000820     4 .rodata
+00000000 000006d8     4         .rodata
+00000000 000006d8     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\Main.o (TOC#1,0)
+00000000 00000004     0                         ..Lfi0._Z9getStringPKw
+00000004 00000004     0                         ..Lfi1._Z9getStringPKw
+00000008 00000004     0                         ..Lfi2._Z9getStringPKw
+0000000c 00000008     0                         ..Lfi3._Z8DrawTextPKwffj
+00000014 00000008     0                         ..Lfi4._Z8DrawTextPKwffj
+0000001c 00000008     0                         ..Lfi5._Z8DrawTextPKwffj
+00000024 00000008     0                         ..Lfi6._Z8DrawTextPKwffj
+0000002c 00000008     0                         ..Lfi7._Z8DrawTextPKwffj
+00000034 00000008     0                         ..Lfi8._Z8DrawTextPKwffj
+0000003c 00000008     0                         ..Lfi9._Z9DrawTextCPcffj
+00000044 00000008     0                         ..Lfi10._Z9DrawTextCPcffj
+0000004c 00000008     0                         ..Lfi11._Z9DrawTextCPcffj
+00000054 00000008     0                         ..Lfi12._Z9DrawTextCPcffj
+0000005c 00000008     0                         ..Lfi13._Z9DrawTextCPcffj
+00000064 00000008     0                         ..Lfi14._Z9DrawTextCPcffj
+0000006c 00000008     0                         ..Lfi15._Z18DrawRectangleAlphaffff5Color
+00000074 00000008     0                         ..Lfi16._Z18DrawRectangleAlphaffff5Color
+0000007c 00000008     0                         ..Lfi17._Z18DrawRectangleAlphaffff5Color
+00000084 00000008     0                         ..Lfi18._Z18DrawRectangleAlphaffff5Color
+0000008c 00000008     0                         ..Lfi19._Z18DrawRectangleAlphaffff5Color
+00000094 00000008     0                         ..Lfi20._Z18DrawRectangleAlphaffff5Color
+0000009c 00000008     0                         ..Lfi21._Z18DrawRectangleAlphaffff5Color
+000000a4 00000008     0                         ..Lfi22._Z18DrawRectangleAlphaffff5Color
+000000ac 00000008     0                         ..Lfi23._Z18DrawRectangleAlphaffff5Color
+000000b4 00000008     0                         ..Lfi24._Z18DrawRectangleAlphaffff5Color
+000000bc 00000008     0                         ..Lfi25._Z18DrawRectangleAlphaffff5Color
+000000c4 00000008     0                         ..Lfi26._Z18DrawRectangleAlphaffff5Color
+000000cc 00000004     0                         ..Lfi27._Z13DrawRectangleffffPi
+000000d0 00000004     0                         ..Lfi28._Z13DrawRectangleffffPi
+000000d4 00000004     0                         ..Lfi29._Z13DrawRectangleffffPi
+000000d8 00000004     0                         ..Lfi30._Z13DrawRectangleffffPi
+000000dc 00000004     0                         ..Lfi31._Z21DrawGradientRectangleffffPiS_b
+000000e0 00000004     0                         ..Lfi32._Z21DrawGradientRectangleffffPiS_b
+000000e4 00000004     0                         ..Lfi33._Z21DrawGradientRectangleffffPiS_b
+000000e8 00000004     0                         ..Lfi34._Z21DrawGradientRectangleffffPiS_b
+000000ec 00000004     0                         ..Lfi35._Z21DrawGradientRectangleffffPiS_b
+000000f0 00000004     0                         ..Lfi36._Z21DrawGradientRectangleffffPiS_b
+000000f4 00000004     0                         ..Lfi37._Z21DrawGradientRectangleffffPiS_b
+000000f8 00000004     0                         ..Lfi38._Z21DrawGradientRectangleffffPiS_b
+000000fc 00000004     0                         ..Lfi39._Z23DrawGradientRectangleV2ffffPiS_S_S_
+00000100 00000004     0                         ..Lfi40._Z23DrawGradientRectangleV2ffffPiS_S_S_
+00000104 00000004     0                         ..Lfi41._Z23DrawGradientRectangleV2ffffPiS_S_S_
+00000108 00000004     0                         ..Lfi42._Z23DrawGradientRectangleV2ffffPiS_S_S_
+0000010c 00000004     0                         ..Lfi43._Z8drawLineRK7Vector2S1_Pi
+00000110 00000004     0                         ..Lfi44._Z8drawLineRK7Vector2S1_Pi
+00000114 00000004     0                         ..Lfi45._Z8drawLineRK7Vector2S1_Pi
+00000118 00000004     0                         ..Lfi46._Z8drawLineRK7Vector2S1_Pi
+0000011c 00000004     0                         ..Lfi47._Z8drawLineRK7Vector2S1_Pi
+00000120 00000004     0                         ..Lfi48._Z8drawLineRK7Vector2S1_Pi
+00000124 00000004     0                         ..Lfi49._Z8drawLineRK7Vector2S1_Pi
+00000128 00000004     0                         ..Lfi50._Z21DrawTextWithRectanglePKwffPiS1_b
+0000012c 00000004     0                         ..Lfi51._Z21DrawTextWithRectanglePKwffPiS1_b
+00000130 00000004     0                         ..Lfi52._Z21DrawTextWithRectanglePKwffPiS1_b
+00000134 00000004     0                         ..Lfi53._Z21DrawTextWithRectanglePKwffPiS1_b
+00000138 00000004     0                         ..Lfi54._Z21DrawTextWithRectanglePKwffPiS1_b
+0000013c 00000004     0                         ..Lfi55._Z21DrawTextWithRectanglePKwffPiS1_b
+00000140 00000004     0                         ..Lfi56._Z21DrawTextWithRectanglePKwffPiS1_b
+00000144 00000004     0                         ..Lfi57._Z21DrawTextWithRectanglePKwffPiS1_b
+00000148 00000004     0                         ..Lfi58._Z25DrawTextCharWithRectanglePcffPiS0_b
+0000014c 00000004     0                         ..Lfi59._Z25DrawTextCharWithRectanglePcffPiS0_b
+00000150 00000004     0                         ..Lfi60._Z25DrawTextCharWithRectanglePcffPiS0_b
+00000154 00000004     0                         ..Lfi61._Z25DrawTextCharWithRectanglePcffPiS0_b
+00000158 00000004     0                         ..Lfi62._Z25DrawTextCharWithRectanglePcffPiS0_b
+0000015c 00000004     0                         ..Lfi63._Z25DrawTextCharWithRectanglePcffPiS0_b
+00000160 00000004     0                         ..Lfi64._Z25DrawTextCharWithRectanglePcffPiS0_b
+00000164 00000004     0                         ..Lfi65._Z25DrawTextCharWithRectanglePcffPiS0_b
+00000304 00000008     0                         ..LNst._Z13GetThemeColorv.0
+00000300 00000004     0                         ..LNst.ThemeColors.0
+00000368 0000001a     0                         ..LNst._Z13RenderSubMenuv.3
+00000628 00000022     0                         ..LNst._Z13RenderSubMenuv.29
+00000478 00000016     0                         ..LNst._Z13RenderSubMenuv.14
+000004fc 0000001a     0                         ..LNst._Z13RenderSubMenuv.20
+00000518 0000001a     0                         ..LNst._Z13RenderSubMenuv.21
+00000534 0000001a     0                         ..LNst._Z13RenderSubMenuv.22
+00000550 00000024     0                         ..LNst._Z13RenderSubMenuv.23
+00000574 00000024     0                         ..LNst._Z13RenderSubMenuv.24
+00000598 00000024     0                         ..LNst._Z13RenderSubMenuv.25
+000005bc 00000024     0                         ..LNst._Z13RenderSubMenuv.26
+000005e0 00000024     0                         ..LNst._Z13RenderSubMenuv.27
+00000604 00000024     0                         ..LNst._Z13RenderSubMenuv.28
+0000034c 0000001c     0                         ..LNst._Z13RenderSubMenuv.2
+00000490 00000018     0                         ..LNst._Z13RenderSubMenuv.15
+000004a8 00000018     0                         ..LNst._Z13RenderSubMenuv.16
+000004c0 0000000e     0                         ..LNst._Z13RenderSubMenuv.17
+000004d0 0000000e     0                         ..LNst._Z13RenderSubMenuv.18
+000004e0 0000001c     0                         ..LNst._Z13RenderSubMenuv.19
+000003e8 0000001c     0                         ..LNst._Z13RenderSubMenuv.8
+00000404 0000000e     0                         ..LNst._Z13RenderSubMenuv.9
+00000414 0000000e     0                         ..LNst._Z13RenderSubMenuv.10
+00000424 0000000e     0                         ..LNst._Z13RenderSubMenuv.11
+00000434 00000026     0                         ..LNst._Z13RenderSubMenuv.12
+0000045c 0000001a     0                         ..LNst._Z13RenderSubMenuv.13
+0000030c 0000001a     0                         ..LNst._Z13RenderSubMenuv.0
+00000384 00000012     0                         ..LNst._Z13RenderSubMenuv.4
+00000398 00000018     0                         ..LNst._Z13RenderSubMenuv.5
+000003b0 0000001a     0                         ..LNst._Z13RenderSubMenuv.6
+000003cc 0000001a     0                         ..LNst._Z13RenderSubMenuv.7
+00000328 00000022     0                         ..LNst._Z13RenderSubMenuv.1
+00000168 00000004     0                         ..Lfi66._Z17RenderScreen_Hookjj
+0000016c 00000004     0                         ..Lfi67._Z17RenderScreen_Hookjj
+0000064c 00000010     0                         ..LNst._Z17RenderScreen_Hookjj.0
+0000065c 0000003f     0                         ..LNst.Minecraft_Main.0
+0000069c 0000000b     0                         ..LNst.Minecraft_Main.1
+00000170 00000004     0                         ..Lfi68._ZN6Dialog9ShowYESNOEPc
+00000174 00000004     0                         ..Lfi69._ZN6Dialog4ShowEPc
+00000178 00000004     0                         ..Lfi70._ZN8Keyboard8keyboardEPcPwS1_
+0000017c 00000004     0                         ..Lfi71._ZN8Keyboard8keyboardEPcPwS1_
+00000180 00000004     0                         ..Lfi72._ZN6myMath3absEf
+00000184 00000008     0                         ..Lfi73._ZN6myMath16DegreesToRadiansEf
+0000018c 00000008     0                         ..Lfi74._ZN6myMath16DegreesToRadiansEf
+00000194 00000004     0                         ..Lfi75._ZN6myMath16RadiansToDegreesEf
+00000198 00000008     0                         ..Lfi76._ZN6myMath16RadiansToDegreesEf
+000001a0 00000004     0                         ..Lfi77._ZN6myMath3sinEf
+000001a4 00000004     0                         ..Lfi78._ZN6myMath3sinEf
+000001a8 00000004     0                         ..Lfi79._ZN6myMath3sinEf
+000001ac 00000004     0                         ..Lfi80._ZN6myMath3sinEf
+000001b0 00000004     0                         ..Lfi81._ZN6myMath3sinEf
+000001b4 00000004     0                         ..Lfi82._ZN6myMath3sinEf
+000001b8 00000004     0                         ..Lfi83._ZN6myMath3sinEf
+000001bc 00000004     0                         ..Lfi84._ZN6myMath3sinEf
+000001c0 00000004     0                         ..Lfi85._ZN6myMath3sinEf
+000001c4 00000004     0                         ..Lfi86._ZN6myMath3sinEf
+000001c8 00000004     0                         ..Lfi87._ZN6myMath3sinEf
+000001cc 00000004     0                         ..Lfi88._ZN6myMath3sinEf
+000001d0 00000004     0                         ..Lfi89._ZN6myMath3cosEf
+000001d4 00000008     0                         ..Lfi90._ZN6myMath4atanEdi
+000001dc 00000008     0                         ..Lfi91._ZN6myMath4atanEdi
+000001e4 00000008     0                         ..Lfi92._ZN6myMath4atanEdi
+000001ec 00000008     0                         ..Lfi93._ZN6myMath4atanEdi
+000001f4 00000008     0                         ..Lfi94._ZN6myMath4atanEdi
+000001fc 00000008     0                         ..Lfi95._ZN6myMath4atanEdi
+00000204 00000008     0                         ..Lfi96._ZN6myMath4atanEdi
+0000020c 00000008     0                         ..Lfi97._ZN6myMath4atanEdi
+00000214 00000008     0                         ..Lfi98._ZN6myMath4atanEdi
+0000021c 00000008     0                         ..Lfi99._ZN6myMath4atanEdi
+00000224 00000008     0                         ..Lfi100._ZN6myMath4atanEdi
+0000022c 00000008     0                         ..Lfi101._ZN6myMath4atanEdi
+00000234 00000008     0                         ..Lfi102._ZN6myMath4atanEdi
+0000023c 00000008     0                         ..Lfi103._ZN6myMath4atanEdi
+00000244 00000008     0                         ..Lfi104._ZN6myMath4atanEdi
+0000024c 00000008     0                         ..Lfi105._ZN6myMath4atanEdi
+00000254 00000008     0                         ..Lfi106._ZN6myMath4atanEdi
+0000025c 00000008     0                         ..Lfi107._ZN6myMath4atanEdi
+00000264 00000008     0                         ..Lfi108._ZN6myMath4atanEdi
+0000026c 00000008     0                         ..Lfi109._ZN6myMath4atanEdi
+00000274 00000008     0                         ..Lfi110._ZN6myMath4atanEdi
+0000027c 00000008     0                         ..Lfi111._ZN6myMath5atan2Edd
+00000284 00000008     0                         ..Lfi112._ZN6myMath5atan2Edd
+0000028c 00000008     0                         ..Lfi113._ZN6myMath5atan2Edd
+00000294 00000008     0                         ..Lfi114._ZN6myMath5atan2Edd
+0000029c 00000008     0                         ..Lfi115._ZN9FUNCTIONS20Tesselator_EndVertexEjfffPi
+000002a4 00000004     0                         ..Lfi116._ZN9FUNCTIONS20Tesselator_EndVertexEjfffPi
+000002a8 00000004     0                         ..Lfi117._ZN9FUNCTIONS20Tesselator_EndVertexEjfffPi
+000002ac 00000004     0                         ..Lfi118._ZN4Menu9ScrollbarEv
+000002b0 00000004     0                         ..Lfi119._ZN4Menu9ScrollbarEv
+000002b4 00000004     0                         ..Lfi120._ZN4Menu8AddTitleEPKw
+000002b8 00000004     0                         ..Lfi121._ZN4Menu8AddTitleEPKw
+000006a8 0000000e     0                         ..LNst._ZN4Menu12AddSubOptionEPKw.0
+000006b8 00000008     0                         ..LNst._ZN4Menu13AddBoolOptionEPKwb.0
+000006c0 00000009     0                         ..LNst._ZN4Menu13AddBoolOptionEPKwb.1
+000006cc 0000000b     0                         ..LNst._ZN4Menu12AddIntOptionEPKwiiiRi.0
+000002bc 00000008     0                         ..Lfi122._ZN7Options11setTeleportEddd
+000002c4 00000008     0                         ..Lfi123._ZN7Options11setTeleportEddd
+000002cc 00000008     0                         ..Lfi124._ZN7Options11setTeleportEddd
+000002d4 00000008     0                         ..Lfi125._ZN7Options11setTeleportEddd
+000002dc 0000001e     0                         ..LNst.titleSPRX.0
+000002fc 00000001     0                         ..LNst.checkTxt.0
+000006d8 00000148     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\SystemCalls.o (TOC#1,0)
+000006d8 00000008     0                         ..Llli0._Z32cobra_send_fake_disc_eject_eventv
+000006e0 00000008     0                         ..Llli1._Z32cobra_send_fake_disc_eject_eventv
+000006e8 00000017     0                         ..LNst._Z10is_app_dirPKcS0_.0
+00000700 0000000a     0                         ..LNst._Z12set_app_homePKc.0
+0000070c 00000013     0                         ..LNst._Z12set_app_homePKc.1
+00000720 00000011     0                         ..LNst._Z12set_app_homePKc.2
+00000734 00000002     0                         ..LNst._Z12set_app_homePKc.3
+00000738 0000000a     0                         ..LNst._Z12set_app_homePKc.4
+00000744 0000001d     0                         ..LNst._Z9do_umountv.0
+00000764 0000001c     0                         ..LNst._Z9do_umountv.1
+00000780 00000015     0                         ..LNst._Z9do_umountv.2
+00000798 0000001a     0                         ..LNst._Z9do_umountv.3
+000007b4 00000020     0                         ..LNst._Z9do_umountv.4
+000007d4 00000020     0                         ..LNst._Z9do_umountv.5
+000007f4 00000013     0                         ..LNst._Z9do_umountv.6
+00000808 0000000a     0                         ..LNst._Z9do_umountv.7
+00000814 0000000b     0                         ..LNst._Z9do_umountv.8
+00000000 00000000     1 .PpuGUID
+00000000 00000000     1 .rodata1
+00000000 00000000     1 .spu_image
+00000000 00000004     4 .lib.ent.top
+00000000 00000004     4         .lib.ent.top
+00000000 00000004     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\Main.o (TOC#1,0)
+00000000 00000004     0                         __begin_of_section_lib_ent
+00000000 00000000     1 .lib.ent
+00000000 00000004     4 .lib.ent.btm
+00000000 00000004     4         .lib.ent.btm
+00000000 00000004     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\Main.o (TOC#1,0)
+00000000 00000004     0                         __end_of_section_lib_ent
+00000000 00000004     4 .lib.stub.top
+00000000 00000004     4         .lib.stub.top
+00000000 00000004     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\Main.o (TOC#1,0)
+00000000 00000004     0                         __begin_of_section_lib_stub
+00000000 00000084     4 .lib.stub
+00000000 0000002c     4         .lib.stub
+00000000 0000002c     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_head.o) (TOC#1,0)
+00000000 00000000     0                         _sysPrxForUser_0001_stub_head
+0000002c 0000002c     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_head.o) (TOC#1,0)
+0000002c 00000000     0                         _cellSysutil_0001_stub_head
+00000058 0000002c     4                 C:\usr\local\cell\target\ppu\lib\libfs_stub.a(_sys_fs_0001_head.o) (TOC#1,0)
+00000058 00000000     0                         _sys_fs_0001_stub_head
+00000000 00000004     4 .lib.stub.btm
+00000000 00000004     4         .lib.stub.btm
+00000000 00000004     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\Main.o (TOC#1,0)
+00000000 00000004     0                         __end_of_section_lib_stub
+00000000 00000034     4 .rodata.sceModuleInfo
+00000000 00000034     4         .rodata.sceModuleInfo
+00000000 00000034     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\Main.o (TOC#1,0)
+00000000 00000034     0                         __psp_moduleinfo
+00000000 00000030     4 .rodata.sceResident
+00000000 00000014     4         .rodata.sceResident
+00000000 00000014     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_head.o) (TOC#1,0)
+00000000 00000000     0                         _sce_package_version_sysPrxForUser
+00000004 00000000     0                         _sysPrxForUser_stub_str
+00000014 00000010     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_head.o) (TOC#1,0)
+00000014 00000000     0                         _sce_package_version_cellSysutil
+00000018 00000000     0                         _cellSysutil_stub_str
+00000024 0000000c     4                 C:\usr\local\cell\target\ppu\lib\libfs_stub.a(_sys_fs_0001_head.o) (TOC#1,0)
+00000024 00000000     0                         _sce_package_version_sys_fs
+00000028 00000000     0                         _sys_fs_stub_str
+00000000 0000005c     4 .rodata.sceFNID
+00000000 00000004     4         .rodata.sceFNID
+00000000 00000004     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_6.o) (TOC#1,0)
+00000004 00000004     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_23.o) (TOC#1,0)
+00000008 00000004     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_43.o) (TOC#1,0)
+0000000c 00000004     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_49.o) (TOC#1,0)
+00000010 00000004     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_55.o) (TOC#1,0)
+00000014 00000004     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_90.o) (TOC#1,0)
+00000018 00000004     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_102.o) (TOC#1,0)
+0000001c 00000004     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_115.o) (TOC#1,0)
+00000020 00000004     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_3.o) (TOC#1,0)
+00000024 00000004     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_15.o) (TOC#1,0)
+00000028 00000004     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_17.o) (TOC#1,0)
+0000002c 00000004     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_23.o) (TOC#1,0)
+00000030 00000004     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_40.o) (TOC#1,0)
+00000034 00000004     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_79.o) (TOC#1,0)
+00000038 00000004     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_90.o) (TOC#1,0)
+0000003c 00000004     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_103.o) (TOC#1,0)
+00000040 00000004     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_107.o) (TOC#1,0)
+00000044 00000004     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_108.o) (TOC#1,0)
+00000048 00000004     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_128.o) (TOC#1,0)
+0000004c 00000004     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_161.o) (TOC#1,0)
+00000050 00000004     4                 C:\usr\local\cell\target\ppu\lib\libfs_stub.a(_sys_fs_0001_26.o) (TOC#1,0)
+00000054 00000004     4                 C:\usr\local\cell\target\ppu\lib\libfs_stub.a(_sys_fs_0001_28.o) (TOC#1,0)
+00000058 00000004     4                 C:\usr\local\cell\target\ppu\lib\libfs_stub.a(_sys_fs_0001_36.o) (TOC#1,0)
+00000000 00000000     1 .rodata.sceVNID
+00000000 00000000     1 .rodata.sceTNID
+00000000 00000000     1 .rodata.sceVStub
+00000000 00000000     1 .rodata.prxconfig
+00000000 00000000     1 .sdata2
+00000000 00000000     1 .sbss2
+00000000 00000000     1 .eh_frame_hdr
+00000000 00000000     1 .preinit_array
+00000000 00000000     1 .init_array
+00000000 00000000     1 .fini_array
+00000000 0000005c     4 .data.sceFStub
+00000000 00000004     4         .data.sceFStub.cellSysutil
+00000000 00000004     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_3.o) (TOC#1,0)
+00000000 00000004     0                         cellSysutilUnregisterCallback.stub_entry
+00000004 00000004     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_15.o) (TOC#1,0)
+00000004 00000004     0                         cellSysutilCheckCallback.stub_entry
+00000008 00000004     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_17.o) (TOC#1,0)
+00000008 00000004     0                         cellOskDialogGetInputText.stub_entry
+0000000c 00000004     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_23.o) (TOC#1,0)
+0000000c 00000004     0                         cellMsgDialogClose.stub_entry
+00000010 00000004     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_40.o) (TOC#1,0)
+00000010 00000004     0                         cellOskDialogUnloadAsync.stub_entry
+00000014 00000004     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_79.o) (TOC#1,0)
+00000014 00000004     0                         cellMsgDialogOpen2.stub_entry
+00000018 00000004     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_90.o) (TOC#1,0)
+00000018 00000004     0                         cellOskDialogLoadAsync.stub_entry
+0000001c 00000004     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_103.o) (TOC#1,0)
+0000001c 00000004     0                         cellMsgDialogProgressBarInc.stub_entry
+00000020 00000004     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_107.o) (TOC#1,0)
+00000020 00000004     0                         cellMsgDialogProgressBarSetMsg.stub_entry
+00000024 00000004     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_108.o) (TOC#1,0)
+00000024 00000004     0                         cellSysutilRegisterCallback.stub_entry
+00000028 00000004     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_128.o) (TOC#1,0)
+00000028 00000004     0                         cellOskDialogSetKeyLayoutOption.stub_entry
+0000002c 00000004     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_161.o) (TOC#1,0)
+0000002c 00000004     0                         cellOskDialogSetLayoutMode.stub_entry
+00000030 00000004     4         .data.sceFStub.sysPrxForUser
+00000030 00000004     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_6.o) (TOC#1,0)
+00000030 00000004     0                         _sys_snprintf.stub_entry
+00000034 00000004     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_23.o) (TOC#1,0)
+00000034 00000004     0                         _sys_memalign.stub_entry
+00000038 00000004     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_43.o) (TOC#1,0)
+00000038 00000004     0                         _sys_memset.stub_entry
+0000003c 00000004     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_49.o) (TOC#1,0)
+0000003c 00000004     0                         sys_prx_get_my_module_id.stub_entry
+00000040 00000004     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_55.o) (TOC#1,0)
+00000040 00000004     0                         sys_prx_get_module_info.stub_entry
+00000044 00000004     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_90.o) (TOC#1,0)
+00000044 00000004     0                         _sys_malloc.stub_entry
+00000048 00000004     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_102.o) (TOC#1,0)
+00000048 00000004     0                         sys_prx_get_module_id_by_name.stub_entry
+0000004c 00000004     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_115.o) (TOC#1,0)
+0000004c 00000004     0                         _sys_free.stub_entry
+00000050 00000004     4         .data.sceFStub.sys_fs
+00000050 00000004     4                 C:\usr\local\cell\target\ppu\lib\libfs_stub.a(_sys_fs_0001_26.o) (TOC#1,0)
+00000050 00000004     0                         cellFsStat.stub_entry
+00000054 00000004     4                 C:\usr\local\cell\target\ppu\lib\libfs_stub.a(_sys_fs_0001_28.o) (TOC#1,0)
+00000054 00000004     0                         cellFsUnlink.stub_entry
+00000058 00000004     4                 C:\usr\local\cell\target\ppu\lib\libfs_stub.a(_sys_fs_0001_36.o) (TOC#1,0)
+00000058 00000004     0                         cellFsChmod.stub_entry
+00000000 000005a8     8 .data
+00000000 00000214     4         .data
+00000000 00000214     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\Main.o (TOC#1,0)
+0000017c 00000004     0                         [local to Main_cpp]::Dialog::msgdialog_mode
+00000180 00000004     0                         [local to Main_cpp]::Keyboard::oskdialog_mode
+00000014 00000004     0                         checkTxt
+00000210 00000004     0                         FUNCTIONS::ConsoleUIController_PlayUISFX
+0000018c 00000004     0                         FUNCTIONS::__printf
+00000198 00000004     0                         FUNCTIONS::Font_width
+000001a4 00000004     0                         FUNCTIONS::DrawText
+000001b0 00000004     0                         FUNCTIONS::DrawTextWithShadow
+000001bc 00000004     0                         FUNCTIONS::DrawRectangleAlpha
+000001c8 00000004     0                         FUNCTIONS::Tesselator_GetInstance
+000001d4 00000004     0                         FUNCTIONS::ReadTesselatorInstance
+000001f8 00000004     0                         FUNCTIONS::Tesselator_End
+000001e0 00000004     0                         FUNCTIONS::Tesselator_Begin
+00000164 0000000c     0                         MC_Color::BlackTheme
+00000140 0000000c     0                         MC_Color::White
+00000040 0000000c     0                         MenuColour1
+0000004c 0000000c     0                         MenuColour2
+00000004 00000004     0                         MenuG
+00000008 00000004     0                         MenuB
+0000003c 00000004     0                         ThemeColors
+00000084 00000004     0                         Buttons::L1
+0000006c 00000004     0                         Buttons::UP
+00000018 00000004     0                         firstWaitTime
+0000001c 00000004     0                         waitTime
+00000070 00000004     0                         Buttons::DOWN
+0000005c 00000004     0                         Buttons::X
+00000060 00000004     0                         Buttons::O
+0000000c 00000004     0                         MenuGradient1B
+00000010 00000004     0                         MenuGradient2G
+00000038 00000004     0                         menuLenght
+00000000 00000004     0                         titleSPRX
+00000058 00000004     0                         Buttons::buttonMonitoring
+00000064 00000004     0                         Buttons::SQUARE
+00000068 00000004     0                         Buttons::TRIANGLE
+00000074 00000004     0                         Buttons::LEFT
+00000078 00000004     0                         Buttons::RIGHT
+0000007c 00000004     0                         Buttons::R1
+00000080 00000004     0                         Buttons::R3
+00000088 00000004     0                         Buttons::L3
+0000008c 00000004     0                         Buttons::START
+00000090 00000004     0                         Buttons::SELECT
+00000094 00000004     0                         Buttons::JOYSTICK_L3_UP
+00000098 00000004     0                         Buttons::JOYSTICK_L3_DOWN
+0000009c 00000004     0                         Buttons::JOYSTICK_L3_LEFT
+000000a0 00000004     0                         Buttons::JOYSTICK_L3_RIGHT
+00000184 00000008     0                         FUNCTIONS::__printfopd
+00000190 00000008     0                         FUNCTIONS::Font_widthopd
+0000019c 00000008     0                         FUNCTIONS::DrawTextopd
+000001a8 00000008     0                         FUNCTIONS::DrawTextWithShadowopd
+000001b4 00000008     0                         FUNCTIONS::DrawRectangleAlphaopd
+000001c0 00000008     0                         FUNCTIONS::Tesselator_GetInstanceopd
+000001cc 00000008     0                         FUNCTIONS::ReadTesselatorInstanceopd
+000001d8 00000008     0                         FUNCTIONS::Tesselator_Beginopd
+000001e4 00000008     0                         FUNCTIONS::Tesselator_Coloropd
+000001ec 00000004     0                         FUNCTIONS::Tesselator_Color
+000001f0 00000008     0                         FUNCTIONS::Tesselator_Endopd
+000001fc 00000008     0                         FUNCTIONS::BufferBuilder_endVertexopd
+00000204 00000004     0                         FUNCTIONS::BufferBuilder_endVertex
+00000208 00000008     0                         FUNCTIONS::ConsoleUIController_PlayUISFXopd
+00000020 00000004     0                         SpaceBetweenText
+000000ec 0000000c     0                         MC_Color::Green
+000000b0 0000000c     0                         MC_Color::Red
+00000024 00000004     0                         MenuColorAlpha
+00000028 00000004     0                         MenuColorAlphaTitle
+0000002c 00000004     0                         MenuColorAlphaDescription
+00000030 00000004     0                         AnimationSpeed
+00000034 00000004     0                         speedSlider
+000000a4 0000000c     0                         MC_Color::DarkRed
+000000bc 0000000c     0                         MC_Color::Gold
+000000c8 0000000c     0                         MC_Color::Orange
+000000d4 0000000c     0                         MC_Color::Yellow
+000000e0 0000000c     0                         MC_Color::DarkGreen
+000000f8 0000000c     0                         MC_Color::Aqua
+00000104 0000000c     0                         MC_Color::DarkAqua
+00000110 0000000c     0                         MC_Color::DarkBlue
+0000011c 0000000c     0                         MC_Color::Blue
+00000128 0000000c     0                         MC_Color::LightPurple
+00000134 0000000c     0                         MC_Color::DarkPurple
+0000014c 0000000c     0                         MC_Color::Gray
+00000158 0000000c     0                         MC_Color::DarkGray
+00000170 0000000c     0                         MC_Color::TitleColor
+00000218 00000390     8                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\FileSystem.o (TOC#1,0)
+00000218 00000190     0                         LS.3.segments
+000003a8 00000200     0                         LS.3.filename
+000005a8 00000000     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\SystemCalls.o (TOC#1,0)
+000005a8 00000000     1                 C:\usr\local\cell\target\ppu\lib\fno-exceptions\libc.a(memcpy.o) (TOC#1,0)
+000005a8 00000000     1                 C:\usr\local\cell\target\ppu\lib\fno-exceptions\libc.a(memmove.o) (TOC#1,0)
+000005a8 00000000     1                 C:\usr\local\cell\target\ppu\lib\fno-exceptions\libc.a(strlen.o) (TOC#1,0)
+000005a8 00000000     1                 C:\usr\local\cell\target\ppu\lib\fno-exceptions\libc.a(wcslen.o) (TOC#1,0)
+000005a8 00000000     1                 C:\usr\local\cell\target\ppu\lib\fno-exceptions\libc.a(memset.o) (TOC#1,0)
+000005a8 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_6.o) (TOC#1,0)
+000005a8 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_23.o) (TOC#1,0)
+000005a8 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_43.o) (TOC#1,0)
+000005a8 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_49.o) (TOC#1,0)
+000005a8 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_55.o) (TOC#1,0)
+000005a8 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_90.o) (TOC#1,0)
+000005a8 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_102.o) (TOC#1,0)
+000005a8 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_115.o) (TOC#1,0)
+000005a8 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_head.o) (TOC#1,0)
+000005a8 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_3.o) (TOC#1,0)
+000005a8 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_15.o) (TOC#1,0)
+000005a8 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_17.o) (TOC#1,0)
+000005a8 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_23.o) (TOC#1,0)
+000005a8 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_40.o) (TOC#1,0)
+000005a8 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_79.o) (TOC#1,0)
+000005a8 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_90.o) (TOC#1,0)
+000005a8 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_103.o) (TOC#1,0)
+000005a8 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_107.o) (TOC#1,0)
+000005a8 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_108.o) (TOC#1,0)
+000005a8 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_128.o) (TOC#1,0)
+000005a8 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_161.o) (TOC#1,0)
+000005a8 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_head.o) (TOC#1,0)
+000005a8 00000000     1                 C:\usr\local\cell\target\ppu\lib\libfs_stub.a(_sys_fs_0001_26.o) (TOC#1,0)
+000005a8 00000000     1                 C:\usr\local\cell\target\ppu\lib\libfs_stub.a(_sys_fs_0001_28.o) (TOC#1,0)
+000005a8 00000000     1                 C:\usr\local\cell\target\ppu\lib\libfs_stub.a(_sys_fs_0001_36.o) (TOC#1,0)
+000005a8 00000000     1                 C:\usr\local\cell\target\ppu\lib\libfs_stub.a(_sys_fs_0001_head.o) (TOC#1,0)
+00000000 00000000     1 .data1
+00000000 00000000     1 .tdata
+00000000 00000000     1 .spu_image_writable
+00000000 00000000     1 .rsx_image
+00000000 00000000     1 .tbss
+00000000 00000000     1 .eh_frame
+00000000 00000000     1 .gcc_except_table
+00000000 00000000     1 .toc1
+00000000 00000558     8 .opd
+00000000 00000400     8         .opd
+00000000 00000400     8                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\Main.o (TOC#1,0)
+000003e8 00000008     0                         [local to Main_cpp]::Dialog::cb_dialogText2(int, void*)
+000003e0 00000008     0                         [local to Main_cpp]::Dialog::cb_dialogText1(int, void*)
+000003f0 00000008     0                         [local to Main_cpp]::Keyboard::sysutil_callback(unsigned long long, unsigned long long, void*)
+000003f8 00000008     0                         __sti___8_Main_cpp__Znwj
+00000000 00000008     0                         operator new(unsigned int)
+00000008 00000008     0                         operator new(unsigned int, std::nothrow_t const&)
+00000010 00000008     0                         operator new(unsigned int, unsigned int)
+00000018 00000008     0                         operator new(unsigned int, unsigned int, std::nothrow_t const&)
+00000020 00000008     0                         operator new[](unsigned int)
+00000028 00000008     0                         operator new[](unsigned int, std::nothrow_t const&)
+00000030 00000008     0                         operator new[](unsigned int, unsigned int)
+00000038 00000008     0                         operator new[](unsigned int, unsigned int, std::nothrow_t const&)
+00000040 00000008     0                         operator delete(void*)
+00000048 00000008     0                         operator delete(void*, std::nothrow_t const&)
+00000050 00000008     0                         operator delete(void*, void*)
+00000058 00000008     0                         operator delete(void*, unsigned int)
+00000060 00000008     0                         operator delete(void*, unsigned int, std::nothrow_t const&)
+00000068 00000008     0                         operator delete(void*, unsigned int, void*)
+00000070 00000008     0                         operator delete[](void*)
+00000078 00000008     0                         operator delete[](void*, std::nothrow_t const&)
+00000080 00000008     0                         operator delete[](void*, void*)
+00000088 00000008     0                         operator delete[](void*, unsigned int)
+00000090 00000008     0                         operator delete[](void*, unsigned int, std::nothrow_t const&)
+00000098 00000008     0                         operator delete[](void*, unsigned int, void*)
+000000a0 00000008     0                         sys_process_getpid
+000000a8 00000008     0                         sys_dbg_read_process_memory(unsigned long long, void*, unsigned int)
+000000b0 00000008     0                         sys_dbg_write_process_memory(unsigned long long, void const*, unsigned int)
+000000b8 00000008     0                         sys_dbg_write_process_memory_ps3mapi(unsigned long long, void const*, unsigned int)
+000000c0 00000008     0                         sys_dbg_read_process_memory_ps3mapi(unsigned long long, void*, unsigned int)
+000000c8 00000008     0                         WriteMemory(int, char)
+000000d0 00000008     0                         sys_timer_usleep
+000000d8 00000008     0                         sleep(unsigned long long)
+000000e0 00000008     0                         console_write(char const*)
+000000e8 00000008     0                         write_process(unsigned long long, void const*, unsigned int)
+000000f0 00000008     0                         read_process(unsigned long long, void const*, unsigned int)
+000000f8 00000008     0                         Memcpy(void*, void const*, unsigned int)
+00000100 00000008     0                         PatchInJump(int, int)
+00000108 00000008     0                         patcher(int, int, bool)
+00000110 00000008     0                         HookFunctionStart(unsigned int, unsigned int, unsigned int)
+00000118 00000008     0                         UnHookFunctionStart(unsigned int, unsigned int)
+00000120 00000008     0                         get_temperature(unsigned int, unsigned int*)
+00000128 00000008     0                         color(int, int, int)
+00000130 00000008     0                         colorInt(int, int, int)
+00000138 00000008     0                         color(int*)
+00000140 00000008     0                         c2wc(char*)
+00000148 00000008     0                         getString(wchar_t const*)
+00000150 00000008     0                         StringToWideCharacter(wchar_t*, char const*, unsigned int)
+00000158 00000008     0                         WideCharacterToString(char*, wchar_t const*, unsigned int)
+00000160 00000008     0                         frameTime(int, int, bool)
+00000168 00000008     0                         scrollWait(int, int, int)
+00000170 00000008     0                         doScroll(int, int)
+00000178 00000008     0                         PlayUISound(unsigned int*)
+00000180 00000008     0                         mc_printf(char const*, ...)
+00000188 00000008     0                         Font_width(wchar_t const*)
+00000190 00000008     0                         Font_width_char(char*)
+00000198 00000008     0                         DrawText(wchar_t const*, float, float, unsigned int)
+000001a0 00000008     0                         DrawTextC(char*, float, float, unsigned int)
+000001a8 00000008     0                         DrawTextWithShadow(wchar_t const*, unsigned int, unsigned int, unsigned int)
+000001b0 00000008     0                         DrawRectangleAlpha(float, float, float, float, Color)
+000001b8 00000008     0                         DrawRectangle(float, float, float, float, int*)
+000001c0 00000008     0                         DrawRectangleBorder(float, float, float, float, int*, int*, int)
+000001c8 00000008     0                         DrawGradientRectangle(float, float, float, float, int*, int*, bool)
+000001d0 00000008     0                         DrawGradientBorder(float, float, float, float, int*, int*, int*, int, bool)
+000001d8 00000008     0                         DrawGradientRectangleV2(float, float, float, float, int*, int*, int*, int*)
+000001e0 00000008     0                         f_sqrtf
+000001e8 00000008     0                         drawLine(Vector2 const&, Vector2 const&, int*)
+000001f0 00000008     0                         DrawTextWithRectangle(wchar_t const*, float, float, int*, int*, bool)
+000001f8 00000008     0                         DrawTextCharWithRectangle(char*, float, float, int*, int*, bool)
+00000200 00000008     0                         DrawsnprintfText(char const*, int*, float, float, bool)
+00000208 00000008     0                         DrawSnprintf(char const*, int, int, int)
+00000210 00000008     0                         DoRainbowColor()
+00000218 00000008     0                         GetThemeColor()
+00000220 00000008     0                         InWorld()
+00000228 00000008     0                         getOption()
+00000230 00000008     0                         openSubmenu(int)
+00000238 00000008     0                         closeMenu()
+00000240 00000008     0                         goBack()
+00000248 00000008     0                         Controller()
+00000250 00000008     0                         RenderSubMenu()
+00000258 00000008     0                         Render()
+00000260 00000008     0                         LoopOptions()
+00000268 00000008     0                         RenderScreen_Stub(unsigned int, unsigned int)
+00000270 00000008     0                         Gui_render_Stub(GuiComponent*, double)
+00000278 00000008     0                         RenderScreen_Hook(unsigned int, unsigned int)
+00000280 00000008     0                         Gui_render_Hook(GuiComponent*, double)
+00000288 00000008     0                         InstallHooks()
+00000290 00000008     0                         UninstallHooks()
+00000298 00000008     0                         Minecraft_Main
+000002a0 00000008     0                         Minecraft_Stop
+000002a8 00000008     0                         Buttons::getMCButtons()
+000002b0 00000008     0                         Buttons::IsMCButtonPressed(unsigned int)
+000002b8 00000008     0                         NyTekCFW::sleep(unsigned long long)
+000002c0 00000008     0                         NyTekCFW::ReadBytes(int, int)
+000002c8 00000008     0                         NyTekCFW::ReadString(int)
+000002d0 00000008     0                         NyTekCFW::WriteBytes(int, char*, int)
+000002d8 00000008     0                         NyTekCFW::WriteString(int, char*)
+000002e0 00000008     0                         NyTekCFW::Zone(int, float*)
+000002e8 00000008     0                         NyTekCFW::FloatToHex(float)
+000002f0 00000008     0                         NyTekCFW::IntToHex(int)
+000002f8 00000008     0                         Dialog::ProgressBar(char const*, char const*, int)
+00000300 00000008     0                         Dialog::ShowYESNO(char*)
+00000308 00000008     0                         Dialog::Show(char*)
+00000310 00000008     0                         Dialog::End()
+00000318 00000008     0                         Keyboard::getkbLen(char*)
+00000320 00000008     0                         Keyboard::makekbStr(char*, char*, int)
+00000328 00000008     0                         Keyboard::keyboard(char*, wchar_t*, wchar_t*)
+00000330 00000008     0                         myMath::abs(float)
+00000338 00000008     0                         myMath::DegreesToRadians(float)
+00000340 00000008     0                         myMath::RadiansToDegrees(float)
+00000348 00000008     0                         myMath::sin(float)
+00000350 00000008     0                         myMath::cos(float)
+00000358 00000008     0                         myMath::atan(double, int)
+00000360 00000008     0                         myMath::atan2(double, double)
+00000368 00000008     0                         FUNCTIONS::Tesselator_EndVertex(unsigned int, float, float, float, int*)
+00000370 00000008     0                         Menu::AddHuds(int)
+00000378 00000008     0                         Menu::Scrollbar()
+00000380 00000008     0                         Menu::AddTitle(wchar_t const*)
+00000388 00000008     0                         Menu::AddSubOption(wchar_t const*)
+00000390 00000008     0                         Menu::AddOption(wchar_t const*)
+00000398 00000008     0                         Menu::AddBoolOption(wchar_t const*, bool)
+000003a0 00000008     0                         Menu::AddIntOption(wchar_t const*, int, int, int, int&)
+000003a8 00000008     0                         Options::GOD_MODE()
+000003b0 00000008     0                         Options::SUPER_SPEED()
+000003b8 00000008     0                         Options::getName()
+000003c0 00000008     0                         Options::setName(char*)
+000003c8 00000008     0                         Options::getTeleport()
+000003d0 00000008     0                         Options::setTeleport(double, double, double)
+000003d8 00000008     0                         Color::ToHex()
+00000400 000000e8     8                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\FileSystem.o (TOC#1,0)
+00000400 00000008     0                         GetModuleHandle(char const*)
+00000408 00000008     0                         GetModuleInfo(int)
+00000410 00000008     0                         GetModuleFilePath(char const*)
+00000418 00000008     0                         std::char_traits<char>::assign(char&, char const&)
+00000420 00000008     0                         std::char_traits<char>::length(char const*)
+00000428 00000008     0                         std::char_traits<char>::copy(char*, char const*, unsigned int)
+00000430 00000008     0                         std::char_traits<char>::move(char*, char const*, unsigned int)
+00000438 00000008     0                         std::_String_base::_Xlen() const
+00000440 00000008     0                         std::_String_base::_Xran() const
+00000448 00000008     0                         std::allocator<char>::deallocate(char*, unsigned int)
+00000450 00000008     0                         char* std::_Allocate<char>(unsigned int, char*)
+00000458 00000008     0                         std::allocator<char>::allocate(unsigned int)
+00000460 00000008     0                         std::allocator<char>::max_size() const
+00000468 00000008     0                         std::_String_val<char, std::allocator<char>>::_String_val(std::allocator<char>)
+00000470 00000008     0                         std::_String_val<char, std::allocator<char>>::_String_val(std::allocator<char>)
+00000478 00000008     0                         std::basic_string<char, std::char_traits<char>, std::allocator<char>>::_Myptr()
+00000480 00000008     0                         std::basic_string<char, std::char_traits<char>, std::allocator<char>>::_Eos(unsigned int)
+00000488 00000008     0                         std::basic_string<char, std::char_traits<char>, std::allocator<char>>::_Tidy(bool, unsigned int)
+00000490 00000008     0                         std::basic_string<char, std::char_traits<char>, std::allocator<char>>::_Inside(char const*)
+00000498 00000008     0                         std::basic_string<char, std::char_traits<char>, std::allocator<char>>::size() const
+000004a0 00000008     0                         std::basic_string<char, std::char_traits<char>, std::allocator<char>>::erase(unsigned int, unsigned int)
+000004a8 00000008     0                         std::basic_string<char, std::char_traits<char>, std::allocator<char>>::max_size() const
+000004b0 00000008     0                         std::basic_string<char, std::char_traits<char>, std::allocator<char>>::_Copy(unsigned int, unsigned int)
+000004b8 00000008     0                         std::basic_string<char, std::char_traits<char>, std::allocator<char>>::_Grow(unsigned int, bool)
+000004c0 00000008     0                         std::basic_string<char, std::char_traits<char>, std::allocator<char>>::_Myptr() const
+000004c8 00000008     0                         std::basic_string<char, std::char_traits<char>, std::allocator<char>>::assign(std::basic_string<char, std::char_traits<char>, std::allocator<char>> const&, unsigned int, unsigned int)
+000004d0 00000008     0                         std::basic_string<char, std::char_traits<char>, std::allocator<char>>::assign(char const*, unsigned int)
+000004d8 00000008     0                         std::basic_string<char, std::char_traits<char>, std::allocator<char>>::assign(char const*)
+000004e0 00000008     0                         std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*)
+000004e8 00000048     8                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\SystemCalls.o (TOC#1,0)
+000004e8 00000008     0                         sys_storage_ext_get_disc_type(unsigned int*, unsigned int*, unsigned int*)
+000004f0 00000008     0                         sys_storage_ext_fake_storage_event(unsigned long long, unsigned long long, unsigned long long)
+000004f8 00000008     0                         cobra_send_fake_disc_eject_event()
+00000500 00000008     0                         sys_map_path(char const*, char const*)
+00000508 00000008     0                         DoesFileExist(char const*)
+00000510 00000008     0                         is_app_dir(char const*, char const*)
+00000518 00000008     0                         set_app_home(char const*)
+00000520 00000008     0                         sys_timer_usleep
+00000528 00000008     0                         do_umount()
+00000530 00000008     4                 C:\usr\local\cell\target\ppu\lib\fno-exceptions\libc.a(memcpy.o) (TOC#1,0)
+00000530 00000008     0                         memcpy
+00000538 00000008     4                 C:\usr\local\cell\target\ppu\lib\fno-exceptions\libc.a(memmove.o) (TOC#1,0)
+00000538 00000008     0                         memmove
+00000540 00000008     4                 C:\usr\local\cell\target\ppu\lib\fno-exceptions\libc.a(strlen.o) (TOC#1,0)
+00000540 00000008     0                         strlen
+00000548 00000008     4                 C:\usr\local\cell\target\ppu\lib\fno-exceptions\libc.a(wcslen.o) (TOC#1,0)
+00000548 00000008     0                         wcslen
+00000550 00000008     4                 C:\usr\local\cell\target\ppu\lib\fno-exceptions\libc.a(memset.o) (TOC#1,0)
+00000550 00000008     0                         memset
+00000550 00000008     0                         memset_cs
+00000000 00000000     1 .dynamic
+00000000 00000004     1 .ctors
+00000000 00000004     1         .ctors
+00000000 00000004     1                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\Main.o (TOC#1,0)
+00000000 00000000     1 .dtors
+00000000 00000000     1 .jcr
+00000000 00000000     1 .got
+00000000 00000000     1 .toc
+00000000 00000000     1         .toc
+00000000 00000000     1                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\Main.o (TOC#1,0)
+00000000 00000000     1                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\FileSystem.o (TOC#1,0)
+00000000 00000000     1                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\SystemCalls.o (TOC#1,0)
+00000000 00000000     1                 C:\usr\local\cell\target\ppu\lib\fno-exceptions\libc.a(memcpy.o) (TOC#1,0)
+00000000 00000000     1                 C:\usr\local\cell\target\ppu\lib\fno-exceptions\libc.a(memmove.o) (TOC#1,0)
+00000000 00000000     1                 C:\usr\local\cell\target\ppu\lib\fno-exceptions\libc.a(strlen.o) (TOC#1,0)
+00000000 00000000     1                 C:\usr\local\cell\target\ppu\lib\fno-exceptions\libc.a(wcslen.o) (TOC#1,0)
+00000000 00000000     1 .tocbss
+00000000 00000000     1 .toc.sceStub
+00000000 00000000     1 .toc.sceStub
+00000000 00000000     1 .toc.tls
+00000000 00000000     1 .sdata
+00000000 00000000     1 .dynsbss
+00000000 00000000     1 .sbss
+00000000 00000000     1 .scommon
+00000000 00000000     1 .plt
+00000000 00000000     1 .dynbss
+00000000 00002e34     4 .bss
+00000000 00002e34     4         .bss
+00000000 00002e34     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\Main.o (TOC#1,0)
+00002df8 0000000c     0                         _colorX
+00000034 000007d0     0                         charA2wcharA_
+0000080c 000003e8     0                         gotTime
+00002e08 00000004     0                         mc
+00000de8 00000fa0     0                         getTime
+00001d8c 00000fa0     0                         timeMath
+00000bf4 00000064     0                         keyPressed
+00000d84 00000064     0                         lockFirst
+00000c58 00000064     0                         freeFirst
+00000cbc 00000064     0                         resetWait
+00000d20 00000064     0                         resetWait2
+00002d2c 00000004     0                         scroll
+00000010 00000004     0                         g_GuiComponent
+00002d74 00000004     0                         RainbowRED1
+00002d78 00000004     0                         RainbowGREEN1
+00002d7c 00000004     0                         RainbowBLUE1
+00002d70 00000004     0                         RainbowTime
+00002d6c 00000004     0                         MenuColourTime
+00002d80 00000004     0                         RainbowRED2
+00002d84 00000004     0                         RainbowGREEN2
+00002d88 00000004     0                         RainbowBLUE2
+00000018 00000004     0                         MenuR
+00002d40 00000004     0                         optionPress
+00002d34 00000004     0                         CurrentOpt
+00002d30 00000004     0                         CurrentMenu
+00002da4 00000050     0                         lastMenus
+00002df4 00000004     0                         lastMenuCount
+00002d4a 00000001     0                         Opened
+00002d3c 00000004     0                         MaxSubOptions
+0000001c 00000004     0                         MenuGradient1R
+00000020 00000004     0                         MenuGradient1G
+00000024 00000004     0                         MenuGradient2R
+00000028 00000004     0                         MenuGradient2B
+00002d58 00000004     0                         MenuBorderSize
+0000002c 00000004     0                         MenuX
+00000030 00000004     0                         MenuY
+00002d4d 00000001     0                         GradientMenu
+00002d5c 00000004     0                         CoordX
+00002d60 00000004     0                         CoordY
+00002d64 00000004     0                         CoordZ
+00002d68 00000001     0                         GodMode
+00002d69 00000001     0                         SuperSpeed
+00002d38 00000004     0                         MaxOption
+00002e0c 00000004     0                         Buttons::R2
+00002e10 00000004     0                         Buttons::L2
+00002e20 00000010     0                         NyTekCFW::byteArrayz
+00002e30 00000001     0                         Dialog::Finished
+00002e31 00000001     0                         Dialog::YESNO
+00002d98 0000000c     0                         Rainbow
+00000000 00000004     0                         g_Level
+00000004 00000004     0                         g_Localplayer
+00000008 00000004     0                         g_Minecraft
+0000000c 00000004     0                         g_Gamemode
+00000014 00000004     0                         g_Level2
+00000804 00000004     0                         cpu_t
+00000808 00000004     0                         rsx_t
+00001d88 00000004     0                         scrollTick
+00002d44 00000004     0                         returnPress
+00002d48 00000001     0                         BtnLeftPressed
+00002d49 00000001     0                         BtnRightPressed
+00002d4b 00000001     0                         Closed
+00002d4c 00000001     0                         FirstOpen
+00002d50 00000004     0                         SavePosition
+00002d54 00000004     0                         SaveMenuX
+00002d8c 0000000c     0                         RainbowColor
+00002e04 00000004     0                         mcV2
+00002e14 0000000c     0                         MC_Color::Black
+00002e34 00000000     1                 C:\usr\local\cell\target\ppu\lib\fno-exceptions\libc.a(memcpy.o) (TOC#1,0)
+00002e34 00000000     1                 C:\usr\local\cell\target\ppu\lib\fno-exceptions\libc.a(memmove.o) (TOC#1,0)
+00002e34 00000000     1                 C:\usr\local\cell\target\ppu\lib\fno-exceptions\libc.a(strlen.o) (TOC#1,0)
+00002e34 00000000     1                 C:\usr\local\cell\target\ppu\lib\fno-exceptions\libc.a(wcslen.o) (TOC#1,0)
+00002e34 00000000     1                 C:\usr\local\cell\target\ppu\lib\fno-exceptions\libc.a(memset.o) (TOC#1,0)
+00002e34 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_6.o) (TOC#1,0)
+00002e34 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_23.o) (TOC#1,0)
+00002e34 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_43.o) (TOC#1,0)
+00002e34 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_49.o) (TOC#1,0)
+00002e34 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_55.o) (TOC#1,0)
+00002e34 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_90.o) (TOC#1,0)
+00002e34 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_102.o) (TOC#1,0)
+00002e34 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_115.o) (TOC#1,0)
+00002e34 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_head.o) (TOC#1,0)
+00002e34 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_3.o) (TOC#1,0)
+00002e34 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_15.o) (TOC#1,0)
+00002e34 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_17.o) (TOC#1,0)
+00002e34 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_23.o) (TOC#1,0)
+00002e34 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_40.o) (TOC#1,0)
+00002e34 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_79.o) (TOC#1,0)
+00002e34 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_90.o) (TOC#1,0)
+00002e34 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_103.o) (TOC#1,0)
+00002e34 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_107.o) (TOC#1,0)
+00002e34 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_108.o) (TOC#1,0)
+00002e34 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_128.o) (TOC#1,0)
+00002e34 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_161.o) (TOC#1,0)
+00002e34 00000000     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_head.o) (TOC#1,0)
+00002e34 00000000     1                 C:\usr\local\cell\target\ppu\lib\libfs_stub.a(_sys_fs_0001_26.o) (TOC#1,0)
+00002e34 00000000     1                 C:\usr\local\cell\target\ppu\lib\libfs_stub.a(_sys_fs_0001_28.o) (TOC#1,0)
+00002e34 00000000     1                 C:\usr\local\cell\target\ppu\lib\libfs_stub.a(_sys_fs_0001_36.o) (TOC#1,0)
+00002e34 00000000     1                 C:\usr\local\cell\target\ppu\lib\libfs_stub.a(_sys_fs_0001_head.o) (TOC#1,0)
+00000000 00000000     1 .common
+00000000 00000000     1 .stab
+00000000 00000000     1 .stabstr
+00000000 00000000     1 .stab.excl
+00000000 00000000     1 .stab.exclstr
+00000000 00000000     1 .stab.index
+00000000 00000000     1 .stab.indexstr
+00000000 00000000     1 .comment
+00000000 00000000     1 .debug
+00000000 00000000     1 .line
+00000000 00000000     1 .debug_srcinfo
+00000000 00000000     1 .debug_sfnames
+00000000 00000568     1 .debug_aranges
+00000000 00000410     1         .debug_aranges
+00000000 00000410     1                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\Main.o (TOC#1,0)
+00000410 000000f8     1                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\FileSystem.o (TOC#1,0)
+00000508 00000060     1                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\SystemCalls.o (TOC#1,0)
+00000000 0000167b     1 .debug_pubnames
+00000000 00001253     1         .debug_pubnames
+00000000 00001253     1                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\Main.o (TOC#1,0)
+00001253 00000342     1                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\FileSystem.o (TOC#1,0)
+00001595 000000e6     1                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\SystemCalls.o (TOC#1,0)
+00000000 00008406     1 .debug_info
+00000000 00006050     1         .debug_info
+00000000 00006050     1                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\Main.o (TOC#1,0)
+00006050 00001ef0     1                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\FileSystem.o (TOC#1,0)
+00007f40 000004c6     1                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\SystemCalls.o (TOC#1,0)
+00000000 0000054f     1 .debug_abbrev
+00000000 00000248     1         .debug_abbrev
+00000000 00000248     1                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\Main.o (TOC#1,0)
+00000248 00000222     1                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\FileSystem.o (TOC#1,0)
+0000046a 000000e5     1                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\SystemCalls.o (TOC#1,0)
+00000000 000010d5     1 .debug_line
+00000000 00000a70     1         .debug_line
+00000000 00000a70     1                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\Main.o (TOC#1,0)
+00000a70 000004c2     1                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\FileSystem.o (TOC#1,0)
+00000f32 000001a3     1                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\SystemCalls.o (TOC#1,0)
+00000000 00000000     1 .debug_frame
+00000000 000035f2     1 .debug_str
+00000000 000035f2     1         .debug_str
+00000000 000035f2     1                 Dwarf1 (TOC#1,0)
+00000000 00000000     1 .debug_loc
+00000000 00000000     1 .debug_macinfo
+00000000 00000000     1 .debug_weaknames
+00000000 00000000     1 .debug_funcnames
+00000000 00000000     1 .debug_typenames
+00000000 00000000     1 .debug_varnames
+00000000 00000000     1 .debug_pubtypes
+00000000 00000000     1 .debug_ranges
+00000000 00000030     4 .text.sys_process_getpid
+00000000 00000030     4         .text.sys_process_getpid
+00000000 00000030     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\Main.o (TOC#1,0)
+00000000 00000030     0                         .sys_process_getpid
+00000000 00000050     4 .text.sys_timer_usleep
+00000000 00000050     4         .text.sys_timer_usleep
+00000000 00000050     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\Main.o (TOC#1,0)
+00000000 00000050     0                         .sys_timer_usleep
+00000000 00000030     4 .text.f_sqrtf
+00000000 00000030     4         .text.f_sqrtf
+00000000 00000030     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\Main.o (TOC#1,0)
+00000000 00000030     0                         .f_sqrtf
+00000000 0000007c     4 .text._ZN5Color5ToHexEv
+00000000 0000007c     4         .text._ZN5Color5ToHexEv
+00000000 0000007c     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\Main.o (TOC#1,0)
+00000000 0000007c     0                         Color::ToHex()
+00000000 00000018     8 .psp_lib_markimport_
+00000000 00000018     8         .psp_lib_markimport_
+00000000 00000018     8                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\Main.o (TOC#1,0)
+00000000 00000030     4 .psp_lib_mark_
+00000000 00000030     4         .psp_lib_mark_
+00000000 00000030     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\Main.o (TOC#1,0)
+00000000 00000008     0                         __PSPEXP__module_info
+00000008 00000008     0                         __PSPREN__module_info___psp_moduleinfo
+00000010 00000008     0                         __PSPEXP__module_start
+00000018 00000008     0                         __PSPREN__module_start_Minecraft_Main
+00000020 00000008     0                         __PSPEXP__module_stop
+00000028 00000008     0                         __PSPREN__module_stop_Minecraft_Stop
+00000000 00000004     4 .rodata._ZNSs4nposE
+00000000 00000004     4         .rodata._ZNSs4nposE
+00000000 00000004     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\Main.o (TOC#1,0)
+00000000 00000004     0                         std::basic_string<char, std::char_traits<char>, std::allocator<char>>::npos
+00000000 00000040     4 .text._ZNSt11char_traitsIcE6assignERcRKc
+00000000 00000040     4         .text._ZNSt11char_traitsIcE6assignERcRKc
+00000000 00000040     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\FileSystem.o (TOC#1,0)
+00000000 00000040     0                         std::char_traits<char>::assign(char&, char const&)
+00000000 0000003c     4 .text._ZNSt11char_traitsIcE6lengthEPKc
+00000000 0000003c     4         .text._ZNSt11char_traitsIcE6lengthEPKc
+00000000 0000003c     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\FileSystem.o (TOC#1,0)
+00000000 0000003c     0                         std::char_traits<char>::length(char const*)
+00000000 00000074     4 .text._ZNSt11char_traitsIcE4copyEPcPKcj
+00000000 00000074     4         .text._ZNSt11char_traitsIcE4copyEPcPKcj
+00000000 00000074     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\FileSystem.o (TOC#1,0)
+00000000 00000074     0                         std::char_traits<char>::copy(char*, char const*, unsigned int)
+00000000 00000074     4 .text._ZNSt11char_traitsIcE4moveEPcPKcj
+00000000 00000074     4         .text._ZNSt11char_traitsIcE4moveEPcPKcj
+00000000 00000074     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\FileSystem.o (TOC#1,0)
+00000000 00000074     0                         std::char_traits<char>::move(char*, char const*, unsigned int)
+00000000 00000010     4 .text._ZNKSt12_String_base5_XlenEv
+00000000 00000010     4         .text._ZNKSt12_String_base5_XlenEv
+00000000 00000010     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\FileSystem.o (TOC#1,0)
+00000000 00000010     0                         std::_String_base::_Xlen() const
+00000000 00000010     4 .text._ZNKSt12_String_base5_XranEv
+00000000 00000010     4         .text._ZNKSt12_String_base5_XranEv
+00000000 00000010     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\FileSystem.o (TOC#1,0)
+00000000 00000010     0                         std::_String_base::_Xran() const
+00000000 00000054     4 .text._ZNSaIcE10deallocateEPcj
+00000000 00000054     4         .text._ZNSaIcE10deallocateEPcj
+00000000 00000054     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\FileSystem.o (TOC#1,0)
+00000000 00000054     0                         std::allocator<char>::deallocate(char*, unsigned int)
+00000000 0000004c     4 .text._ZSt9_AllocateIcEPT_jS1_
+00000000 0000004c     4         .text._ZSt9_AllocateIcEPT_jS1_
+00000000 0000004c     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\FileSystem.o (TOC#1,0)
+00000000 0000004c     0                         char* std::_Allocate<char>(unsigned int, char*)
+00000000 0000004c     4 .text._ZNSaIcE8allocateEj
+00000000 0000004c     4         .text._ZNSaIcE8allocateEj
+00000000 0000004c     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\FileSystem.o (TOC#1,0)
+00000000 0000004c     0                         std::allocator<char>::allocate(unsigned int)
+00000000 00000040     4 .text._ZNKSaIcE8max_sizeEv
+00000000 00000040     4         .text._ZNKSaIcE8max_sizeEv
+00000000 00000040     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\FileSystem.o (TOC#1,0)
+00000000 00000040     0                         std::allocator<char>::max_size() const
+00000000 0000001c     4 .text._ZNSt11_String_valIcSaIcEEC1ES0_
+00000000 0000001c     4         .text._ZNSt11_String_valIcSaIcEEC1ES0_
+00000000 0000001c     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\FileSystem.o (TOC#1,0)
+00000000 0000001c     0                         std::_String_val<char, std::allocator<char>>::_String_val(std::allocator<char>)
+00000000 00000050     4 .text._ZNSt11_String_valIcSaIcEEC2ES0_
+00000000 00000050     4         .text._ZNSt11_String_valIcSaIcEEC2ES0_
+00000000 00000050     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\FileSystem.o (TOC#1,0)
+00000000 00000050     0                         std::_String_val<char, std::allocator<char>>::_String_val(std::allocator<char>)
+00000000 00000068     4 .text._ZNSs6_MyptrEv
+00000000 00000068     4         .text._ZNSs6_MyptrEv
+00000000 00000068     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\FileSystem.o (TOC#1,0)
+00000000 00000068     0                         std::basic_string<char, std::char_traits<char>, std::allocator<char>>::_Myptr()
+00000000 0000007c     4 .text._ZNSs4_EosEj
+00000000 0000007c     4         .text._ZNSs4_EosEj
+00000000 0000007c     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\FileSystem.o (TOC#1,0)
+00000000 0000007c     0                         std::basic_string<char, std::char_traits<char>, std::allocator<char>>::_Eos(unsigned int)
+00000000 00000124     4 .text._ZNSs5_TidyEbj
+00000000 00000124     4         .text._ZNSs5_TidyEbj
+00000000 00000124     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\FileSystem.o (TOC#1,0)
+00000000 00000124     0                         std::basic_string<char, std::char_traits<char>, std::allocator<char>>::_Tidy(bool, unsigned int)
+00000000 000000ac     4 .text._ZNSs7_InsideEPKc
+00000000 000000ac     4         .text._ZNSs7_InsideEPKc
+00000000 000000ac     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\FileSystem.o (TOC#1,0)
+00000000 000000ac     0                         std::basic_string<char, std::char_traits<char>, std::allocator<char>>::_Inside(char const*)
+00000000 00000020     4 .text._ZNKSs4sizeEv
+00000000 00000020     4         .text._ZNKSs4sizeEv
+00000000 00000020     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\FileSystem.o (TOC#1,0)
+00000000 00000020     0                         std::basic_string<char, std::char_traits<char>, std::allocator<char>>::size() const
+00000000 000001dc     4 .text._ZNSs5eraseEjj
+00000000 000001dc     4         .text._ZNSs5eraseEjj
+00000000 000001dc     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\FileSystem.o (TOC#1,0)
+00000000 000001dc     0                         std::basic_string<char, std::char_traits<char>, std::allocator<char>>::erase(unsigned int, unsigned int)
+00000000 0000006c     4 .text._ZNKSs8max_sizeEv
+00000000 0000006c     4         .text._ZNKSs8max_sizeEv
+00000000 0000006c     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\FileSystem.o (TOC#1,0)
+00000000 0000006c     0                         std::basic_string<char, std::char_traits<char>, std::allocator<char>>::max_size() const
+00000000 00000204     4 .text._ZNSs5_CopyEjj
+00000000 00000204     4         .text._ZNSs5_CopyEjj
+00000000 00000204     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\FileSystem.o (TOC#1,0)
+00000000 00000204     0                         std::basic_string<char, std::char_traits<char>, std::allocator<char>>::_Copy(unsigned int, unsigned int)
+00000000 000001d0     4 .text._ZNSs5_GrowEjb
+00000000 000001d0     4         .text._ZNSs5_GrowEjb
+00000000 000001d0     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\FileSystem.o (TOC#1,0)
+00000000 000001d0     0                         std::basic_string<char, std::char_traits<char>, std::allocator<char>>::_Grow(unsigned int, bool)
+00000000 00000068     4 .text._ZNKSs6_MyptrEv
+00000000 00000068     4         .text._ZNKSs6_MyptrEv
+00000000 00000068     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\FileSystem.o (TOC#1,0)
+00000000 00000068     0                         std::basic_string<char, std::char_traits<char>, std::allocator<char>>::_Myptr() const
+00000000 000001f4     4 .text._ZNSs6assignERKSsjj
+00000000 000001f4     4         .text._ZNSs6assignERKSsjj
+00000000 000001f4     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\FileSystem.o (TOC#1,0)
+00000000 000001f4     0                         std::basic_string<char, std::char_traits<char>, std::allocator<char>>::assign(std::basic_string<char, std::char_traits<char>, std::allocator<char>> const&, unsigned int, unsigned int)
+00000000 00000164     4 .text._ZNSs6assignEPKcj
+00000000 00000164     4         .text._ZNSs6assignEPKcj
+00000000 00000164     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\FileSystem.o (TOC#1,0)
+00000000 00000164     0                         std::basic_string<char, std::char_traits<char>, std::allocator<char>>::assign(char const*, unsigned int)
+00000000 00000084     4 .text._ZNSs6assignEPKc
+00000000 00000084     4         .text._ZNSs6assignEPKc
+00000000 00000084     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\FileSystem.o (TOC#1,0)
+00000000 00000084     0                         std::basic_string<char, std::char_traits<char>, std::allocator<char>>::assign(char const*)
+00000000 00000088     4 .text._ZNSsC1EPKc
+00000000 00000088     4         .text._ZNSsC1EPKc
+00000000 00000088     4                 C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin-int\Debug-PS3\Minecraft\FileSystem.o (TOC#1,0)
+00000000 00000088     0                         std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*)
+00000000 0000025a     1 .sceversion
+00000000 0000000c     1         .sceversion
+00000000 0000000c     1                 C:\usr\local\cell\target\ppu\lib\fno-exceptions\libc.a(memcpy.o) (TOC#1,0)
+0000000c 0000000c     1                 C:\usr\local\cell\target\ppu\lib\fno-exceptions\libc.a(memmove.o) (TOC#1,0)
+00000018 0000000c     1                 C:\usr\local\cell\target\ppu\lib\fno-exceptions\libc.a(strlen.o) (TOC#1,0)
+00000024 0000000c     1                 C:\usr\local\cell\target\ppu\lib\fno-exceptions\libc.a(wcslen.o) (TOC#1,0)
+00000030 0000000c     1                 C:\usr\local\cell\target\ppu\lib\fno-exceptions\libc.a(memset.o) (TOC#1,0)
+0000003c 00000013     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_6.o) (TOC#1,0)
+0000004f 00000013     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_23.o) (TOC#1,0)
+00000062 00000013     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_43.o) (TOC#1,0)
+00000075 00000013     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_49.o) (TOC#1,0)
+00000088 00000013     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_55.o) (TOC#1,0)
+0000009b 00000013     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_90.o) (TOC#1,0)
+000000ae 00000013     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_102.o) (TOC#1,0)
+000000c1 00000013     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_115.o) (TOC#1,0)
+000000d4 00000013     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_head.o) (TOC#1,0)
+000000e7 00000017     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_3.o) (TOC#1,0)
+000000fe 00000017     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_15.o) (TOC#1,0)
+00000115 00000017     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_17.o) (TOC#1,0)
+0000012c 00000017     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_23.o) (TOC#1,0)
+00000143 00000017     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_40.o) (TOC#1,0)
+0000015a 00000017     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_79.o) (TOC#1,0)
+00000171 00000017     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_90.o) (TOC#1,0)
+00000188 00000017     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_103.o) (TOC#1,0)
+0000019f 00000017     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_107.o) (TOC#1,0)
+000001b6 00000017     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_108.o) (TOC#1,0)
+000001cd 00000017     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_128.o) (TOC#1,0)
+000001e4 00000017     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_161.o) (TOC#1,0)
+000001fb 00000017     1                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_head.o) (TOC#1,0)
+00000212 00000012     1                 C:\usr\local\cell\target\ppu\lib\libfs_stub.a(_sys_fs_0001_26.o) (TOC#1,0)
+00000224 00000012     1                 C:\usr\local\cell\target\ppu\lib\libfs_stub.a(_sys_fs_0001_28.o) (TOC#1,0)
+00000236 00000012     1                 C:\usr\local\cell\target\ppu\lib\libfs_stub.a(_sys_fs_0001_36.o) (TOC#1,0)
+00000248 00000012     1                 C:\usr\local\cell\target\ppu\lib\libfs_stub.a(_sys_fs_0001_head.o) (TOC#1,0)
+00000000 000001cc     4 .psp_libgen_markfunc
+00000000 00000014     4         .psp_libgen_markfunc
+00000000 00000014     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_6.o) (TOC#1,0)
+00000000 00000014     0                         _sys_snprintf
+00000014 00000014     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_23.o) (TOC#1,0)
+00000014 00000014     0                         _sys_memalign
+00000028 00000014     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_43.o) (TOC#1,0)
+00000028 00000014     0                         _sys_memset
+0000003c 00000014     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_49.o) (TOC#1,0)
+0000003c 00000014     0                         sys_prx_get_my_module_id
+00000050 00000014     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_55.o) (TOC#1,0)
+00000050 00000014     0                         sys_prx_get_module_info
+00000064 00000014     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_90.o) (TOC#1,0)
+00000064 00000014     0                         _sys_malloc
+00000078 00000014     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_102.o) (TOC#1,0)
+00000078 00000014     0                         sys_prx_get_module_id_by_name
+0000008c 00000014     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_115.o) (TOC#1,0)
+0000008c 00000014     0                         _sys_free
+000000a0 00000014     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_3.o) (TOC#1,0)
+000000a0 00000014     0                         cellSysutilUnregisterCallback
+000000b4 00000014     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_15.o) (TOC#1,0)
+000000b4 00000014     0                         cellSysutilCheckCallback
+000000c8 00000014     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_17.o) (TOC#1,0)
+000000c8 00000014     0                         cellOskDialogGetInputText
+000000dc 00000014     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_23.o) (TOC#1,0)
+000000dc 00000014     0                         cellMsgDialogClose
+000000f0 00000014     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_40.o) (TOC#1,0)
+000000f0 00000014     0                         cellOskDialogUnloadAsync
+00000104 00000014     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_79.o) (TOC#1,0)
+00000104 00000014     0                         cellMsgDialogOpen2
+00000118 00000014     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_90.o) (TOC#1,0)
+00000118 00000014     0                         cellOskDialogLoadAsync
+0000012c 00000014     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_103.o) (TOC#1,0)
+0000012c 00000014     0                         cellMsgDialogProgressBarInc
+00000140 00000014     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_107.o) (TOC#1,0)
+00000140 00000014     0                         cellMsgDialogProgressBarSetMsg
+00000154 00000014     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_108.o) (TOC#1,0)
+00000154 00000014     0                         cellSysutilRegisterCallback
+00000168 00000014     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_128.o) (TOC#1,0)
+00000168 00000014     0                         cellOskDialogSetKeyLayoutOption
+0000017c 00000014     4                 C:\usr\local\cell\target\ppu\lib\libsysutil_stub.a(_cellSysutil_0001_161.o) (TOC#1,0)
+0000017c 00000014     0                         cellOskDialogSetLayoutMode
+00000190 00000014     4                 C:\usr\local\cell\target\ppu\lib\libfs_stub.a(_sys_fs_0001_26.o) (TOC#1,0)
+00000190 00000014     0                         cellFsStat
+000001a4 00000014     4                 C:\usr\local\cell\target\ppu\lib\libfs_stub.a(_sys_fs_0001_28.o) (TOC#1,0)
+000001a4 00000014     0                         cellFsUnlink
+000001b8 00000014     4                 C:\usr\local\cell\target\ppu\lib\libfs_stub.a(_sys_fs_0001_36.o) (TOC#1,0)
+000001b8 00000014     0                         cellFsChmod

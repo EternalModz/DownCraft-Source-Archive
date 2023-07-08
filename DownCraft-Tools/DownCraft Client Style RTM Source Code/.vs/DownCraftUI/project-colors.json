@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d60fc208-193d-4c7c-b61c-5ace6d8b6d82": {
+      "ProjectGuid": "d60fc208-193d-4c7c-b61c-5ace6d8b6d82",
+      "DisplayName": "DownCraftUI",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

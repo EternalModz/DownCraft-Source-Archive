@@ -1,0 +1,142 @@
+﻿  Main.cpp
+.\Util/Variables.h(42,26): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+.\Util\Variables.h(48,17): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+.\Util\Variables.h(68,20): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+.\Games/Dialog.h(196,6): warning 178: variable "ret" was declared but never referenced
+  
+.\Games\Dialog.h(238,6): warning 552: variable "ret" was set but never used
+  
+.\Games/Vector.h(24,9): warning 432: returning reference to local temporary
+  
+.\Games\Vector.h(28,9): warning 432: returning reference to local temporary
+  
+.\Games\Vector.h(67,7): warning 429: qualified name is not allowed in member declaration
+  
+.\Games\Vector.h(44,9): warning 432: returning reference to local temporary
+  
+.\Games\Vector.h(53,9): warning 432: returning reference to local temporary
+  
+.\Games\Vector.h(56,9): warning 432: returning reference to local temporary
+  
+.\Games\Vector.h(59,9): warning 432: returning reference to local temporary
+  
+.\Games\Vector.h(62,9): warning 432: returning reference to local temporary
+  
+.\Games\Vector.h(93,9): warning 432: returning reference to local temporary
+  
+.\Games\Vector.h(97,9): warning 432: returning reference to local temporary
+  
+.\Games/Struct.h(50,6): warning 1700: class "LevelRenderer" has virtual functions but non-virtual destructor
+  
+.\Games\Struct.h(103,6): warning 1700: class "MultiPlayerLevel" has virtual functions but non-virtual destructor
+  
+.\Games\Struct.h(218,6): warning 1700: class "MultiplayerLocalPlayer" has virtual functions but non-virtual destructor
+  
+.\Games/GamesFunctions.h(102,65): warning 1322: taking the address of a temporary
+  
+.\Games\GamesFunctions.h(103): warning 942: missing return statement at end of non-void function "Font_width"
+  
+.\Games\GamesFunctions.h(106,65): warning 1322: taking the address of a temporary
+  
+.\Games\GamesFunctions.h(107): warning 942: missing return statement at end of non-void function "Font_width_char"
+  
+.\Games\GamesFunctions.h(110,63): warning 1322: taking the address of a temporary
+  
+.\Games\GamesFunctions.h(110,81): warning 1772: argument of type "float" is implicitly converted to parameter (3) of type "std::uint32_t"
+  
+.\Games\GamesFunctions.h(110,84): warning 1772: argument of type "float" is implicitly converted to parameter (4) of type "std::uint32_t"
+  
+.\Games\GamesFunctions.h(114,63): warning 1322: taking the address of a temporary
+  
+.\Games\GamesFunctions.h(114,87): warning 1772: argument of type "float" is implicitly converted to parameter (3) of type "std::uint32_t"
+  
+.\Games\GamesFunctions.h(114,90): warning 1772: argument of type "float" is implicitly converted to parameter (4) of type "std::uint32_t"
+  
+.\Games\GamesFunctions.h(118,89): warning 1322: taking the address of a temporary
+  
+.\Games\GamesFunctions.h(122,47): warning 1772: argument of type "float" is implicitly converted to parameter (2) of type "std::uint32_t"
+  
+.\Games\GamesFunctions.h(122,50): warning 1772: argument of type "float" is implicitly converted to parameter (3) of type "std::uint32_t"
+  
+.\Games\GamesFunctions.h(122,53): warning 1772: argument of type "float" is implicitly converted to parameter (4) of type "std::uint32_t"
+  
+.\Games\GamesFunctions.h(122,60): warning 1772: argument of type "float" is implicitly converted to parameter (5) of type "std::uint32_t"
+  
+.\Games/Functions.h(115,8): warning 1070: returning pointer to local variable
+  
+.\Games\Functions.h(122,33): warning 176: subscript out of range
+  
+.\Games\Functions.h(123,34): warning 176: subscript out of range
+  
+.\Games\Functions.h(124,8): warning 176: subscript out of range
+  
+.\Games\Functions.h(282,23): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+.\Games\Functions.h(284,23): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+.\Games\Functions.h(286,23): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+.\Games\Functions.h(288,23): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+.\Games\Functions.h(377,9): warning 1628: argument of type "char *(*)(const std::time_t *)" is incompatible with parameter (1 of _sys_memset) of type "void *"
+  
+.\Games\Functions.h(430,2): warning 112: statement is unreachable
+  
+.\Games\Functions.h(435,45): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (2 of OpenKeyboardNow) of type "wchar_t *"
+  
+.\Games\Functions.h(435,60): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (3 of OpenKeyboardNow) of type "wchar_t *"
+  
+.\Menu/Huds.h(22,38): warning 2624: conversion from a string literal to pointer-to-character (non-const) is deprecated
+  
+.\Menu\Huds.h(30,3): warning 176: subscript out of range
+  
+.\Menu\Huds.h(61,21): warning 2624: conversion from a string literal to pointer-to-character (non-const) is deprecated
+  
+.\Menu\Huds.h(170,13): warning 1628: argument of type "const char *" is incompatible with parameter (1 of DrawTextC) of type "char *"
+  
+.\Menu\Huds.h(176,13): warning 1628: argument of type "const char *" is incompatible with parameter (1 of DrawTextC) of type "char *"
+  
+.\Games/Options.h(58,23): warning 2520: invalid narrowing conversion from "double" to "int"
+  
+.\Games\Options.h(58,77): warning 2520: invalid narrowing conversion from "double" to "int"
+  
+.\Games\Options.h(58,131): warning 2520: invalid narrowing conversion from "double" to "int"
+  
+.\Games\Options.h(85,21): warning 2520: invalid narrowing conversion from "unsigned int" to "int"
+  
+.\Games\Options.h(97,9): warning 178: variable "systemperature" was declared but never referenced
+  
+.\Games\Options.h(104,24): warning 2520: invalid narrowing conversion from "unsigned int" to "int"
+  
+.\Games\Options.h(104,31): warning 2520: invalid narrowing conversion from "unsigned int" to "int"
+  
+.\Games\Options.h(157,31): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+.\Games\Options.h(157,40): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+.\Games\Options.h(157,49): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+.\Games\Options.h(157,58): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+.\Menu/SubMenu.h(81,55): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of debugMessage) of type "wchar_t *"
+  
+.\Menu\SubMenu.h(82,77): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of debugMessage) of type "wchar_t *"
+  
+.\Menu/Menu.h(27,30): warning 1628: argument of type "const char *" is incompatible with parameter (1 of Font_width_char) of type "char *"
+  
+.\Menu\Menu.h(29,12): warning 1628: argument of type "const char *" is incompatible with parameter (1 of DrawTextC) of type "char *"
+  
+  
+  
+SNCLINK : error : 'ts' is TLS variable. PRX doesn't support TLS now!
+SNCLINK : error : 'tbuf' is TLS variable. PRX doesn't support TLS now!
+SNCLINK : error : '_Mbstate' is TLS variable. PRX doesn't support TLS now!
+SNCLINK : error : '_Errno' is TLS variable. PRX doesn't support TLS now!
+  
+  
+  ps3ppuld 430.1.5139.0 (rel,ps3,430.1,common,src @160906 x64) C:\usr\local\cell\host-win32\sn\bin\ps3ppuld64.exe
+Command line : error : L0303: error generating PRX (prx-fixup failed)
+Command line : error : L0064: Linking aborted

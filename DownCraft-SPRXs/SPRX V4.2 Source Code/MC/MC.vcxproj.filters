@@ -1,0 +1,1597 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="prx.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\Minecraft-main\src\Memory\Memory.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\Minecraft-main\src\Memory\Pattern.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HudsFunctions.h">
+      <Filter>header\Huds</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3.h">
+      <Filter>header\PS3</Filter>
+    </ClInclude>
+    <ClInclude Include="dialog.h">
+      <Filter>header\PS3</Filter>
+    </ClInclude>
+    <ClInclude Include="Buttons.h">
+      <Filter>header\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>header\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooking.h">
+      <Filter>header\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>header\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>header\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="IDs.h">
+      <Filter>header\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Options.h">
+      <Filter>header\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="SubMenus.h">
+      <Filter>header\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>header\Variables</Filter>
+    </ClInclude>
+    <ClInclude Include="var.h">
+      <Filter>header\Variables</Filter>
+    </ClInclude>
+    <ClInclude Include="Modules.h">
+      <Filter>header\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>header\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFunctions.h">
+      <Filter>header\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="OSK.h">
+      <Filter>header\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Startup.h">
+      <Filter>header\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="LoopFunctions.h">
+      <Filter>header\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes.h">
+      <Filter>header\Variables</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawHudsFunctions.h">
+      <Filter>header\Huds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\block\Block.h">
+      <Filter>Minecraft\block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\block\BlockProperty.h">
+      <Filter>Minecraft\block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\block\DoorBlock.h">
+      <Filter>Minecraft\block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\block\EntityBlock.h">
+      <Filter>Minecraft\block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\block\HalfTransparentBlock.h">
+      <Filter>Minecraft\block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\block\HeavyBlock.h">
+      <Filter>Minecraft\block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\block\TransparentBlock.h">
+      <Filter>Minecraft\block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\block\material\Material.h">
+      <Filter>Minecraft\block\material</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\block\material\MaterialType.h">
+      <Filter>Minecraft\block\material</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\blockentity\BlockEntity.h">
+      <Filter>Minecraft\blockentity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\blockentity\BlockEntityFactory.h">
+      <Filter>Minecraft\blockentity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\blockentity\BlockEntityType.h">
+      <Filter>Minecraft\blockentity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\blockentity\ChestBlockEntity.h">
+      <Filter>Minecraft\blockentity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\blockentity\FunaceBlockEntity.h">
+      <Filter>Minecraft\blockentity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\blockentity\MobSpawnerBlockEntity.h">
+      <Filter>Minecraft\blockentity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\blockentity\SignBlockEntity.h">
+      <Filter>Minecraft\blockentity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\App.h">
+      <Filter>Minecraft\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\AppPlatform.h">
+      <Filter>Minecraft\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\AppPlatform_android.h">
+      <Filter>Minecraft\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\AppPlatform_android23.h">
+      <Filter>Minecraft\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\AppPlatformListener.h">
+      <Filter>Minecraft\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\MemoryTracker.h">
+      <Filter>Minecraft\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\Minecraft.h">
+      <Filter>Minecraft\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\MinecraftClient.h">
+      <Filter>Minecraft\client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\audio\SoundEngine.h">
+      <Filter>Minecraft\client\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\audio\SoundEvent.h">
+      <Filter>Minecraft\client\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\audio\SoundRepository.h">
+      <Filter>Minecraft\client\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\game\ClientSkinInfoData.h">
+      <Filter>Minecraft\client\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\game\MinecraftClient.h">
+      <Filter>Minecraft\client\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\game\ServerSkinInfoData.h">
+      <Filter>Minecraft\client\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\game\SkinInfoData.h">
+      <Filter>Minecraft\client\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\game\SkinInfoFactory.h">
+      <Filter>Minecraft\client\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gamemode\CreativeMode.h">
+      <Filter>Minecraft\client\gamemode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gamemode\GameMode.h">
+      <Filter>Minecraft\client\gamemode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gamemode\SurvivalMode.h">
+      <Filter>Minecraft\client\gamemode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\components\GuiElement.h">
+      <Filter>Minecraft\client\gui\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\components\GuiElementContainer.h">
+      <Filter>Minecraft\client\gui\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\components\OptionsGroup.h">
+      <Filter>Minecraft\client\gui\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\components\OptionsPane.h">
+      <Filter>Minecraft\client\gui\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\gui\Gui.h">
+      <Filter>Minecraft\client\gui\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\gui\GuiComponent.h">
+      <Filter>Minecraft\client\gui\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\gui\ScreenRenderer.h">
+      <Filter>Minecraft\client\gui\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\screen\AbstractScreen.h">
+      <Filter>Minecraft\client\gui\screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\screen\BaseScreen.h">
+      <Filter>Minecraft\client\gui\screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\screen\ChatScreen.h">
+      <Filter>Minecraft\client\gui\screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\screen\ConfirmScreen.h">
+      <Filter>Minecraft\client\gui\screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\screen\CreateWorldScreenType.h">
+      <Filter>Minecraft\client\gui\screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\screen\DisconnectionScreen.h">
+      <Filter>Minecraft\client\gui\screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\screen\OptionsScreen.h">
+      <Filter>Minecraft\client\gui\screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\screen\PauseScreen.h">
+      <Filter>Minecraft\client\gui\screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\screen\Screen.h">
+      <Filter>Minecraft\client\gui\screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\screen\ScreenChooser.h">
+      <Filter>Minecraft\client\gui\screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\screen\StartMenuScreen.h">
+      <Filter>Minecraft\client\gui\screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\BlankButton.h">
+      <Filter>Minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\Button.h">
+      <Filter>Minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\Font.h">
+      <Filter>Minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\Gui.h">
+      <Filter>Minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\GuiComponent.h">
+      <Filter>Minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\GuiElement.h">
+      <Filter>Minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\GuiElementContainer.h">
+      <Filter>Minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\HeaderButton.h">
+      <Filter>Minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\IInventoryPaneCallback.h">
+      <Filter>Minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\ImageButton.h">
+      <Filter>Minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\ImageDef.h">
+      <Filter>Minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\ImageWithBackground.h">
+      <Filter>Minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\IntRectangle.h">
+      <Filter>Minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\InventoryPane.h">
+      <Filter>Minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\Label.h">
+      <Filter>Minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\LargeImageButton.h">
+      <Filter>Minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\Mouse.h">
+      <Filter>Minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\MouseDevice.h">
+      <Filter>Minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\MoveInput.h">
+      <Filter>Minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\Multitouch.h">
+      <Filter>Minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\NinePatchLayer.h">
+      <Filter>Minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\OptionsGroup.h">
+      <Filter>Minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\OptionsPane.h">
+      <Filter>Minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\PackedScrollContainer.h">
+      <Filter>Minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\ProgressBar.h">
+      <Filter>Minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\RectangleArea.h">
+      <Filter>Minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\ScrollingPane.h">
+      <Filter>Minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\Slider.h">
+      <Filter>Minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\TButton.h">
+      <Filter>Minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\TextBox.h">
+      <Filter>Minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\THeader.h">
+      <Filter>Minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\TouchAreaModel.h">
+      <Filter>Minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\TouchInputMove.h">
+      <Filter>Minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\UIScreenType.h">
+      <Filter>Minecraft\client\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\model\HumanoidModel.h">
+      <Filter>Minecraft\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\model\Model.h">
+      <Filter>Minecraft\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\model\ModelPart.h">
+      <Filter>Minecraft\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\model\QuadrupedModel.h">
+      <Filter>Minecraft\client\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\options\Options.h">
+      <Filter>Minecraft\client\options</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\options\Whitelist.h">
+      <Filter>Minecraft\client\options</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\options\WhitelistFile.h">
+      <Filter>Minecraft\client\options</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\player\LocalPlayer.h">
+      <Filter>Minecraft\client\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\player\RemotePlayer.h">
+      <Filter>Minecraft\client\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\entity\EntityRenderDispatcher.h">
+      <Filter>Minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\entity\EntityRenderer.h">
+      <Filter>Minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\entity\EntityShaderManager.h">
+      <Filter>Minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\entity\MobRenderer.h">
+      <Filter>Minecraft\client\renderer\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\texture\NinePatchDescription.h">
+      <Filter>Minecraft\client\renderer\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\texture\NinePatchFactory.h">
+      <Filter>Minecraft\client\renderer\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\texture\TextureAtlas.h">
+      <Filter>Minecraft\client\renderer\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\texture\TextureAtlasTextureItem.h">
+      <Filter>Minecraft\client\renderer\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\texture\TextureData.h">
+      <Filter>Minecraft\client\renderer\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\texture\TextureFile.h">
+      <Filter>Minecraft\client\renderer\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\texture\TextureGroup.h">
+      <Filter>Minecraft\client\renderer\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\texture\TextureTessellator.h">
+      <Filter>Minecraft\client\renderer\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\texture\TextureUVCoordinateSet.h">
+      <Filter>Minecraft\client\renderer\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\ItemRenderChunkType.h">
+      <Filter>Minecraft\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\ItemRenderer.h">
+      <Filter>Minecraft\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\LevelRenderer.h">
+      <Filter>Minecraft\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\MaterialPtr.h">
+      <Filter>Minecraft\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\Matrix.h">
+      <Filter>Minecraft\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\MatrixStack.h">
+      <Filter>Minecraft\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\RenderMaterialGroup.h">
+      <Filter>Minecraft\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\ScreenRenderer.h">
+      <Filter>Minecraft\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\Tessellator.h">
+      <Filter>Minecraft\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\TileTessellator.h">
+      <Filter>Minecraft\client\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\resources\ClientSkinInfoData.h">
+      <Filter>Minecraft\client\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\resources\ExternalServerFile.h">
+      <Filter>Minecraft\client\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\resources\I18n.h">
+      <Filter>Minecraft\client\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\resources\ServerSkinInfoData.h">
+      <Filter>Minecraft\client\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\resources\SkinInfo.h">
+      <Filter>Minecraft\client\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\resources\SkinInfoData.h">
+      <Filter>Minecraft\client\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\settings\IConfigListener.h">
+      <Filter>Minecraft\client\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\settings\Options.h">
+      <Filter>Minecraft\client\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\command\ClientCommands.h">
+      <Filter>Minecraft\command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\command\ServerCommandParser.h">
+      <Filter>Minecraft\command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\command\ServerCommands.h">
+      <Filter>Minecraft\command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\ArrowAttackGoal.h">
+      <Filter>Minecraft\entity\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\AvoidMobTypeGoal.h">
+      <Filter>Minecraft\entity\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\BegGoal.h">
+      <Filter>Minecraft\entity\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\BreakDoorGoal.h">
+      <Filter>Minecraft\entity\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\BreedGoal.h">
+      <Filter>Minecraft\entity\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\DoorInteractGoal.h">
+      <Filter>Minecraft\entity\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\EatTileGoal.h">
+      <Filter>Minecraft\entity\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\FleeSunGoal.h">
+      <Filter>Minecraft\entity\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\FollowOwnerGoal.h">
+      <Filter>Minecraft\entity\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\FollowParentGoal.h">
+      <Filter>Minecraft\entity\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\Goal.h">
+      <Filter>Minecraft\entity\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\HurtByTargetGoal.h">
+      <Filter>Minecraft\entity\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\InteractGoal.h">
+      <Filter>Minecraft\entity\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\JumpControl.h">
+      <Filter>Minecraft\entity\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\LeapAtTargetGoal.h">
+      <Filter>Minecraft\entity\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\LookAtMobGoal.h">
+      <Filter>Minecraft\entity\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\LookAtPlayerGoal.h">
+      <Filter>Minecraft\entity\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\LookControl.h">
+      <Filter>Minecraft\entity\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\MeleeAttackGoal.h">
+      <Filter>Minecraft\entity\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\MountPathingGoal.h">
+      <Filter>Minecraft\entity\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\MoveControl.h">
+      <Filter>Minecraft\entity\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\PanicGoal.h">
+      <Filter>Minecraft\entity\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\RandomLookAroundGoal.h">
+      <Filter>Minecraft\entity\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\RandomStrollGoal.h">
+      <Filter>Minecraft\entity\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\RestrictSunGoal.h">
+      <Filter>Minecraft\entity\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\Sensing.h">
+      <Filter>Minecraft\entity\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\SilverfishMergeWithStoneGoal.h">
+      <Filter>Minecraft\entity\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\SilverfishWakeUpFriendsGoal.h">
+      <Filter>Minecraft\entity\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\SitGoal.h">
+      <Filter>Minecraft\entity\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\SlimeAttackGoal.h">
+      <Filter>Minecraft\entity\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\SlimeFloatGoal.h">
+      <Filter>Minecraft\entity\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\SwellGoal.h">
+      <Filter>Minecraft\entity\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\TargetGoal.h">
+      <Filter>Minecraft\entity\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\TemptGoal.h">
+      <Filter>Minecraft\entity\goal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\item\ItemEntity.h">
+      <Filter>Minecraft\entity\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\monster\Creeper.h">
+      <Filter>Minecraft\entity\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\monster\EnderMan.h">
+      <Filter>Minecraft\entity\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\monster\Ghast.h">
+      <Filter>Minecraft\entity\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\monster\Monster.h">
+      <Filter>Minecraft\entity\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\monster\PigZombie.h">
+      <Filter>Minecraft\entity\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\monster\Slime.h">
+      <Filter>Minecraft\entity\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\monster\Zombie.h">
+      <Filter>Minecraft\entity\monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\projectile\Arrow.h">
+      <Filter>Minecraft\entity\projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\projectile\Snowball.h">
+      <Filter>Minecraft\entity\projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\projectile\Throwable.h">
+      <Filter>Minecraft\entity\projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\projectile\ThrownEgg.h">
+      <Filter>Minecraft\entity\projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\player\Abilities.h">
+      <Filter>Minecraft\entity\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\player\Inventory.h">
+      <Filter>Minecraft\entity\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\player\LocalPlayer.h">
+      <Filter>Minecraft\entity\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\player\Player.h">
+      <Filter>Minecraft\entity\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\player\RemotePlayer.h">
+      <Filter>Minecraft\entity\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\player\ServerPlayer.h">
+      <Filter>Minecraft\entity\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\passive\Animal.h">
+      <Filter>Minecraft\entity\passive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\passive\Chicken.h">
+      <Filter>Minecraft\entity\passive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\passive\Cow.h">
+      <Filter>Minecraft\entity\passive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\passive\Pig.h">
+      <Filter>Minecraft\entity\passive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\passive\Sheep.h">
+      <Filter>Minecraft\entity\passive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\passive\Squid.h">
+      <Filter>Minecraft\entity\passive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\passive\TamableAnimal.h">
+      <Filter>Minecraft\entity\passive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\passive\WaterAnimal.h">
+      <Filter>Minecraft\entity\passive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\passive\Wolf.h">
+      <Filter>Minecraft\entity\passive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\AgableMob.h">
+      <Filter>Minecraft\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\BodyControl.h">
+      <Filter>Minecraft\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\Entity.h">
+      <Filter>Minecraft\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\FlyingMob.h">
+      <Filter>Minecraft\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\HangingEntity.h">
+      <Filter>Minecraft\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\Mob.h">
+      <Filter>Minecraft\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\MobFactory.h">
+      <Filter>Minecraft\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\PathfinderMob.h">
+      <Filter>Minecraft\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\SynchedEntityData.h">
+      <Filter>Minecraft\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\gamemode\CreativeMode.h">
+      <Filter>Minecraft\gamemode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\gamemode\GameMode.h">
+      <Filter>Minecraft\gamemode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\gamemode\GameType.h">
+      <Filter>Minecraft\gamemode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\gamemode\MultiPlayerGameMode.h">
+      <Filter>Minecraft\gamemode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\gamemode\ServerPlayerGameMode.h">
+      <Filter>Minecraft\gamemode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\gamemode\SurvivalMode.h">
+      <Filter>Minecraft\gamemode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\inventory\BaseContainerMenu.h">
+      <Filter>Minecraft\inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\inventory\Container.h">
+      <Filter>Minecraft\inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\inventory\FillingContainer.h">
+      <Filter>Minecraft\inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\inventory\IContainerListener.h">
+      <Filter>Minecraft\inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\inventory\InventoryMenu.h">
+      <Filter>Minecraft\inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\item\ActionEnum.h">
+      <Filter>Minecraft\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\item\ArmorItem.h">
+      <Filter>Minecraft\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\item\AuxDataTileItem.h">
+      <Filter>Minecraft\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\item\CreativeItemCategory.h">
+      <Filter>Minecraft\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\item\DiggerItem.h">
+      <Filter>Minecraft\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\item\DoorItem.h">
+      <Filter>Minecraft\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\item\FoodItem.h">
+      <Filter>Minecraft\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\item\HangingEntityItem.h">
+      <Filter>Minecraft\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\item\HatchetItem.h">
+      <Filter>Minecraft\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\item\HoeItem.h">
+      <Filter>Minecraft\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\item\Item.h">
+      <Filter>Minecraft\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\item\ItemInstance.h">
+      <Filter>Minecraft\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\item\PickaxeItem.h">
+      <Filter>Minecraft\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\item\ShovelItem.h">
+      <Filter>Minecraft\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\item\TileItem.h">
+      <Filter>Minecraft\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\item\WeaponItem.h">
+      <Filter>Minecraft\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\biome\Biome.h">
+      <Filter>Minecraft\level\biome</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\biome\BiomeDecorator.h">
+      <Filter>Minecraft\level\biome</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\chunk\LevelChunk.h">
+      <Filter>Minecraft\level\chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\chunk\storage\ExternalFileLevelStorageSource.h">
+      <Filter>Minecraft\level\chunk\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\storage\LevelData.h">
+      <Filter>Minecraft\level\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\BlockSource.h">
+      <Filter>Minecraft\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\BlockSourceListener.h">
+      <Filter>Minecraft\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\ChunkCache.h">
+      <Filter>Minecraft\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\ChunkPos.h">
+      <Filter>Minecraft\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\ChunkSource.h">
+      <Filter>Minecraft\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\Difficulty.h">
+      <Filter>Minecraft\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\Explosion.h">
+      <Filter>Minecraft\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\GeneratorType.h">
+      <Filter>Minecraft\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\Level.h">
+      <Filter>Minecraft\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\LevelListener.h">
+      <Filter>Minecraft\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\LevelSettings.h">
+      <Filter>Minecraft\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\LevelStorage.h">
+      <Filter>Minecraft\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\LevelSummary.h">
+      <Filter>Minecraft\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\LightLayer.h">
+      <Filter>Minecraft\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\MultiPlayerLevel.h">
+      <Filter>Minecraft\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\ParticleType.h">
+      <Filter>Minecraft\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\RandomLevelSource.h">
+      <Filter>Minecraft\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\ServerLevel.h">
+      <Filter>Minecraft\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\locale\I18n.h">
+      <Filter>Minecraft\locale</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\mobeffect\MobEffect.h">
+      <Filter>Minecraft\mobeffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\mobeffect\MobEffectInstance.h">
+      <Filter>Minecraft\mobeffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\nbt\ByteArrayTag.h">
+      <Filter>Minecraft\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\nbt\ByteTag.h">
+      <Filter>Minecraft\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\nbt\CompoundTag.h">
+      <Filter>Minecraft\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\nbt\DoubleTag.h">
+      <Filter>Minecraft\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\nbt\EndTag.h">
+      <Filter>Minecraft\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\nbt\FloatTag.h">
+      <Filter>Minecraft\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\nbt\Int64Tag.h">
+      <Filter>Minecraft\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\nbt\IntArrayTag.h">
+      <Filter>Minecraft\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\nbt\IntTag.h">
+      <Filter>Minecraft\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\nbt\ListTag.h">
+      <Filter>Minecraft\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\nbt\NamedTag.h">
+      <Filter>Minecraft\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\nbt\ShortTag.h">
+      <Filter>Minecraft\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\nbt\StringTag.h">
+      <Filter>Minecraft\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\nbt\Tag.h">
+      <Filter>Minecraft\nbt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\BatchedPacketSender.h">
+      <Filter>Minecraft\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\ClientNetworkHandler.h">
+      <Filter>Minecraft\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\IRakNetInstance.h">
+      <Filter>Minecraft\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\LegacyClientNetworkHandler.h">
+      <Filter>Minecraft\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\MinecraftPackets.h">
+      <Filter>Minecraft\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\NetEventCallback.h">
+      <Filter>Minecraft\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\Packet.h">
+      <Filter>Minecraft\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\PacketSender.h">
+      <Filter>Minecraft\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\RakNetInstance.h">
+      <Filter>Minecraft\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\RakNetPacketSender.h">
+      <Filter>Minecraft\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\ServerNetworkHandler.h">
+      <Filter>Minecraft\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\ServerSideNetworkHandler.h">
+      <Filter>Minecraft\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\AddEntityPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\AddItemEntityPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\AddPaintingPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\AddPlayerPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\AdventureSettingsPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\AnimatePacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\BatchPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\BlockEntityDataPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\ContainerAckPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\ContainerClosePacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\ContainerOpenPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\ContainerSetContentPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\ContainerSetDataPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\ContainerSetSlotPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\DisconnectPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\DropItemPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\EntityEventPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\ExplodePacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\FullChunkDataPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\HurtArmorPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\InteractPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\LevelEventPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\LoginPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\MobEffectPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\MoveEntityPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\MovePlayerPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\PlayerActionPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\PlayerArmorEquipmentPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\PlayerEquipmentPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\PlayerInputPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\PlayStatusPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\RemoveBlockPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\RemoveEntityPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\RemovePlayerPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\RespawnPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\SetDifficultyPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\SetEntityDataPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\SetEntityLinkPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\SetEntityMotionPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\SetHealthPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\SetSpawnPositionPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\SetTimePacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\StartGamePacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\TakeItemEntityPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\TextPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\TileEntityDataPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\TileEventPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\UpdateBlockPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\UseItemPacket.h">
+      <Filter>Minecraft\network\packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\pathfinding\PathFinder.h">
+      <Filter>Minecraft\pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\pathfinding\PathNavigation.h">
+      <Filter>Minecraft\pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\platform\input\CInput.h">
+      <Filter>Minecraft\platform\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\platform\input\StickDirection.h">
+      <Filter>Minecraft\platform\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\platform\threading\BackgroundWorker.h">
+      <Filter>Minecraft\platform\threeading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\platform\threading\WorkerPool.h">
+      <Filter>Minecraft\platform\threeading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\server\ServerPlayer.h">
+      <Filter>Minecraft\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\AABB.h">
+      <Filter>Minecraft\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\BlockID.h">
+      <Filter>Minecraft\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\BlockPos.h">
+      <Filter>Minecraft\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\Brightness.h">
+      <Filter>Minecraft\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\Color.h">
+      <Filter>Minecraft\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\Direction.h">
+      <Filter>Minecraft\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\EntityDamageByChhildEntitySource.h">
+      <Filter>Minecraft\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\EntityDamageByEntitySource.h">
+      <Filter>Minecraft\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\EntityDamageByTileSource.h">
+      <Filter>Minecraft\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\EntityDamageSource.h">
+      <Filter>Minecraft\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\EntityPos.h">
+      <Filter>Minecraft\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\File.h">
+      <Filter>Minecraft\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\FullBlock.h">
+      <Filter>Minecraft\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\NewType.h">
+      <Filter>Minecraft\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\Random.h">
+      <Filter>Minecraft\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\Token.h">
+      <Filter>Minecraft\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\Util.h">
+      <Filter>Minecraft\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\UUID.h">
+      <Filter>Minecraft\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\Vec2.h">
+      <Filter>Minecraft\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\Vec3.h">
+      <Filter>Minecraft\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\dimension\Dimension.h">
+      <Filter>Minecraft\world\dimension</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\dimension\DimensionId.h">
+      <Filter>Minecraft\world\dimension</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\AgableMob.h">
+      <Filter>Minecraft\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\Animal.h">
+      <Filter>Minecraft\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\ArmorSlot.h">
+      <Filter>Minecraft\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\Arrow.h">
+      <Filter>Minecraft\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\Blaze.h">
+      <Filter>Minecraft\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\Boat.h">
+      <Filter>Minecraft\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\Chicken.h">
+      <Filter>Minecraft\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\Cow.h">
+      <Filter>Minecraft\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\Creeper.h">
+      <Filter>Minecraft\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\DamageSource.h">
+      <Filter>Minecraft\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\Enderman.h">
+      <Filter>Minecraft\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\Entity.h">
+      <Filter>Minecraft\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\EntityClassTree.h">
+      <Filter>Minecraft\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\EntityDamageByBlockSource.h">
+      <Filter>Minecraft\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\EntityDamageByChildEntitySource.h">
+      <Filter>Minecraft\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\EntityDamageByEntitySource.h">
+      <Filter>Minecraft\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\EntityDamageCause.h">
+      <Filter>Minecraft\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\EntityDamageSource.h">
+      <Filter>Minecraft\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\EntityLink.h">
+      <Filter>Minecraft\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\EntityPos.h">
+      <Filter>Minecraft\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\EntityType.h">
+      <Filter>Minecraft\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\EntityUniqueID.h">
+      <Filter>Minecraft\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\ItemEntity.h">
+      <Filter>Minecraft\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\Mob.h">
+      <Filter>Minecraft\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\Monster.h">
+      <Filter>Minecraft\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\Mushroomcow.h">
+      <Filter>Minecraft\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\PathfinderMob.h">
+      <Filter>Minecraft\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\Pig.h">
+      <Filter>Minecraft\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\RemovedEntityDamageByType.h">
+      <Filter>Minecraft\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\Sheep.h">
+      <Filter>Minecraft\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\Skeleton.h">
+      <Filter>Minecraft\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\SynchedEntityData.h">
+      <Filter>Minecraft\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\WaterAnimal.h">
+      <Filter>Minecraft\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\Zombie.h">
+      <Filter>Minecraft\world\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\player\Abilities.h">
+      <Filter>Minecraft\world\entity\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\player\Inventory.h">
+      <Filter>Minecraft\world\entity\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\player\InventoryMenu.h">
+      <Filter>Minecraft\world\entity\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\player\Player.h">
+      <Filter>Minecraft\world\entity\player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\attribute\Attribute.h">
+      <Filter>Minecraft\world\entity\attribute</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\attribute\AttributeInstance.h">
+      <Filter>Minecraft\world\entity\attribute</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\event\EntityEvent.h">
+      <Filter>Minecraft\world\event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\event\LevelEvent.h">
+      <Filter>Minecraft\world\event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\inventory\BaseContainerMenu.h">
+      <Filter>Minecraft\world\inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\inventory\ContainerType.h">
+      <Filter>Minecraft\world\inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\inventory\FillingContainer.h">
+      <Filter>Minecraft\world\inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\item\ArmorItem.h">
+      <Filter>Minecraft\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\item\Item.h">
+      <Filter>Minecraft\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\item\ItemInstance.h">
+      <Filter>Minecraft\world\item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\BlockSource.h">
+      <Filter>Minecraft\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\BlockSourceListener.h">
+      <Filter>Minecraft\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\Brightness.h">
+      <Filter>Minecraft\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\ChunkSource.h">
+      <Filter>Minecraft\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\DBStorage.h">
+      <Filter>Minecraft\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\Difficulty.h">
+      <Filter>Minecraft\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\Level.h">
+      <Filter>Minecraft\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\LevelListener.h">
+      <Filter>Minecraft\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\LevelSettings.h">
+      <Filter>Minecraft\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\ParticleType.h">
+      <Filter>Minecraft\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\PlayerChunkSource.h">
+      <Filter>Minecraft\world\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\block\Block.h">
+      <Filter>Minecraft\world\level\block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\block\BlockPos.h">
+      <Filter>Minecraft\world\level\block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\block\BlockProperty.h">
+      <Filter>Minecraft\world\level\block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\block\MaterialType.h">
+      <Filter>Minecraft\world\level\block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\block\entity\BlockEntity.h">
+      <Filter>Minecraft\world\level\block\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\block\entity\BlockEntityType.h">
+      <Filter>Minecraft\world\level\block\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\storage\LevelData.h">
+      <Filter>Minecraft\world\level\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\storage\LevelStorage.h">
+      <Filter>Minecraft\world\level\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\storage\StorageVersion.h">
+      <Filter>Minecraft\world\level\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\mobeffect\MobEffect.h">
+      <Filter>Minecraft\world\mobeffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\mobeffect\MobEffectInstance.h">
+      <Filter>Minecraft\world\mobeffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\phys\AABB.h">
+      <Filter>Minecraft\world\phys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\phys\HitResult.h">
+      <Filter>Minecraft\world\phys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\phys\Matrix.h">
+      <Filter>Minecraft\world\phys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\phys\Vec2.h">
+      <Filter>Minecraft\world\phys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\phys\Vec3.h">
+      <Filter>Minecraft\world\phys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\Container.h">
+      <Filter>Minecraft\world</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\GameType.h">
+      <Filter>Minecraft\world</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\Minecraft.h">
+      <Filter>Minecraft\world</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Memory\Memory.hpp">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Memory\Pattern.hpp">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>header\Functions</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="header">
+      <UniqueIdentifier>{deaebd56-369b-48cf-a39c-5877cd01e91f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\Huds">
+      <UniqueIdentifier>{08f4c089-ba1e-4de3-9bc7-3b015c6e9d1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\PS3">
+      <UniqueIdentifier>{3675a935-6f61-490f-903f-941a0e4f53e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\Functions">
+      <UniqueIdentifier>{e84a5930-c3e0-4808-9ff2-b31431549651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\Menu">
+      <UniqueIdentifier>{4bd74107-ef0c-40b7-a51b-e7158edf7f60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\Variables">
+      <UniqueIdentifier>{f0d8031b-f451-4f9a-b519-61dfefde65d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft">
+      <UniqueIdentifier>{464ece8a-e2d3-4caf-9fe1-0d3300cf5846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\block">
+      <UniqueIdentifier>{eb179ccd-b116-45fe-a768-f41c1f9077d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\block\material">
+      <UniqueIdentifier>{377b1e7d-8695-43cb-82b3-9d8c69975444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\blockentity">
+      <UniqueIdentifier>{3c0b2a3f-51e7-48f6-87d6-18a59c9917b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\client">
+      <UniqueIdentifier>{4c207db4-09d8-4b06-8441-de053a4ade90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\client\audio">
+      <UniqueIdentifier>{dc85087e-f95e-4ef1-b542-75c5767f990d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\client\game">
+      <UniqueIdentifier>{1ea98da9-b794-4d7e-a6f8-f37f99942138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\client\gamemode">
+      <UniqueIdentifier>{c1c9a36d-fdbe-40fd-97a3-0a6c5bb1c312}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\client\gui">
+      <UniqueIdentifier>{4e271f5d-945b-46d5-9fe1-bfd14db4dc9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\client\gui\components">
+      <UniqueIdentifier>{81593273-4304-42f0-b623-a077e1193a50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\client\gui\gui">
+      <UniqueIdentifier>{9dfb8317-8a8d-4aa3-bdd0-fd76a6db4855}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\client\gui\screen">
+      <UniqueIdentifier>{94694a34-4cf6-433b-b0ab-211698ef70d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\client\model">
+      <UniqueIdentifier>{5db6d7af-b54b-4261-b3ec-f4e6cc9b57a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\client\options">
+      <UniqueIdentifier>{126aefac-64ae-481a-9f60-5ce50ce87f73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\client\player">
+      <UniqueIdentifier>{8b6ceb0f-b63d-489e-a297-b693dd5055e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\client\renderer">
+      <UniqueIdentifier>{194c870d-6384-4d56-b85c-dc5aa6247b00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\client\renderer\entity">
+      <UniqueIdentifier>{c4f96e34-7ae3-4be3-a852-be245799eb9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\client\renderer\texture">
+      <UniqueIdentifier>{9b51bf9a-6cec-4e06-b6aa-dc3bee28e0d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\client\resources">
+      <UniqueIdentifier>{8a52d890-a1a0-44aa-8eca-090bb13937a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\client\settings">
+      <UniqueIdentifier>{8db42e3f-9842-40a3-a22c-a09899bf766f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\command">
+      <UniqueIdentifier>{1efb0d38-07cd-4e94-a1d3-96fbee44da51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\entity">
+      <UniqueIdentifier>{c52f30fb-d019-4ff8-a23a-aeb8690e311a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\entity\goal">
+      <UniqueIdentifier>{dbe17515-8916-4fa1-a111-947bb6a05c53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\entity\item">
+      <UniqueIdentifier>{aa2b12f6-e0e8-4759-9d7f-0871a82fa9ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\entity\monster">
+      <UniqueIdentifier>{a6df4a36-ecc8-4e7b-b4d2-706dc7cdb1c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\entity\passive">
+      <UniqueIdentifier>{bcd3905e-693f-4787-a224-ac7b00aa5645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\entity\player">
+      <UniqueIdentifier>{829b1f82-4467-4682-a8b6-de5f0d274c63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\entity\projectile">
+      <UniqueIdentifier>{9f29dd7a-56d6-499d-9e58-9263e0e39f87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\gamemode">
+      <UniqueIdentifier>{a0a71d50-4f40-4f23-b197-0ad4609e0e0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\inventory">
+      <UniqueIdentifier>{41c0e6cd-247f-491f-ae5a-ffb513f7e792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\item">
+      <UniqueIdentifier>{d4e8f457-267a-4299-a7b8-cc8b537da6eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\level">
+      <UniqueIdentifier>{877cf34c-879c-4f13-83bf-f0a274c26a6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\level\biome">
+      <UniqueIdentifier>{1b267840-70d9-45bc-8815-4a08efa0f5a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\level\chunk">
+      <UniqueIdentifier>{e538cb97-1271-4702-9d9d-46ccfacb0304}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\level\storage">
+      <UniqueIdentifier>{925a6247-0d81-4899-be71-fd0875f3dd8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\level\chunk\storage">
+      <UniqueIdentifier>{1466c35c-e964-49e6-9912-ce0c1174fa7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\locale">
+      <UniqueIdentifier>{3fa46f08-b032-4284-9c2e-2e26cc9450a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\mobeffect">
+      <UniqueIdentifier>{2942bb4b-c81f-4d81-8df7-04709e89c66e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\nbt">
+      <UniqueIdentifier>{25801e13-5531-409b-9ddb-285bc8bfc7ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\network">
+      <UniqueIdentifier>{ad6e385b-69c7-48b8-af8e-ac81bc7f9f14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\network\packet">
+      <UniqueIdentifier>{2295d9e2-f041-4f01-a284-62b38af8a369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\pathfinding">
+      <UniqueIdentifier>{8ebf4197-abab-4950-8077-983f5ee646c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\platform">
+      <UniqueIdentifier>{fc66f159-a951-4d2c-9446-8ba217e56693}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\platform\input">
+      <UniqueIdentifier>{5e9e0f7d-7110-4913-9189-293ed4e12316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\platform\threeading">
+      <UniqueIdentifier>{2ca4e4f9-31da-49f8-8d68-83beabf5584c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\server">
+      <UniqueIdentifier>{74fd1976-d1fb-4bea-961b-652eac5a06d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\util">
+      <UniqueIdentifier>{215e5fb2-d927-4200-9fc3-80ad40b6262f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\world">
+      <UniqueIdentifier>{b21aff26-1634-43a6-9c0a-16fd68fa82be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\world\dimension">
+      <UniqueIdentifier>{cb2ce44d-805d-4dab-ad2d-134d1a1231bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\world\entity">
+      <UniqueIdentifier>{a7775d5f-7683-4991-b2f2-59fcc6654eb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\world\event">
+      <UniqueIdentifier>{4a5dafd1-7aa4-4be1-ab6a-124100716152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\world\inventory">
+      <UniqueIdentifier>{89e4b03e-765e-444e-90b7-1ceff9df60ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\world\item">
+      <UniqueIdentifier>{d9340bb0-53d4-4bb8-8496-dd8273b6a5c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\world\level">
+      <UniqueIdentifier>{d787bb7c-a443-4bcc-97f8-bb3589c0a82d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\world\mobeffect">
+      <UniqueIdentifier>{050e2bb3-0e77-4718-aea5-da8b259612f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\world\phys">
+      <UniqueIdentifier>{343e779b-bc69-49b2-bab3-428e222ae322}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\world\entity\player">
+      <UniqueIdentifier>{3ad05997-4626-441b-b293-3d26644a1c05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\world\entity\attribute">
+      <UniqueIdentifier>{d42480c3-3d8e-4e5c-a09c-459b8603f6f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\world\level\storage">
+      <UniqueIdentifier>{ab17843d-1550-4585-8f14-7714ad287523}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\world\level\block">
+      <UniqueIdentifier>{6cd98e4d-e819-4aee-abb9-b4c5d93df76c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Minecraft\world\level\block\entity">
+      <UniqueIdentifier>{f311a192-c450-45fa-81c2-e79218a65d6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{86e032f2-3cbd-462e-9032-637d3c021482}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

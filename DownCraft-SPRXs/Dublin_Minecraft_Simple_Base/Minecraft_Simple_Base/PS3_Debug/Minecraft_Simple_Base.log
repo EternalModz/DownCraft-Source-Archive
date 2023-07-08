@@ -1,0 +1,104 @@
+﻿Build started 12/7/2021 4:39:35 PM.
+     1>Project "C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\Minecraft_Simple_Base.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         prx.cpp
+         ps3ppusnc.exe -D_DEBUG -D__CELL_ASSERT__ -D__PS3__ -DLIBNAME=cellPrx_Minecraft_Simple_Base -DSTUBNAME=cellPrx_Minecraft_Simple_Base_stub -o PS3_Debug\prx.o -c -Xdepmode=1 -MD -Xmserrors -I. -IC:/usr/local/cell\target\ppu\include -IC:/usr/local/cell\target\common\include -I"C:/usr/local/cell\host-win32\sn\ppu\include" -g -O0 -Xstd=cpp11 -Xc-=rtti --use_pch="PS3_Debug\Minecraft_Simple_Base.pch" "C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\prx.cpp"
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\var.h(55,17): warning 2623: conversion from a string literal to "char *" is deprecated
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\Colors.h(38,34): warning 2520: invalid narrowing conversion from "double" to "int"
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\Colors.h(39,26): warning 2520: invalid narrowing conversion from "double" to "int"
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\Huds.h(115,54): warning 1772: argument of type "float" is implicitly converted to parameter (3 of drawShadowText) of type "std::uint32_t"
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\Huds.h(115,57): warning 1772: argument of type "float" is implicitly converted to parameter (4 of drawShadowText) of type "std::uint32_t"
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\Huds.h(121,54): warning 1772: argument of type "float" is implicitly converted to parameter (3 of drawShadowText) of type "std::uint32_t"
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\Huds.h(121,57): warning 1772: argument of type "float" is implicitly converted to parameter (4 of drawShadowText) of type "std::uint32_t"
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\Huds.h(121,109): warning 1772: argument of type "float" is implicitly converted to parameter (6 of drawShadowText) of type "std::uint32_t"
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\Huds.h(128,53): warning 1772: argument of type "float" is implicitly converted to parameter (3 of drawTitleText) of type "std::uint32_t"
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\Huds.h(128,56): warning 1772: argument of type "float" is implicitly converted to parameter (4 of drawTitleText) of type "std::uint32_t"
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\Huds.h(132,54): warning 1772: argument of type "float" is implicitly converted to parameter (3 of drawShadowText) of type "std::uint32_t"
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\Huds.h(132,65): warning 1772: argument of type "float" is implicitly converted to parameter (4 of drawShadowText) of type "std::uint32_t"
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\Huds.h(153,54): warning 1772: argument of type "float" is implicitly converted to parameter (3 of drawShadowText) of type "std::uint32_t"
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\Huds.h(153,57): warning 1772: argument of type "float" is implicitly converted to parameter (4 of drawShadowText) of type "std::uint32_t"
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\Huds.h(158,54): warning 1772: argument of type "float" is implicitly converted to parameter (3 of drawShadowText) of type "std::uint32_t"
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\Huds.h(158,57): warning 1772: argument of type "float" is implicitly converted to parameter (4 of drawShadowText) of type "std::uint32_t"
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\Huds.h(317,5): warning 178: variable "width" was declared but never referenced
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\Huds.h(389,6): warning 178: variable "setState" was declared but never referenced
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\Huds.h(410): warning 942: missing return statement at end of non-void function "getAbsorptionAmount"
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\Huds.h(414): warning 942: missing return statement at end of non-void function "EnchantmentHelper_getMaxEnchantmentLevel"
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\Huds.h(418,2): warning 175: expression has no effect
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\Huds.h(418,2): warning 175: expression has no effect
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\Huds.h(418,1): warning 175: expression has no effect
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\Huds.h(425): warning 942: missing return statement at end of non-void function "CanHarmInCreative"
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\Huds.h(430,5): warning 178: variable "rarity" was declared but never referenced
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\Huds.h(431,5): warning 178: variable "type" was declared but never referenced
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\Huds.h(432,5): warning 178: variable "slot" was declared but never referenced
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\Huds.h(491): warning 942: missing return statement at end of non-void function "canTriggerWalking"
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\Huds.h(564): warning 942: missing return statement at end of non-void function "SetServerPlayerGameMode"
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\Huds.h(561,5): warning 178: variable "r5" was declared but never referenced
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\Huds.h(562,10): warning 178: variable "r28" was declared but never referenced
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\Huds.h(571,6): warning 178: variable "bytes" was declared but never referenced
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\Huds.h(594,29): warning 69: integer conversion resulted in truncation
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\Huds.h(595,26): warning 69: integer conversion resulted in truncation
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\Huds.h(606,7): warning 178: variable "bytes" was declared but never referenced
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\Addresses.h(171,63): warning 1772: argument of type "float" is implicitly converted to parameter (3) of type "std::uint32_t"
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\Addresses.h(171,66): warning 1772: argument of type "float" is implicitly converted to parameter (4) of type "std::uint32_t"
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\MainMenuFunc.h(189,2): warning 175: expression has no effect
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\MainMenuFunc.h(191,18): warning 178: variable "options" was declared but never referenced
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\MainMenuFunc.h(230,3): warning 175: expression has no effect
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\MainMenuFunc.h(234,18): warning 551: variable "fn" is used before its value is set
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\MainMenuFunc.h(233,19): warning 178: variable "options" was declared but never referenced
+         
+     1>C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3Pad.h(14,18): warning 2520: invalid narrowing conversion from "long long" to "int"
+         
+       Link:
+         C:\usr\local\cell\host-win32\sn\bin\ps3ppuld64.exe -oformat=fsprx -o "C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\PS3_Debug\Minecraft_Simple_Base.sprx" -L"C:/usr/local/cell\host-win32\lib\prx\ldscripts" -sn-full-map -Map="PS3_Debug\Minecraft_Simple_Base.map" --start-group PS3_Debug\prx.o PS3_Debug\stdafx.o libsn.a libm.a libio_stub.a libfs_stub.a --end-group
+           undefined reference to `wmemcpy'
+           undefined reference to `wmemmove'
+           undefined reference to `wcslen'
+         ps3ppuld 430.1.5139.0 (rel,ps3,430.1,common,src @160906 x64) C:\usr\local\cell\host-win32\sn\bin\ps3ppuld64.exe
+     1>Command line : error : L0303: error generating PRX (prx-fixup failed)
+     1>Command line : error : L0064: Linking aborted
+     1>Done Building Project "C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\Minecraft_Simple_Base.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:07.64

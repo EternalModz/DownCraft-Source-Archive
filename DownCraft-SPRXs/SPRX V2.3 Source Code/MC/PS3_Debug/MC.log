@@ -1,0 +1,1313 @@
+﻿  prx.cpp
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\ps3.h(259,9): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\dialog.h(230,6): warning 178: variable "ret" was declared but never referenced
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\dialog.h(272,6): warning 552: variable "ret" was set but never used
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\UI.h(10,22): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\UI.h(14,20): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\UI.h(43,30): warning 2520: invalid narrowing conversion from "double" to "int"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\struct.h(22,9): warning 432: returning reference to local temporary
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\struct.h(26,9): warning 432: returning reference to local temporary
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\struct.h(65,7): warning 429: qualified name is not allowed in member declaration
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\struct.h(42,9): warning 432: returning reference to local temporary
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\struct.h(51,9): warning 432: returning reference to local temporary
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\struct.h(54,9): warning 432: returning reference to local temporary
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\struct.h(57,9): warning 432: returning reference to local temporary
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\struct.h(60,9): warning 432: returning reference to local temporary
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\struct.h(91,9): warning 432: returning reference to local temporary
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\struct.h(95,10): warning 432: returning reference to local temporary
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\struct.h(237,6): warning 1700: class "LevelRenderer" has virtual functions but non-virtual destructor
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\struct.h(307,6): warning 1700: class "MultiPlayerLevel" has virtual functions but non-virtual destructor
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\struct.h(422,6): warning 1700: class "MultiplayerLocalPlayer" has virtual functions but non-virtual destructor
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\var.h(112,17): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\GameFunctions.h(286): warning 942: missing return statement at end of non-void function "CanHarmInCreative"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\GameFunctions.h(313): warning 942: missing return statement at end of non-void function "GuiComponent_drawString"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\GameFunctions.h(317): warning 942: missing return statement at end of non-void function "MultiPlayerGameMode_useItemOn"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\GameFunctions.h(334): warning 942: missing return statement at end of non-void function "Minecraft_getLocalPlayerIdx"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\GameFunctions.h(346): warning 942: missing return statement at end of non-void function "__printf"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\GameFunctions.h(354): warning 942: missing return statement at end of non-void function "__snprintf"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\GameFunctions.h(359): warning 942: missing return statement at end of non-void function "CInput_GetValue"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\GameFunctions.h(364): warning 942: missing return statement at end of non-void function "CInput_ButtonPressed"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\GameFunctions.h(369): warning 942: missing return statement at end of non-void function "CInput_ButtonReleased"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\GameFunctions.h(374): warning 942: missing return statement at end of non-void function "CInput_ButtonDown"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\GameFunctions.h(379): warning 942: missing return statement at end of non-void function "CInput_GetJoyStick_LX"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\GameFunctions.h(384): warning 942: missing return statement at end of non-void function "CInput_GetJoyStick_LY"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\GameFunctions.h(389): warning 942: missing return statement at end of non-void function "CInput_GetJoyStick_RX"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\GameFunctions.h(394): warning 942: missing return statement at end of non-void function "CInput_GetJoyStick_RY"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\GameFunctions.h(399): warning 942: missing return statement at end of non-void function "GameRenderer_GetFov"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Hooking.h(11): warning 942: missing return statement at end of non-void function "asm_SetPresenceDetails_Hook"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Hooking.h(22): warning 942: missing return statement at end of non-void function "asm_actuallyHurtHook"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Hooking.h(33): warning 942: missing return statement at end of non-void function "asm_destroyBlockHook"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Functions.h(272,8): warning 1070: returning pointer to local variable
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Functions.h(358,15): warning 178: variable "srl" was declared but never referenced
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Functions.h(601,8): warning 1070: returning pointer to local variable
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Functions.h(616,9): warning 2623: conversion from a string literal to "char *" is deprecated
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Functions.h(625,9): warning 1070: returning pointer to local variable
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Functions.h(628): warning 942: missing return statement at end of non-void function "SendRequest"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Functions.h(635,13): warning 1628: argument of type "const char *" is incompatible with parameter (1 of SendRequest) of type "char *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Functions.h(643,13): warning 1628: argument of type "const char *" is incompatible with parameter (1 of SendRequest) of type "char *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Functions.h(650,2): warning 551: variable "FreeMemory" is used before its value is set
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Functions.h(651,16): warning 551: variable "HeapFree" is used before its value is set
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Functions.h(652,2): warning 551: variable "UsedMemory" is used before its value is set
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Functions.h(713,36): warning 552: parameter "retBuffer" was set but never used
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\huds.h(7,58): warning 1322: taking the address of a temporary
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\huds.h(7,82): warning 1772: argument of type "float" is implicitly converted to parameter (3 of drawShadowText) of type "std::uint32_t"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\huds.h(7,85): warning 1772: argument of type "float" is implicitly converted to parameter (4 of drawShadowText) of type "std::uint32_t"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\huds.h(12,58): warning 1322: taking the address of a temporary
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\huds.h(12,76): warning 1772: argument of type "float" is implicitly converted to parameter (3 of drawShadowText) of type "std::uint32_t"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\huds.h(12,79): warning 1772: argument of type "float" is implicitly converted to parameter (4 of drawShadowText) of type "std::uint32_t"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\huds.h(17,83): warning 1322: taking the address of a temporary
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\huds.h(22,35): warning 1772: argument of type "float" is implicitly converted to parameter (2 of GuiComponent_fill) of type "std::uint32_t"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\huds.h(22,38): warning 1772: argument of type "float" is implicitly converted to parameter (3 of GuiComponent_fill) of type "std::uint32_t"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\huds.h(22,41): warning 1772: argument of type "float" is implicitly converted to parameter (4 of GuiComponent_fill) of type "std::uint32_t"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\huds.h(22,48): warning 1772: argument of type "float" is implicitly converted to parameter (5 of GuiComponent_fill) of type "std::uint32_t"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\huds.h(30,7): warning 178: variable "startl" was declared but never referenced
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\huds.h(31,7): warning 178: variable "endl" was declared but never referenced
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\huds.h(175,5): warning 178: variable "width" was declared but never referenced
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\huds.h(226,58): warning 1322: taking the address of a temporary
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\huds.h(226,82): warning 1772: argument of type "float" is implicitly converted to parameter (3 of drawShadowText) of type "std::uint32_t"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\huds.h(226,89): warning 1772: argument of type "float" is implicitly converted to parameter (4 of drawShadowText) of type "std::uint32_t"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\huds.h(238,12): warning 1628: argument of type "const char *" is incompatible with parameter (1 of drawText) of type "char *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\huds.h(244,12): warning 1628: argument of type "const char *" is incompatible with parameter (1 of drawText) of type "char *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\huds.h(254,12): warning 1628: argument of type "const char *" is incompatible with parameter (1 of drawText) of type "char *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\huds.h(260,12): warning 1628: argument of type "const char *" is incompatible with parameter (1 of drawText) of type "char *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\huds.h(366,35): warning 2520: invalid narrowing conversion from "int" to "unsigned char"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\huds.h(598,8): warning 178: variable "color2" was declared but never referenced
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\huds.h(603,103): warning 175: expression has no effect
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\huds.h(603,103): warning 175: expression has no effect
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\huds.h(633,8): warning 178: variable "color2" was declared but never referenced
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(10,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(15,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(24,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(29,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(38,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(43,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(52,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(57,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(66,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(71,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(80,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(85,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(94,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(99,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(108,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(113,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(122,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(127,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(136,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(141,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(152,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(159,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(170,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(177,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(186,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(191,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(200,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(205,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(214,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(219,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(228,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(233,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(242,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(247,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(256,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(261,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(272,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(279,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(290,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(297,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(308,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(315,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(326,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(333,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(344,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(351,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(362,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(369,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(383,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(393,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(407,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(417,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(428,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(435,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(446,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(453,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(464,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(471,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(482,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(489,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(500,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(507,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(518,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(525,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(536,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(543,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(554,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(561,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(572,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(579,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(590,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(597,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(608,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(615,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(626,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(633,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(644,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(651,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(662,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(669,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(680,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(687,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(698,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(705,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(716,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(723,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(734,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(741,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(752,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(759,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(770,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(777,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(788,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(795,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(806,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(813,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(824,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(831,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(842,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(849,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(860,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(867,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(878,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(885,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(896,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(903,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(914,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(921,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(932,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(939,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(950,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(957,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(968,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(975,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(986,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(993,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1004,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1011,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1022,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1029,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1040,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1047,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1058,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1065,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1076,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1083,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1094,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1101,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1112,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1119,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1133,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1143,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1154,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1161,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1172,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1179,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1190,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1197,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1208,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1215,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1226,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1233,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1244,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1251,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1262,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1269,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1280,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1287,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1298,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1305,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1320,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1331,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1342,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1349,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1360,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1367,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1378,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1385,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1396,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1403,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1414,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1421,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1436,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1447,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1458,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1465,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1476,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1483,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1494,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1501,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1512,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1519,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1530,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1537,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1548,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1555,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1566,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1573,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1584,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1591,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1602,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1609,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1620,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1627,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1638,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1645,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1656,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1663,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1674,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1681,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1692,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1699,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1710,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1717,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1728,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1735,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1746,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1753,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1764,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1771,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1782,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1789,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1800,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1807,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1818,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1825,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1836,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1843,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1854,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1861,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1872,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1879,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1890,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1897,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1908,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1915,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1926,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1933,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1949,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1961,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1972,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1979,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1990,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(1997,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2008,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2015,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2026,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2033,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2056,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2063,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2074,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2081,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2092,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2099,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2110,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2117,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2128,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2135,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2146,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2153,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2164,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2171,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2182,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2189,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2200,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2207,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2218,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2225,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2253,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2265,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2276,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2283,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2294,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2301,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2312,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2319,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2330,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2337,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2348,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2355,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2364,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2369,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2380,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2387,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2398,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2405,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2416,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2423,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2434,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2441,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2452,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2459,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2470,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2477,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2488,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2495,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2506,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2513,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2524,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2531,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2539,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2544,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2565,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2582,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2593,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2600,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2611,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2618,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2629,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2636,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2647,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2654,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2665,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2672,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2683,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2690,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2711,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2728,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2739,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2746,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2757,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2764,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2775,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2782,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2793,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2800,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2811,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2818,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2833,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2844,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2855,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2862,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2880,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2894,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2912,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2926,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2937,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2944,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2955,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2962,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2973,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2980,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2991,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(2998,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3009,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3016,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3027,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3034,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3045,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3052,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3063,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3070,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3078,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3082,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3093,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3100,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3111,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3118,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3129,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3136,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3147,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3154,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3185,12): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3195,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3202,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3213,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3220,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3231,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3238,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3253,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3264,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3275,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3282,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3293,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3300,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3315,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3326,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3339,7): warning 178: variable "MOD8" was declared but never referenced
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3369,7): warning 178: variable "MOD8" was declared but never referenced
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3401,7): warning 178: variable "MOD8" was declared but never referenced
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3434,7): warning 178: variable "MOD8" was declared but never referenced
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3467,7): warning 178: variable "MOD8" was declared but never referenced
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3500,7): warning 178: variable "MOD8" was declared but never referenced
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3532,7): warning 178: variable "MOD8" was declared but never referenced
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3565,7): warning 178: variable "MOD8" was declared but never referenced
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3596,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3651,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3658,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3669,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3676,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3690,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3700,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3711,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3718,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3729,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3736,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3747,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3754,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3762,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3766,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3774,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3778,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3789,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3796,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3807,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3814,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3825,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3832,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3843,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3850,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3861,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3868,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3879,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3886,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3897,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3904,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3915,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3922,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3933,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3940,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3954,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3964,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3975,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3982,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(3993,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4000,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4011,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4018,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4029,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4036,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4047,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4054,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4065,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4072,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4083,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4090,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4101,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4108,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4119,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4126,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4137,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4144,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4155,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4162,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4173,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4180,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4191,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4198,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4209,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4216,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4227,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4234,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4245,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4252,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4263,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4270,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4281,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4288,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4299,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4306,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4317,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4324,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4335,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4342,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4353,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4360,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4371,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4378,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4389,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4396,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4407,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4414,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4425,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4432,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4443,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4450,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4461,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4468,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4479,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4486,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4497,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4504,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4515,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4522,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4533,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4540,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4551,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4558,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4569,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4576,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4587,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4594,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4605,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4612,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4623,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4630,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4641,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4648,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4659,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4666,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4680,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4690,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4701,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4708,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4719,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4726,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4737,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4744,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4755,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4762,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4776,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4786,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4797,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4804,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4815,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4822,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4833,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4840,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4851,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4858,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4869,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4876,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4887,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4894,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4905,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4912,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4923,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4930,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4941,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4948,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4959,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4966,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4977,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4984,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(4995,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5002,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5013,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5020,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5031,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5038,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5049,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5056,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5067,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5074,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5085,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5092,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5113,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5130,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5141,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5148,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5159,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5166,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5177,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5184,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5195,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5202,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5213,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5220,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5231,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5238,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5249,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5256,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5267,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5274,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5285,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5292,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5323,12): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5335,12): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5347,12): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5359,12): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5407,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5437,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5448,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5455,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5466,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5473,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5484,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5491,13): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5500,12): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5508,12): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5531,12): warning 1628: argument of type "const wchar_t *" is incompatible with parameter (1 of SetNotify) of type "wchar_t *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\Offsets.h(5532,1): warning 942: missing return statement at end of non-void function "Offsets::NAME_CHANGER"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\menu.h(39,8): warning 178: variable "systemperature" was declared but never referenced
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\menu.h(53,59): warning 1322: taking the address of a temporary
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\menu.h(69,59): warning 1322: taking the address of a temporary
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\menu.h(81,58): warning 1322: taking the address of a temporary
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\menu.h(89,58): warning 1322: taking the address of a temporary
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\menu.h(97,58): warning 1322: taking the address of a temporary
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\menu.h(105,58): warning 1322: taking the address of a temporary
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\menu.h(113,58): warning 1322: taking the address of a temporary
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\menu.h(121,58): warning 1322: taking the address of a temporary
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\menu.h(141,59): warning 1322: taking the address of a temporary
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\menu.h(156,59): warning 1322: taking the address of a temporary
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\menu.h(171,59): warning 1322: taking the address of a temporary
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\menu.h(183,58): warning 1322: taking the address of a temporary
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\menu.h(191,58): warning 1322: taking the address of a temporary
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\menu.h(199,58): warning 1322: taking the address of a temporary
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\menu.h(365,11): warning 1628: argument of type "const char *" is incompatible with parameter (1 of drawText) of type "char *"
+  
+G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\MC\ps3.h(73,18): warning 2520: invalid narrowing conversion from "long long" to "int"
+  
+  MC.vcxproj -> G:\My Drive\PS3\Source\DownCraft Source\SPRX V2.3\DownCraft SPRX Source Base Menu\PS3_Debug\DownCraftSPRX.sprx
+  Cannot find the expected PRX Stub Library file: cellPrx_DownCraftSPRX_stub.a

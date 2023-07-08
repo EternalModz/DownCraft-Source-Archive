@@ -1,0 +1,33 @@
+C:\Users\rstei\source\repos\Minecraft Draw UI\Minecraft Draw UI\bin\Debug\Minecraft Draw UI.exe.config
+C:\Users\rstei\source\repos\Minecraft Draw UI\Minecraft Draw UI\bin\Debug\Minecraft Draw UI.exe
+C:\Users\rstei\source\repos\Minecraft Draw UI\Minecraft Draw UI\bin\Debug\Minecraft Draw UI.pdb
+C:\Users\rstei\source\repos\Minecraft Draw UI\Minecraft Draw UI\obj\Debug\Minecraft Draw UI.csproj.AssemblyReference.cache
+C:\Users\rstei\source\repos\Minecraft Draw UI\Minecraft Draw UI\obj\Debug\Minecraft Draw UI.csproj.SuggestedBindingRedirects.cache
+C:\Users\rstei\source\repos\Minecraft Draw UI\Minecraft Draw UI\obj\Debug\Minecraft_Draw_UI.Form1.resources
+C:\Users\rstei\source\repos\Minecraft Draw UI\Minecraft Draw UI\obj\Debug\Minecraft_Draw_UI.Properties.Resources.resources
+C:\Users\rstei\source\repos\Minecraft Draw UI\Minecraft Draw UI\obj\Debug\Minecraft Draw UI.csproj.GenerateResource.cache
+C:\Users\rstei\source\repos\Minecraft Draw UI\Minecraft Draw UI\obj\Debug\Minecraft Draw UI.csproj.CoreCompileInputs.cache
+C:\Users\rstei\source\repos\Minecraft Draw UI\Minecraft Draw UI\obj\Debug\Minecraft Draw UI.exe
+C:\Users\rstei\source\repos\Minecraft Draw UI\Minecraft Draw UI\obj\Debug\Minecraft Draw UI.pdb
+C:\Users\rstei\Desktop\Minecraft Draw UI\Minecraft Draw UI\bin\Debug\Minecraft Draw UI.exe.config
+C:\Users\rstei\Desktop\Minecraft Draw UI\Minecraft Draw UI\bin\Debug\Minecraft Draw UI.exe
+C:\Users\rstei\Desktop\Minecraft Draw UI\Minecraft Draw UI\bin\Debug\Minecraft Draw UI.pdb
+C:\Users\rstei\Desktop\Minecraft Draw UI\Minecraft Draw UI\obj\Debug\Minecraft Draw UI.csproj.AssemblyReference.cache
+C:\Users\rstei\Desktop\Minecraft Draw UI\Minecraft Draw UI\obj\Debug\Minecraft Draw UI.csproj.SuggestedBindingRedirects.cache
+C:\Users\rstei\Desktop\Minecraft Draw UI\Minecraft Draw UI\obj\Debug\Minecraft_Draw_UI.Form1.resources
+C:\Users\rstei\Desktop\Minecraft Draw UI\Minecraft Draw UI\obj\Debug\Minecraft_Draw_UI.Properties.Resources.resources
+C:\Users\rstei\Desktop\Minecraft Draw UI\Minecraft Draw UI\obj\Debug\Minecraft Draw UI.csproj.GenerateResource.cache
+C:\Users\rstei\Desktop\Minecraft Draw UI\Minecraft Draw UI\obj\Debug\Minecraft Draw UI.csproj.CoreCompileInputs.cache
+C:\Users\rstei\Desktop\Minecraft Draw UI\Minecraft Draw UI\obj\Debug\Minecraft Draw UI.exe
+C:\Users\rstei\Desktop\Minecraft Draw UI\Minecraft Draw UI\obj\Debug\Minecraft Draw UI.pdb
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source Csharp\Minecraft Draw UI\Minecraft Draw UI\bin\Debug\Minecraft Draw UI.exe.config
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source Csharp\Minecraft Draw UI\Minecraft Draw UI\bin\Debug\Minecraft Draw UI.exe
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source Csharp\Minecraft Draw UI\Minecraft Draw UI\bin\Debug\Minecraft Draw UI.pdb
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source Csharp\Minecraft Draw UI\Minecraft Draw UI\obj\Debug\Minecraft Draw UI.csproj.AssemblyReference.cache
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source Csharp\Minecraft Draw UI\Minecraft Draw UI\obj\Debug\Minecraft Draw UI.csproj.SuggestedBindingRedirects.cache
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source Csharp\Minecraft Draw UI\Minecraft Draw UI\obj\Debug\Minecraft_Draw_UI.Form1.resources
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source Csharp\Minecraft Draw UI\Minecraft Draw UI\obj\Debug\Minecraft_Draw_UI.Properties.Resources.resources
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source Csharp\Minecraft Draw UI\Minecraft Draw UI\obj\Debug\Minecraft Draw UI.csproj.GenerateResource.cache
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source Csharp\Minecraft Draw UI\Minecraft Draw UI\obj\Debug\Minecraft Draw UI.csproj.CoreCompileInputs.cache
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source Csharp\Minecraft Draw UI\Minecraft Draw UI\obj\Debug\Minecraft Draw UI.exe
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Source Csharp\Minecraft Draw UI\Minecraft Draw UI\obj\Debug\Minecraft Draw UI.pdb

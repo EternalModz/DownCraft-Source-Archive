@@ -1,0 +1,33 @@
+C:\Users\rstei\source\repos\Minecraft String Fix PS3\Minecraft String Fix PS3\bin\Debug\Minecraft String Fix PS3.exe.config
+C:\Users\rstei\source\repos\Minecraft String Fix PS3\Minecraft String Fix PS3\bin\Debug\Minecraft String Fix PS3.exe
+C:\Users\rstei\source\repos\Minecraft String Fix PS3\Minecraft String Fix PS3\bin\Debug\Minecraft String Fix PS3.pdb
+C:\Users\rstei\source\repos\Minecraft String Fix PS3\Minecraft String Fix PS3\obj\Debug\Minecraft String Fix PS3.csproj.AssemblyReference.cache
+C:\Users\rstei\source\repos\Minecraft String Fix PS3\Minecraft String Fix PS3\obj\Debug\Minecraft String Fix PS3.csproj.SuggestedBindingRedirects.cache
+C:\Users\rstei\source\repos\Minecraft String Fix PS3\Minecraft String Fix PS3\obj\Debug\Minecraft_String_Fix_PS3.Form1.resources
+C:\Users\rstei\source\repos\Minecraft String Fix PS3\Minecraft String Fix PS3\obj\Debug\Minecraft_String_Fix_PS3.Properties.Resources.resources
+C:\Users\rstei\source\repos\Minecraft String Fix PS3\Minecraft String Fix PS3\obj\Debug\Minecraft String Fix PS3.csproj.GenerateResource.cache
+C:\Users\rstei\source\repos\Minecraft String Fix PS3\Minecraft String Fix PS3\obj\Debug\Minecraft String Fix PS3.csproj.CoreCompileInputs.cache
+C:\Users\rstei\source\repos\Minecraft String Fix PS3\Minecraft String Fix PS3\obj\Debug\Minecraft String Fix PS3.exe
+C:\Users\rstei\source\repos\Minecraft String Fix PS3\Minecraft String Fix PS3\obj\Debug\Minecraft String Fix PS3.pdb
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Minecraft String Fix PS3\Minecraft String Fix PS3\bin\Debug\Minecraft String Fix PS3.exe.config
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Minecraft String Fix PS3\Minecraft String Fix PS3\bin\Debug\Minecraft String Fix PS3.exe
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Minecraft String Fix PS3\Minecraft String Fix PS3\bin\Debug\Minecraft String Fix PS3.pdb
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Minecraft String Fix PS3\Minecraft String Fix PS3\obj\Debug\Minecraft String Fix PS3.csproj.AssemblyReference.cache
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Minecraft String Fix PS3\Minecraft String Fix PS3\obj\Debug\Minecraft String Fix PS3.csproj.SuggestedBindingRedirects.cache
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Minecraft String Fix PS3\Minecraft String Fix PS3\obj\Debug\Minecraft_String_Fix_PS3.Form1.resources
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Minecraft String Fix PS3\Minecraft String Fix PS3\obj\Debug\Minecraft_String_Fix_PS3.Properties.Resources.resources
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Minecraft String Fix PS3\Minecraft String Fix PS3\obj\Debug\Minecraft String Fix PS3.csproj.GenerateResource.cache
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Minecraft String Fix PS3\Minecraft String Fix PS3\obj\Debug\Minecraft String Fix PS3.csproj.CoreCompileInputs.cache
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Minecraft String Fix PS3\Minecraft String Fix PS3\obj\Debug\Minecraft String Fix PS3.exe
+C:\Users\rstei\Documents\GitHub\4J-DevKit\Minecraft String Fix PS3\Minecraft String Fix PS3\obj\Debug\Minecraft String Fix PS3.pdb
+C:\Users\EternalModz\Desktop\Everything for DownCraft\RTM Tools\Minecraft String Fix PS3\Minecraft String Fix PS3\bin\Debug\Minecraft String Fix PS3.exe.config
+C:\Users\EternalModz\Desktop\Everything for DownCraft\RTM Tools\Minecraft String Fix PS3\Minecraft String Fix PS3\bin\Debug\Minecraft String Fix PS3.exe
+C:\Users\EternalModz\Desktop\Everything for DownCraft\RTM Tools\Minecraft String Fix PS3\Minecraft String Fix PS3\bin\Debug\Minecraft String Fix PS3.pdb
+C:\Users\EternalModz\Desktop\Everything for DownCraft\RTM Tools\Minecraft String Fix PS3\Minecraft String Fix PS3\obj\Debug\Minecraft String Fix PS3.csproj.AssemblyReference.cache
+C:\Users\EternalModz\Desktop\Everything for DownCraft\RTM Tools\Minecraft String Fix PS3\Minecraft String Fix PS3\obj\Debug\Minecraft String Fix PS3.csproj.SuggestedBindingRedirects.cache
+C:\Users\EternalModz\Desktop\Everything for DownCraft\RTM Tools\Minecraft String Fix PS3\Minecraft String Fix PS3\obj\Debug\Minecraft_String_Fix_PS3.MainForm.resources
+C:\Users\EternalModz\Desktop\Everything for DownCraft\RTM Tools\Minecraft String Fix PS3\Minecraft String Fix PS3\obj\Debug\Minecraft_String_Fix_PS3.Properties.Resources.resources
+C:\Users\EternalModz\Desktop\Everything for DownCraft\RTM Tools\Minecraft String Fix PS3\Minecraft String Fix PS3\obj\Debug\Minecraft String Fix PS3.csproj.GenerateResource.cache
+C:\Users\EternalModz\Desktop\Everything for DownCraft\RTM Tools\Minecraft String Fix PS3\Minecraft String Fix PS3\obj\Debug\Minecraft String Fix PS3.csproj.CoreCompileInputs.cache
+C:\Users\EternalModz\Desktop\Everything for DownCraft\RTM Tools\Minecraft String Fix PS3\Minecraft String Fix PS3\obj\Debug\Minecraft String Fix PS3.exe
+C:\Users\EternalModz\Desktop\Everything for DownCraft\RTM Tools\Minecraft String Fix PS3\Minecraft String Fix PS3\obj\Debug\Minecraft String Fix PS3.pdb

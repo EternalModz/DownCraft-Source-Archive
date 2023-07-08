@@ -1,0 +1,3 @@
+These folders / projects have been cleaned out. I have gone through each one and I have removed all of the loggers, malware and other unwanted code. I hope it helps. I have also removed all updaters and all code relating to webclients and Discord RPCs. These projects should all now be safe to open and use.
+
+- EternalModz

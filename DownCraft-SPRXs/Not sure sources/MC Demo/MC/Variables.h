@@ -1,0 +1,1 @@
+bool InMenuColors = false;

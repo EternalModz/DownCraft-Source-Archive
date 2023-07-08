@@ -1,0 +1,20 @@
+C:\Users\rstei\source\repos\injectSPRX\injectSPRX\bin\Debug\injectSPRX.exe.config
+C:\Users\rstei\source\repos\injectSPRX\injectSPRX\bin\Debug\injectSPRX.exe
+C:\Users\rstei\source\repos\injectSPRX\injectSPRX\bin\Debug\injectSPRX.pdb
+C:\Users\rstei\source\repos\injectSPRX\injectSPRX\bin\Debug\Colorful.Console.dll
+C:\Users\rstei\source\repos\injectSPRX\injectSPRX\obj\Debug\injectSPRX.csproj.AssemblyReference.cache
+C:\Users\rstei\source\repos\injectSPRX\injectSPRX\obj\Debug\injectSPRX.csproj.SuggestedBindingRedirects.cache
+C:\Users\rstei\source\repos\injectSPRX\injectSPRX\obj\Debug\injectSPRX.csproj.CoreCompileInputs.cache
+C:\Users\rstei\source\repos\injectSPRX\injectSPRX\obj\Debug\injectSPRX.csproj.CopyComplete
+C:\Users\rstei\source\repos\injectSPRX\injectSPRX\obj\Debug\injectSPRX.exe
+C:\Users\rstei\source\repos\injectSPRX\injectSPRX\obj\Debug\injectSPRX.pdb
+C:\Users\randy\Documents\GitHub\4J-DevKit\Source Csharp\injectSPRX V2\injectSPRX\bin\Debug\inject.exe.config
+C:\Users\randy\Documents\GitHub\4J-DevKit\Source Csharp\injectSPRX V2\injectSPRX\bin\Debug\inject.exe
+C:\Users\randy\Documents\GitHub\4J-DevKit\Source Csharp\injectSPRX V2\injectSPRX\bin\Debug\inject.pdb
+C:\Users\randy\Documents\GitHub\4J-DevKit\Source Csharp\injectSPRX V2\injectSPRX\obj\Debug\injectSPRX.csproj.AssemblyReference.cache
+C:\Users\randy\Documents\GitHub\4J-DevKit\Source Csharp\injectSPRX V2\injectSPRX\obj\Debug\injectSPRX.csproj.SuggestedBindingRedirects.cache
+C:\Users\randy\Documents\GitHub\4J-DevKit\Source Csharp\injectSPRX V2\injectSPRX\obj\Debug\injectSPRX.csproj.CoreCompileInputs.cache
+C:\Users\randy\Documents\GitHub\4J-DevKit\Source Csharp\injectSPRX V2\injectSPRX\obj\Debug\inject.exe
+C:\Users\randy\Documents\GitHub\4J-DevKit\Source Csharp\injectSPRX V2\injectSPRX\obj\Debug\inject.pdb
+C:\Users\randy\Documents\GitHub\4J-DevKit\Source Csharp\injectSPRX V2\injectSPRX\obj\Debug\injectSPRX.Properties.Resources.resources
+C:\Users\randy\Documents\GitHub\4J-DevKit\Source Csharp\injectSPRX V2\injectSPRX\obj\Debug\injectSPRX.csproj.GenerateResource.cache

@@ -1,0 +1,2 @@
+g_speed 500
+bg_gravity 200

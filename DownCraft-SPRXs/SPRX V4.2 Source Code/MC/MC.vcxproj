@@ -1,0 +1,535 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|PS3">
+      <Configuration>Debug</Configuration>
+      <Platform>PS3</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|PS3">
+      <Configuration>Release</Configuration>
+      <Platform>PS3</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F7C07AE7-9381-4D51-B3AA-46653DAFC627}</ProjectGuid>
+    <ProjectName>DownCraftSPRX</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|PS3'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>SNC</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|PS3'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>SNC</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|PS3'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|PS3'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|PS3'">
+    <PostBuildEventUseInBuild>true</PostBuildEventUseInBuild>
+    <TargetName>MC</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|PS3'">
+    <ClCompile>
+      <PreprocessorDefinitions>_DEBUG;__CELL_ASSERT__;%(PreprocessorDefinitions);</PreprocessorDefinitions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CppLanguageStd>Cpp11</CppLanguageStd>
+      <OptimizationLevel>Level0</OptimizationLevel>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>cd $(TargetDir)
+InjectSPRX.exe</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>-lsysutil_np_stub;-lnet_stub;-lnetctl_stub;$(SN_PS3_PATH)\ppu\lib\sn\libsn.a;$(SCE_PS3_ROOT)\target\ppu\lib\libc.a;$(SCE_PS3_ROOT)\target\ppu\lib\libhttp_stub.a;$(SCE_PS3_ROOT)\target\ppu\lib\libhttp_util_stub.a;$(SCE_PS3_ROOT)\target\ppu\lib\libnet_stub.a;$(SCE_PS3_ROOT)\target\ppu\lib\libm.a;$(SCE_PS3_ROOT)\target\ppu\lib\libio_stub.a;$(SCE_PS3_ROOT)\target\ppu\lib\liblv2_stub.a;$(SCE_PS3_ROOT)\target\ppu\lib\libc_stub.a;$(SCE_PS3_ROOT)\target\ppu\lib\libsysutil_stub.a;$(SCE_PS3_ROOT)\target\ppu\lib\libsyscall.a;$(SCE_PS3_ROOT)\target\ppu\lib\hash\libsha256.a;$(SCE_PS3_ROOT)\target\ppu\lib\libpsutil.a</AdditionalDependencies>
+      <InfoStripping>StripSymsAndDebug</InfoStripping>
+      <DataStripping>StripFuncsAndData</DataStripping>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|PS3'">
+    <ClCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions);</PreprocessorDefinitions>
+      <OptimizationLevel>Level2</OptimizationLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\Desktop\Minecraft-main\src\Memory\Memory.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\Minecraft-main\src\Memory\Pattern.cpp" />
+    <ClCompile Include="prx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\blockentity\BlockEntity.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\blockentity\BlockEntityFactory.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\blockentity\BlockEntityType.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\blockentity\ChestBlockEntity.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\blockentity\FunaceBlockEntity.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\blockentity\MobSpawnerBlockEntity.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\blockentity\SignBlockEntity.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\block\Block.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\block\BlockProperty.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\block\DoorBlock.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\block\EntityBlock.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\block\HalfTransparentBlock.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\block\HeavyBlock.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\block\material\Material.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\block\material\MaterialType.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\block\TransparentBlock.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\App.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\AppPlatform.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\AppPlatformListener.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\AppPlatform_android.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\AppPlatform_android23.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\audio\SoundEngine.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\audio\SoundEvent.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\audio\SoundRepository.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gamemode\CreativeMode.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gamemode\GameMode.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gamemode\SurvivalMode.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\game\ClientSkinInfoData.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\game\MinecraftClient.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\game\ServerSkinInfoData.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\game\SkinInfoData.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\game\SkinInfoFactory.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\BlankButton.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\Button.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\components\GuiElement.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\components\GuiElementContainer.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\components\OptionsGroup.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\components\OptionsPane.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\Font.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\Gui.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\GuiComponent.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\GuiElement.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\GuiElementContainer.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\gui\Gui.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\gui\GuiComponent.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\gui\ScreenRenderer.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\HeaderButton.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\IInventoryPaneCallback.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\ImageButton.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\ImageDef.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\ImageWithBackground.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\IntRectangle.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\InventoryPane.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\Label.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\LargeImageButton.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\Mouse.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\MouseDevice.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\MoveInput.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\Multitouch.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\NinePatchLayer.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\OptionsGroup.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\OptionsPane.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\PackedScrollContainer.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\ProgressBar.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\RectangleArea.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\screen\AbstractScreen.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\screen\BaseScreen.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\screen\ChatScreen.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\screen\ConfirmScreen.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\screen\CreateWorldScreenType.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\screen\DisconnectionScreen.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\screen\OptionsScreen.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\screen\PauseScreen.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\screen\Screen.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\screen\ScreenChooser.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\screen\StartMenuScreen.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\ScrollingPane.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\Slider.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\TButton.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\TextBox.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\THeader.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\TouchAreaModel.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\TouchInputMove.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\gui\UIScreenType.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\MemoryTracker.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\Minecraft.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\MinecraftClient.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\model\HumanoidModel.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\model\Model.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\model\ModelPart.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\model\QuadrupedModel.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\options\Options.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\options\Whitelist.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\options\WhitelistFile.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\player\LocalPlayer.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\player\RemotePlayer.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\entity\EntityRenderDispatcher.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\entity\EntityRenderer.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\entity\EntityShaderManager.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\entity\MobRenderer.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\ItemRenderChunkType.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\ItemRenderer.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\LevelRenderer.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\MaterialPtr.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\Matrix.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\MatrixStack.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\RenderMaterialGroup.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\ScreenRenderer.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\Tessellator.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\texture\NinePatchDescription.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\texture\NinePatchFactory.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\texture\TextureAtlas.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\texture\TextureAtlasTextureItem.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\texture\TextureData.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\texture\TextureFile.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\texture\TextureGroup.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\texture\TextureTessellator.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\texture\TextureUVCoordinateSet.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\renderer\TileTessellator.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\resources\ClientSkinInfoData.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\resources\ExternalServerFile.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\resources\I18n.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\resources\ServerSkinInfoData.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\resources\SkinInfo.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\resources\SkinInfoData.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\settings\IConfigListener.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\client\settings\Options.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\command\ClientCommands.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\command\ServerCommandParser.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\command\ServerCommands.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\AgableMob.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\BodyControl.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\Entity.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\FlyingMob.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\ArrowAttackGoal.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\AvoidMobTypeGoal.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\BegGoal.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\BreakDoorGoal.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\BreedGoal.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\DoorInteractGoal.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\EatTileGoal.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\FleeSunGoal.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\FollowOwnerGoal.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\FollowParentGoal.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\Goal.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\HurtByTargetGoal.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\InteractGoal.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\JumpControl.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\LeapAtTargetGoal.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\LookAtMobGoal.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\LookAtPlayerGoal.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\LookControl.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\MeleeAttackGoal.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\MountPathingGoal.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\MoveControl.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\PanicGoal.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\RandomLookAroundGoal.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\RandomStrollGoal.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\RestrictSunGoal.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\Sensing.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\SilverfishMergeWithStoneGoal.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\SilverfishWakeUpFriendsGoal.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\SitGoal.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\SlimeAttackGoal.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\SlimeFloatGoal.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\SwellGoal.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\TargetGoal.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\goal\TemptGoal.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\HangingEntity.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\item\ItemEntity.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\Mob.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\MobFactory.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\monster\Creeper.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\monster\EnderMan.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\monster\Ghast.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\monster\Monster.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\monster\PigZombie.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\monster\Slime.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\monster\Zombie.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\passive\Animal.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\passive\Chicken.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\passive\Cow.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\passive\Pig.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\passive\Sheep.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\passive\Squid.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\passive\TamableAnimal.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\passive\WaterAnimal.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\passive\Wolf.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\PathfinderMob.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\player\Abilities.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\player\Inventory.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\player\LocalPlayer.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\player\Player.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\player\RemotePlayer.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\player\ServerPlayer.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\projectile\Arrow.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\projectile\Snowball.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\projectile\Throwable.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\projectile\ThrownEgg.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\entity\SynchedEntityData.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\gamemode\CreativeMode.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\gamemode\GameMode.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\gamemode\GameType.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\gamemode\MultiPlayerGameMode.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\gamemode\ServerPlayerGameMode.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\gamemode\SurvivalMode.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\inventory\BaseContainerMenu.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\inventory\Container.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\inventory\FillingContainer.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\inventory\IContainerListener.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\inventory\InventoryMenu.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\item\ActionEnum.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\item\ArmorItem.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\item\AuxDataTileItem.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\item\CreativeItemCategory.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\item\DiggerItem.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\item\DoorItem.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\item\FoodItem.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\item\HangingEntityItem.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\item\HatchetItem.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\item\HoeItem.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\item\Item.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\item\ItemInstance.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\item\PickaxeItem.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\item\ShovelItem.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\item\TileItem.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\item\WeaponItem.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\biome\Biome.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\biome\BiomeDecorator.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\BlockSource.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\BlockSourceListener.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\ChunkCache.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\ChunkPos.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\ChunkSource.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\chunk\LevelChunk.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\chunk\storage\ExternalFileLevelStorageSource.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\Difficulty.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\Explosion.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\GeneratorType.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\Level.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\LevelListener.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\LevelSettings.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\LevelStorage.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\LevelSummary.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\LightLayer.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\MultiPlayerLevel.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\ParticleType.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\RandomLevelSource.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\ServerLevel.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\level\storage\LevelData.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\locale\I18n.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\mobeffect\MobEffect.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\mobeffect\MobEffectInstance.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\nbt\ByteArrayTag.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\nbt\ByteTag.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\nbt\CompoundTag.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\nbt\DoubleTag.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\nbt\EndTag.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\nbt\FloatTag.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\nbt\Int64Tag.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\nbt\IntArrayTag.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\nbt\IntTag.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\nbt\ListTag.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\nbt\NamedTag.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\nbt\ShortTag.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\nbt\StringTag.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\nbt\Tag.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\BatchedPacketSender.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\ClientNetworkHandler.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\IRakNetInstance.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\LegacyClientNetworkHandler.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\MinecraftPackets.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\NetEventCallback.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\Packet.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\PacketSender.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\AddEntityPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\AddItemEntityPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\AddPaintingPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\AddPlayerPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\AdventureSettingsPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\AnimatePacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\BatchPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\BlockEntityDataPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\ContainerAckPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\ContainerClosePacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\ContainerOpenPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\ContainerSetContentPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\ContainerSetDataPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\ContainerSetSlotPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\DisconnectPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\DropItemPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\EntityEventPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\ExplodePacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\FullChunkDataPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\HurtArmorPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\InteractPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\LevelEventPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\LoginPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\MobEffectPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\MoveEntityPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\MovePlayerPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\PlayerActionPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\PlayerArmorEquipmentPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\PlayerEquipmentPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\PlayerInputPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\PlayStatusPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\RemoveBlockPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\RemoveEntityPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\RemovePlayerPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\RespawnPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\SetDifficultyPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\SetEntityDataPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\SetEntityLinkPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\SetEntityMotionPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\SetHealthPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\SetSpawnPositionPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\SetTimePacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\StartGamePacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\TakeItemEntityPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\TextPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\TileEntityDataPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\TileEventPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\UpdateBlockPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\packet\UseItemPacket.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\RakNetInstance.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\RakNetPacketSender.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\ServerNetworkHandler.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\network\ServerSideNetworkHandler.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\pathfinding\PathFinder.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\pathfinding\PathNavigation.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\platform\input\CInput.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\platform\input\StickDirection.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\platform\threading\BackgroundWorker.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\platform\threading\WorkerPool.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\server\ServerPlayer.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\AABB.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\BlockID.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\BlockPos.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\Brightness.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\Color.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\Direction.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\EntityDamageByChhildEntitySource.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\EntityDamageByEntitySource.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\EntityDamageByTileSource.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\EntityDamageSource.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\EntityPos.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\File.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\FullBlock.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\NewType.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\Random.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\Token.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\Util.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\UUID.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\Vec2.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\util\Vec3.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\Container.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\dimension\Dimension.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\dimension\DimensionId.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\AgableMob.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\Animal.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\ArmorSlot.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\Arrow.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\attribute\Attribute.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\attribute\AttributeInstance.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\Blaze.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\Boat.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\Chicken.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\Cow.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\Creeper.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\DamageSource.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\Enderman.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\Entity.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\EntityClassTree.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\EntityDamageByBlockSource.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\EntityDamageByChildEntitySource.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\EntityDamageByEntitySource.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\EntityDamageCause.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\EntityDamageSource.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\EntityLink.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\EntityPos.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\EntityType.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\EntityUniqueID.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\ItemEntity.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\Mob.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\Monster.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\Mushroomcow.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\PathfinderMob.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\Pig.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\player\Abilities.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\player\Inventory.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\player\InventoryMenu.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\player\Player.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\RemovedEntityDamageByType.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\Sheep.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\Skeleton.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\SynchedEntityData.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\WaterAnimal.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\entity\Zombie.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\event\EntityEvent.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\event\LevelEvent.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\GameType.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\inventory\BaseContainerMenu.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\inventory\ContainerType.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\inventory\FillingContainer.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\item\ArmorItem.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\item\Item.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\item\ItemInstance.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\BlockSource.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\BlockSourceListener.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\block\Block.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\block\BlockPos.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\block\BlockProperty.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\block\entity\BlockEntity.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\block\entity\BlockEntityType.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\block\MaterialType.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\Brightness.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\ChunkSource.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\DBStorage.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\Difficulty.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\Level.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\LevelListener.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\LevelSettings.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\ParticleType.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\PlayerChunkSource.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\storage\LevelData.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\storage\LevelStorage.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\level\storage\StorageVersion.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\Minecraft.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\mobeffect\MobEffect.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\mobeffect\MobEffectInstance.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\phys\AABB.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\phys\HitResult.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\phys\Matrix.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\phys\Vec2.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Engine\world\phys\Vec3.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Memory\Memory.hpp" />
+    <ClInclude Include="..\..\..\..\..\Desktop\Minecraft-main\src\Memory\Pattern.hpp" />
+    <ClInclude Include="Buttons.h" />
+    <ClInclude Include="dialog.h" />
+    <ClInclude Include="DrawHudsFunctions.h" />
+    <ClInclude Include="GameFunctions.h" />
+    <ClInclude Include="HudsFunctions.h" />
+    <ClInclude Include="IDs.h" />
+    <ClInclude Include="Functions.h" />
+    <ClInclude Include="Hooking.h" />
+    <ClInclude Include="Includes.h" />
+    <ClInclude Include="LoopFunctions.h" />
+    <ClInclude Include="menu.h" />
+    <ClInclude Include="Modules.h" />
+    <ClInclude Include="Offsets.h" />
+    <ClInclude Include="Options.h" />
+    <ClInclude Include="OSK.h" />
+    <ClInclude Include="PS3.h" />
+    <ClInclude Include="Startup.h" />
+    <ClInclude Include="struct.h" />
+    <ClInclude Include="SubMenus.h" />
+    <ClInclude Include="UI.h" />
+    <ClInclude Include="var.h" />
+    <ClInclude Include="Vector.h" />
+  </ItemGroup>
+  <Import Condition="'$(ConfigurationType)' == 'Makefile' and Exists('$(VCTargetsPath)\Platforms\$(Platform)\SCE.Makefile.$(Platform).targets')" Project="$(VCTargetsPath)\Platforms\$(Platform)\SCE.Makefile.$(Platform).targets" />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

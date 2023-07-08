@@ -1,0 +1,17 @@
+﻿  Minecraft.vcxproj -> C:\Users\rstei\Documents\GitHub\4J-DevKit\Source SPRX\Minecraft SPRX source base v1\bin\Debug-PS3\Minecraft.sprx
+                    ____   ___    ___    _  __        ____            _             __            
+                   / __/  / _ \  / _ \  | |/_/       /  _/  ___      (_) ___  ____ / /_ ___   ____
+                  _\ \   / ___/ / , _/ _>  <        _/ /   / _ \    / / / -_)/ __// __// _ \ / __/
+                 /___/  /_/    /_/|_| /_/|_|       /___/  /_//_/ __/ /  \__/ \__/ \__/ \___//_/   
+                                                                |___/                             
+  
+  
+  [!] Welcome to SPRX Injector, made by Misaki.
+  
+  [!] This app has been created for inject any SPRX after build on VS.
+  
+  [+] Checking file to inject...
+  [+] File found: MC.sprx
+  [+] Starting connection to PS3: 192.168.1.17
+  [+] Connected to PS3, starting injecting to: /dev_hdd0/tmp/
+  [+] Injecting done, the game will restart

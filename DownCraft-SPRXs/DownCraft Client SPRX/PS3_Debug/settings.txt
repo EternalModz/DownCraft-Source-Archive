@@ -1,0 +1,5 @@
+useLoader=true
+192.168.1.17
+MC.sprx
+debug
+/dev_hdd0/game/BLES01976/USRDIR/PS3/

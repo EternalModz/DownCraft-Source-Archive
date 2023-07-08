@@ -1,0 +1,1134 @@
+Address  Size     Align Out     In      File    Symbol
+=================================================================
+UNDEFINED
+                                                .wmemcpy 
+                                                .wmemmove 
+                                                .wcslen 
+00000000 00000000     1 .interp
+00000000 00000000     1 .hash
+00000000 00000000     1 .dynsym
+00000000 00000000     1 .dynstr
+00000000 00000000     1 .gnu.version
+00000000 00000000     1 .gnu.version_d
+00000000 00000000     1 .gnu.version_r
+00000000 00000000     1 .rel.init
+00000000 00000000     1 .rela.init
+00000000 00000000     1 .rel.text
+00000000 00000000     1 .rel.text
+00000000 00000000     1 .rela.text
+00000000 00000000     1 .rel.fini
+00000000 00000000     1 .rela.fini
+00000000 00000000     1 .rel.rodata
+00000000 00000000     1 .rela.rodata
+00000000 00000000     1 .rel.sceStub.text
+00000000 00000000     1 .rel.lib.ent.top
+00000000 00000000     1 .rel.lib.ent
+00000000 00000000     1 .rel.lib.ent.btm
+00000000 00000000     1 .rel.lib.stub.top
+00000000 00000000     1 .rel.lib.stub
+00000000 00000000     1 .rel.lib.stub.btm
+00000000 00000000     1 .rel.rodata.sceModuleInfo
+00000000 00000000     1 .rel.rodata.sceResident
+00000000 00000000     1 .rel.rodata.sceVStub
+00000000 00000000     1 .rel.data
+00000000 00000000     1 .rela.data
+00000000 00000000     1 .rel.tdata
+00000000 00000000     1 .rela.tdata
+00000000 00000000     1 .rel.tbss
+00000000 00000000     1 .rela.tbss
+00000000 00000000     1 .rel.ctors
+00000000 00000000     1 .rela.ctors
+00000000 00000000     1 .rel.dtors
+00000000 00000000     1 .rela.dtors
+00000000 00000000     1 .rel.got
+00000000 00000000     1 .rela.got
+00000000 00000000     1 .rela.toc
+00000000 00000000     1 .rel.sdata
+00000000 00000000     1 .rela.sdata
+00000000 00000000     1 .rel.sbss
+00000000 00000000     1 .rela.sbss
+00000000 00000000     1 .rel.sdata2
+00000000 00000000     1 .rela.sdata2
+00000000 00000000     1 .rel.sbss2
+00000000 00000000     1 .rela.sbss2
+00000000 00000000     1 .rel.bss
+00000000 00000000     1 .rela.bss
+00000000 00000000     1 .rel.plt
+00000000 00000000     1 .rela.plt
+00000000 00000000     1 .rela.tocbss
+00000000 00000000     1 .init
+00000000 000044dc     4 .text
+00000000 000044dc     4         .text
+00000000 000044dc     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 0000010c     0                         drawShadowText(unsigned int, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>> const&, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int)
+0000010c 000000a8     0                         drawTitleText(unsigned int, wchar_t const*, unsigned int, unsigned int, unsigned int)
+000001b4 00000030     0                         getFontRenderer()
+000001e4 00000030     0                         GlStateManager_disableLighting()
+00000214 00000030     0                         GlStateManager_disableColorMaterial()
+00000244 00000030     0                         GlStateManager_disableFog()
+00000274 00000030     0                         GlStateManager_enableFog()
+000002a4 00000030     0                         GlStateManager_disableAlpha()
+000002d4 00000030     0                         GlStateManager_enableAlpha()
+00000304 00000030     0                         GlStateManager_EnableTexture2D()
+00000334 00000030     0                         GlStateManager_DisableTexture2D()
+00000364 00000030     0                         GlStateManager_enableBlend()
+00000394 00000030     0                         GlStateManager_disableBlend()
+000003c4 00000030     0                         GlStateManager_disableColorLogic()
+000003f4 0000003c     0                         GlStateManager_shadeModel(int)
+00000430 00000064     0                         textWidth(unsigned int, wchar_t const*)
+00000494 00000188     0                         UI_DrawMenuTitle(wchar_t const*, float, float, int*)
+0000061c 000001dc     0                         UI_DrawText(wchar_t const*, float, float, int*, float, float)
+000007f8 00000098     0                         UI_DrawOptionText(wchar_t const*, float, float, int*)
+00000890 00000158     0                         AddMenuMainTitle(wchar_t const*, float, float, int*)
+000009e8 000001cc     0                         UI_DrawRightText(wchar_t const*, float, float, int*)
+00000bb4 00000100     0                         drawText(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>> const&, float, float, unsigned int)
+00000cb4 0000012c     0                         drawStringwithShadow(wchar_t const*, float, float, unsigned int)
+00000de0 00000034     0                         Tesselator_GetInstance()
+00000e14 0000004c     0                         ReadTesselatorInstance(unsigned int)
+00000e60 00000048     0                         Tesselator_Begin(unsigned int)
+00000ea8 00000010     0                         Tesselator_Tex2(unsigned int)
+00000eb8 000000b4     0                         Tesselator_Color(unsigned int, int, int, int, float)
+00000f6c 000000b8     0                         BufferBuilder_ColorCaller(unsigned int, int, int, int, int)
+00001024 00000090     0                         BufferBuilder_ColorFunc(float, float, float, float)
+000010b4 00000048     0                         Tesselator_End(unsigned int)
+000010fc 000000c0     0                         BufferBuilder_endVertex(unsigned int, float, float, float, float, float)
+000011bc 000000c0     0                         pos_EndVertex(unsigned int, float, float, float, float, float)
+0000127c 00000100     0                         Tesselator_EndVertex(unsigned int, float, float, float, int*)
+0000137c 0000009c     0                         BufferBuilder_Position(unsigned int, float, float, float)
+00001418 00000034     0                         PreloadShader()
+0000144c 00000168     0                         LoadShader(float, float, float, float)
+000015b4 000001cc     0                         GUIDrawRect(float, float, float, float, int*)
+00001780 0000019c     0                         drawRect(float, float, float, float, int*)
+0000191c 000001b4     0                         drawGradientRect(float, float, float, float, int*, int*)
+00001ad0 00000128     0                         DrawHorizontalLine(int, int, int, int*)
+00001bf8 0000012c     0                         DrawVerticalLine(int, int, int, int*)
+00001d24 000002ec     0                         drawRectangleBox(int, int, int, int, int*)
+00002010 00000124     0                         drawMenuBackground(float, float, float, float, int*, int*)
+00002134 00000124     0                         drawRectBorder(float, float, float, float, int*, int*)
+00002258 00000124     0                         drawTitleRectBorder(float, float, float, float, int*, int*)
+0000237c 0000019c     0                         UI_DrawShaders(float, float, float, float, int*)
+00002518 000000c0     0                         MEGuiTextField_drawSelectionBox(...)
+000025d8 00000014     0                         setEnabled()
+000025ec 00000060     0                         GetEntityDataManager(float, float)
+0000264c 0000007c     0                         setAbsorptionAmount(float)
+000026c8 00000034     0                         getAbsorptionAmount()
+000026fc 0000001c     0                         EnchantmentHelper_getMaxEnchantmentLevel(int, int)
+00002718 00000028     0                         BlockPos(int, int, int)
+00002740 00000030     0                         CanHarmInCreative()
+00002770 00000060     0                         Enchantment(int, int, int)
+000027d0 00000008     0                         getMaxLevel()
+000027d8 00000030     0                         canTriggerWalking()
+00002808 0000000c     0                         isAutoJumpEnabled()
+00002814 00000048     0                         updateAutoJump(float, float)
+0000285c 000000cc     0                         itemstack_isEmpty(int)
+00002928 0000001c     0                         SetServerPlayerGameMode(int, int)
+00002944 0000004c     0                         GameType_isCreative()
+00002990 00000020     0                         GameSetting_isCreative()
+000029b0 00000078     0                         SetGamemode(unsigned int)
+00002a28 000000b0     0                         PlayerSetGameMode(unsigned int)
+00002ad8 00000054     0                         EntityPlayer_Invulnerable(void*, void*, float)
+00002b2c 000000bc     0                         sub_B50ED0(int*, int*, double, int)
+00002be8 0000004c     0                         sys_sleep(unsigned long long)
+00002c34 0000004c     0                         sleep(unsigned long long)
+00002c80 00000010     0                         getMCButtons()
+00002c90 0000005c     0                         isMCButtonPressed(unsigned int)
+00002cec 000000c8     0                         write_process(unsigned long long, void const*, unsigned int)
+00002db4 00000098     0                         sys_dbg_read_process_memory(unsigned long long, void*, unsigned int)
+00002e4c 00000098     0                         sys_dbg_write_process_memory(unsigned long long, void const*, unsigned int)
+00002ee4 000000c8     0                         sys_dbg_write_process_memory_ps3mapi(unsigned long long, void const*, unsigned int)
+00002fac 000000c8     0                         sys_dbg_read_process_memory_ps3mapi(unsigned long long, void*, unsigned int)
+00003074 000001d0     0                         HookFunctionStart(unsigned int, unsigned int, unsigned int)
+00003244 000000b4     0                         UnHookFunctionStart(unsigned int, unsigned int)
+000032f8 00000030     0                         gameRender_Stub(unsigned int, unsigned int)
+00003328 00000070     0                         AddMenuTitle(wchar_t const*)
+00003398 00000070     0                         AddInstructionText(wchar_t const*)
+00003408 00000070     0                         AddTitle(wchar_t const*)
+00003478 000000a4     0                         AddOptionText(wchar_t const*)
+0000351c 000000f8     0                         AddOption(wchar_t const*, void (*)())
+00003614 0000010c     0                         AddSubOption(wchar_t const*, SubMenus)
+00003720 000001a4     0                         AddBoolOption(wchar_t const*, void (*)(), bool)
+000038c4 000000cc     0                         UI_DrawMenuBackground()
+00003990 0000005c     0                         buttonPressed(int, int)
+000039ec 000000b0     0                         DrawMenu()
+00003a9c 00000074     0                         SelectFunction(void (*)())
+00003b10 00000204     0                         RenderMenu()
+00003d14 00000040     0                         operator new(unsigned int)
+00003d54 0000004c     0                         operator new(unsigned int, std::nothrow_t const&)
+00003da0 00000058     0                         operator new(unsigned int, unsigned int)
+00003df8 00000064     0                         operator new(unsigned int, unsigned int, std::nothrow_t const&)
+00003e5c 00000040     0                         operator new[](unsigned int)
+00003e9c 0000004c     0                         operator new[](unsigned int, std::nothrow_t const&)
+00003ee8 00000054     0                         operator new[](unsigned int, unsigned int)
+00003f3c 00000060     0                         operator new[](unsigned int, unsigned int, std::nothrow_t const&)
+00003f9c 0000003c     0                         operator delete(void*)
+00003fd8 00000048     0                         operator delete(void*, std::nothrow_t const&)
+00004020 00000044     0                         operator delete(void*, void*)
+00004064 00000044     0                         operator delete(void*, unsigned int)
+000040a8 00000050     0                         operator delete(void*, unsigned int, std::nothrow_t const&)
+000040f8 00000050     0                         operator delete(void*, unsigned int, void*)
+00004148 0000003c     0                         operator delete[](void*)
+00004184 00000048     0                         operator delete[](void*, std::nothrow_t const&)
+000041cc 00000050     0                         operator delete[](void*, void*)
+0000421c 00000050     0                         operator delete[](void*, unsigned int)
+0000426c 0000005c     0                         operator delete[](void*, unsigned int, std::nothrow_t const&)
+000042c8 0000005c     0                         operator delete[](void*, unsigned int, void*)
+00004324 00000008     0                         ._Minecraft_Simple_Base_export_function
+0000432c 00000008     0                         ._Minecraft_Simple_Base_prx_entry
+00004334 00000034     0                         PLAYER::getMinecraftPlayer_opd()
+00004368 00000174     0                         FontRenderer::DrawString(wchar_t const*, float, float, int*)
+000044dc 00000000     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\stdafx.o (TOC#1,0)
+000044dc 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_23.o) (TOC#1,0)
+000044dc 00000000     0                         _.prx.link.border.mark.sysPrxForUser._sys_memalign
+000044dc 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_90.o) (TOC#1,0)
+000044dc 00000000     0                         _.prx.link.border.mark.sysPrxForUser._sys_malloc
+000044dc 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_115.o) (TOC#1,0)
+000044dc 00000000     0                         _.prx.link.border.mark.sysPrxForUser._sys_free
+000044dc 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_head.o) (TOC#1,0)
+00000000 00000000     1 .fini
+00000000 00000060     4 .sceStub.text
+00000000 00000020     4         .sceStub.text
+00000000 00000020     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_23.o) (TOC#1,0)
+00000000 00000020     0                         ._sys_memalign
+00000020 00000020     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_90.o) (TOC#1,0)
+00000020 00000020     0                         ._sys_malloc
+00000040 00000020     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_115.o) (TOC#1,0)
+00000040 00000020     0                         ._sys_free
+00000000 00000318     4 .rodata
+00000000 00000318     4         .rodata
+00000000 00000318     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000008     0                         ..Lfi0._Z16UI_DrawMenuTitlePKwffPi
+00000008 00000008     0                         ..Lfi1._Z16UI_DrawMenuTitlePKwffPi
+00000010 00000008     0                         ..Lfi2._Z16UI_DrawMenuTitlePKwffPi
+00000018 00000008     0                         ..Lfi3._Z16UI_DrawMenuTitlePKwffPi
+00000020 00000008     0                         ..Lfi4._Z16UI_DrawMenuTitlePKwffPi
+00000028 00000008     0                         ..Lfi5._Z16UI_DrawMenuTitlePKwffPi
+00000030 00000008     0                         ..Lfi6._Z11UI_DrawTextPKwffPiff
+00000038 00000008     0                         ..Lfi7._Z11UI_DrawTextPKwffPiff
+00000040 00000008     0                         ..Lfi8._Z11UI_DrawTextPKwffPiff
+00000048 00000008     0                         ..Lfi9._Z11UI_DrawTextPKwffPiff
+00000050 00000008     0                         ..Lfi10._Z11UI_DrawTextPKwffPiff
+00000058 00000008     0                         ..Lfi11._Z11UI_DrawTextPKwffPiff
+00000060 00000008     0                         ..Lfi12._Z11UI_DrawTextPKwffPiff
+00000068 00000008     0                         ..Lfi13._Z11UI_DrawTextPKwffPiff
+00000070 00000008     0                         ..Lfi14._Z11UI_DrawTextPKwffPiff
+00000078 00000004     0                         ..Lfi15._Z17UI_DrawOptionTextPKwffPi
+0000007c 00000004     0                         ..Lfi16._Z17UI_DrawOptionTextPKwffPi
+00000080 00000004     0                         ..Lfi17._Z17UI_DrawOptionTextPKwffPi
+00000084 00000004     0                         ..Lfi18._Z17UI_DrawOptionTextPKwffPi
+00000088 00000008     0                         ..Lfi19._Z16AddMenuMainTitlePKwffPi
+00000090 00000008     0                         ..Lfi20._Z16AddMenuMainTitlePKwffPi
+00000098 00000008     0                         ..Lfi21._Z16AddMenuMainTitlePKwffPi
+000000a0 00000008     0                         ..Lfi22._Z16AddMenuMainTitlePKwffPi
+000000a8 00000008     0                         ..Lfi23._Z16AddMenuMainTitlePKwffPi
+000000b0 00000008     0                         ..Lfi24._Z16AddMenuMainTitlePKwffPi
+000000b8 00000008     0                         ..Lfi25._Z16UI_DrawRightTextPKwffPi
+000000c0 00000008     0                         ..Lfi26._Z16UI_DrawRightTextPKwffPi
+000000c8 00000008     0                         ..Lfi27._Z16UI_DrawRightTextPKwffPi
+000000d0 00000008     0                         ..Lfi28._Z16UI_DrawRightTextPKwffPi
+000000d8 00000008     0                         ..Lfi29._Z16UI_DrawRightTextPKwffPi
+000000e0 00000008     0                         ..Lfi30._Z16UI_DrawRightTextPKwffPi
+000000e8 00000008     0                         ..Lfi31._Z8drawTextRKSbIwSt11char_traitsIwESaIwEEffj
+000000f0 00000008     0                         ..Lfi32._Z8drawTextRKSbIwSt11char_traitsIwESaIwEEffj
+000000f8 00000008     0                         ..Lfi33._Z8drawTextRKSbIwSt11char_traitsIwESaIwEEffj
+00000100 00000008     0                         ..Lfi34._Z8drawTextRKSbIwSt11char_traitsIwESaIwEEffj
+00000108 00000008     0                         ..Lfi35._Z8drawTextRKSbIwSt11char_traitsIwESaIwEEffj
+00000110 00000008     0                         ..Lfi36._Z8drawTextRKSbIwSt11char_traitsIwESaIwEEffj
+00000118 00000008     0                         ..Lfi37._Z20drawStringwithShadowPKwffj
+00000120 00000008     0                         ..Lfi38._Z20drawStringwithShadowPKwffj
+00000128 00000008     0                         ..Lfi39._Z20drawStringwithShadowPKwffj
+00000130 00000008     0                         ..Lfi40._Z20drawStringwithShadowPKwffj
+00000138 00000008     0                         ..Lfi41._Z20drawStringwithShadowPKwffj
+00000140 00000008     0                         ..Lfi42._Z20drawStringwithShadowPKwffj
+00000148 00000004     0                         ..Lfi43._Z20Tesselator_EndVertexjfffPi
+0000014c 00000004     0                         ..Lfi44._Z20Tesselator_EndVertexjfffPi
+00000150 00000004     0                         ..Lfi45._Z20Tesselator_EndVertexjfffPi
+00000154 00000004     0                         ..Lfi46._Z22BufferBuilder_Positionjfff
+00000158 00000004     0                         ..Lfi47._Z22BufferBuilder_Positionjfff
+0000015c 00000004     0                         ..Lfi48._Z10LoadShaderffff
+00000160 00000004     0                         ..Lfi49._Z10LoadShaderffff
+00000164 00000004     0                         ..Lfi50._Z10LoadShaderffff
+00000168 00000004     0                         ..Lfi51._Z10LoadShaderffff
+0000016c 00000004     0                         ..Lfi52._Z10LoadShaderffff
+00000170 00000004     0                         ..Lfi53._Z10LoadShaderffff
+00000174 00000004     0                         ..Lfi54._Z10LoadShaderffff
+00000178 00000004     0                         ..Lfi55._Z10LoadShaderffff
+0000017c 00000004     0                         ..Lfi56._Z11GUIDrawRectffffPi
+00000180 00000004     0                         ..Lfi57._Z11GUIDrawRectffffPi
+00000184 00000004     0                         ..Lfi58._Z11GUIDrawRectffffPi
+00000188 00000004     0                         ..Lfi59._Z11GUIDrawRectffffPi
+0000018c 00000004     0                         ..Lfi60._Z11GUIDrawRectffffPi
+00000190 00000004     0                         ..Lfi61._Z11GUIDrawRectffffPi
+00000194 00000004     0                         ..Lfi62._Z11GUIDrawRectffffPi
+00000198 00000004     0                         ..Lfi63._Z11GUIDrawRectffffPi
+0000019c 00000004     0                         ..Lfi64._Z11GUIDrawRectffffPi
+000001a0 00000004     0                         ..Lfi65._Z8drawRectffffPi
+000001a4 00000004     0                         ..Lfi66._Z8drawRectffffPi
+000001a8 00000004     0                         ..Lfi67._Z8drawRectffffPi
+000001ac 00000004     0                         ..Lfi68._Z8drawRectffffPi
+000001b0 00000004     0                         ..Lfi69._Z16drawGradientRectffffPiS_
+000001b4 00000004     0                         ..Lfi70._Z16drawGradientRectffffPiS_
+000001b8 00000004     0                         ..Lfi71._Z16drawGradientRectffffPiS_
+000001bc 00000004     0                         ..Lfi72._Z16drawGradientRectffffPiS_
+000001c0 00000004     0                         ..Lfi73._Z18DrawHorizontalLineiiiPi
+000001c4 00000004     0                         ..Lfi74._Z16DrawVerticalLineiiiPi
+000001c8 00000004     0                         ..Lfi75._Z16drawRectangleBoxiiiiPi
+000001cc 00000004     0                         ..Lfi76._Z16drawRectangleBoxiiiiPi
+000001d0 00000004     0                         ..Lfi77._Z16drawRectangleBoxiiiiPi
+000001d4 00000004     0                         ..Lfi78._Z16drawRectangleBoxiiiiPi
+000001d8 00000004     0                         ..Lfi79._Z16drawRectangleBoxiiiiPi
+000001dc 00000004     0                         ..Lfi80._Z18drawMenuBackgroundffffPiS_
+000001e0 00000004     0                         ..Lfi81._Z18drawMenuBackgroundffffPiS_
+000001e4 00000004     0                         ..Lfi82._Z18drawMenuBackgroundffffPiS_
+000001e8 00000004     0                         ..Lfi83._Z18drawMenuBackgroundffffPiS_
+000001ec 00000004     0                         ..Lfi84._Z14drawRectBorderffffPiS_
+000001f0 00000004     0                         ..Lfi85._Z14drawRectBorderffffPiS_
+000001f4 00000004     0                         ..Lfi86._Z14drawRectBorderffffPiS_
+000001f8 00000004     0                         ..Lfi87._Z14drawRectBorderffffPiS_
+000001fc 00000004     0                         ..Lfi88._Z19drawTitleRectBorderffffPiS_
+00000200 00000004     0                         ..Lfi89._Z19drawTitleRectBorderffffPiS_
+00000204 00000004     0                         ..Lfi90._Z19drawTitleRectBorderffffPiS_
+00000208 00000004     0                         ..Lfi91._Z19drawTitleRectBorderffffPiS_
+0000020c 00000004     0                         ..Lfi92._Z14UI_DrawShadersffffPi
+00000210 00000004     0                         ..Lfi93._Z14UI_DrawShadersffffPi
+00000214 00000004     0                         ..Lfi94._Z14UI_DrawShadersffffPi
+00000218 00000004     0                         ..Lfi95._Z14UI_DrawShadersffffPi
+0000021c 00000004     0                         ..Lfi96._Z19setAbsorptionAmountf
+00000220 00000004     0                         ..Lfi97._Z19setAbsorptionAmountf
+00000224 00000004     0                         ..Lfi98._Z19getAbsorptionAmountv
+00000228 00000004     0                         ..Lfi99._Z12AddMenuTitlePKw
+0000022c 00000004     0                         ..Lfi100._Z12AddMenuTitlePKw
+00000230 00000004     0                         ..Lfi101._Z12AddMenuTitlePKw
+00000234 00000004     0                         ..Lfi102._Z12AddMenuTitlePKw
+00000238 00000004     0                         ..Lfi103._Z18AddInstructionTextPKw
+0000023c 00000004     0                         ..Lfi104._Z18AddInstructionTextPKw
+00000240 00000004     0                         ..Lfi105._Z18AddInstructionTextPKw
+00000244 00000004     0                         ..Lfi106._Z18AddInstructionTextPKw
+00000248 00000004     0                         ..Lfi107._Z8AddTitlePKw
+0000024c 00000004     0                         ..Lfi108._Z8AddTitlePKw
+00000250 00000004     0                         ..Lfi109._Z8AddTitlePKw
+00000254 00000004     0                         ..Lfi110._Z8AddTitlePKw
+00000258 00000004     0                         ..Lfi111._Z13AddOptionTextPKw
+0000025c 00000004     0                         ..Lfi112._Z13AddOptionTextPKw
+00000260 00000004     0                         ..Lfi113._Z13AddOptionTextPKw
+00000264 00000004     0                         ..Lfi114._Z9AddOptionPKwPFvvE
+00000268 00000004     0                         ..Lfi115._Z9AddOptionPKwPFvvE
+0000026c 00000004     0                         ..Lfi116._Z9AddOptionPKwPFvvE
+00000270 00000004     0                         ..Lfi117._Z12AddSubOptionPKw8SubMenus
+00000274 00000004     0                         ..Lfi118._Z12AddSubOptionPKw8SubMenus
+00000278 00000004     0                         ..Lfi119._Z12AddSubOptionPKw8SubMenus
+0000027c 00000004     0                         ..Lfi120._Z13AddBoolOptionPKwPFvvEb
+00000280 00000004     0                         ..Lfi121._Z13AddBoolOptionPKwPFvvEb
+00000284 00000004     0                         ..Lfi122._Z13AddBoolOptionPKwPFvvEb
+00000288 00000004     0                         ..Lfi123._Z13AddBoolOptionPKwPFvvEb
+0000028c 00000004     0                         ..Lfi124._Z13AddBoolOptionPKwPFvvEb
+00000290 00000004     0                         ..Lfi125._Z13AddBoolOptionPKwPFvvEb
+00000294 00000004     0                         ..Lfi126._Z21UI_DrawMenuBackgroundv
+00000298 00000004     0                         ..Lfi127._Z21UI_DrawMenuBackgroundv
+0000029c 00000004     0                         ..Lfi128._Z21UI_DrawMenuBackgroundv
+000002a0 00000004     0                         ..Lfi129._Z21UI_DrawMenuBackgroundv
+000002a4 00000004     0                         ..Lfi130._Z21UI_DrawMenuBackgroundv
+000002a8 00000004     0                         ..Lfi131._Z21UI_DrawMenuBackgroundv
+000002ac 00000004     0                         ..Lfi132._Z21UI_DrawMenuBackgroundv
+000002f0 00000026     0                         ..LNst._Z21UI_DrawMenuBackgroundv.0
+000002b0 00000004     0                         ..Lfi133._Z8DrawMenuv
+000002b4 00000004     0                         ..Lfi134._Z8DrawMenuv
+000002b8 00000004     0                         ..Lfi135._Z8DrawMenuv
+000002bc 00000008     0                         ..Lfi136._ZN12FontRenderer10DrawStringEPKwffPi
+000002c4 00000008     0                         ..Lfi137._ZN12FontRenderer10DrawStringEPKwffPi
+000002cc 00000008     0                         ..Lfi138._ZN12FontRenderer10DrawStringEPKwffPi
+000002d4 00000008     0                         ..Lfi139._ZN12FontRenderer10DrawStringEPKwffPi
+000002dc 00000008     0                         ..Lfi140._ZN12FontRenderer10DrawStringEPKwffPi
+000002e4 00000008     0                         ..Lfi141._ZN12FontRenderer10DrawStringEPKwffPi
+000002ec 00000001     0                         ..LNst.checkTxt.0
+00000000 00000000     1 .PpuGUID
+00000000 00000000     1 .rodata1
+00000000 00000000     1 .spu_image
+00000000 00000004     4 .lib.ent.top
+00000000 00000004     4         .lib.ent.top
+00000000 00000004     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000004     0                         __begin_of_section_lib_ent
+00000000 00000000     1 .lib.ent
+00000000 00000004     4 .lib.ent.btm
+00000000 00000004     4         .lib.ent.btm
+00000000 00000004     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000004     0                         __end_of_section_lib_ent
+00000000 00000004     4 .lib.stub.top
+00000000 00000004     4         .lib.stub.top
+00000000 00000004     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000004     0                         __begin_of_section_lib_stub
+00000000 0000002c     4 .lib.stub
+00000000 0000002c     4         .lib.stub
+00000000 0000002c     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_head.o) (TOC#1,0)
+00000000 00000000     0                         _sysPrxForUser_0001_stub_head
+00000000 00000004     4 .lib.stub.btm
+00000000 00000004     4         .lib.stub.btm
+00000000 00000004     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000004     0                         __end_of_section_lib_stub
+00000000 00000034     4 .rodata.sceModuleInfo
+00000000 00000034     4         .rodata.sceModuleInfo
+00000000 00000034     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000034     0                         __psp_moduleinfo
+00000000 00000014     4 .rodata.sceResident
+00000000 00000014     4         .rodata.sceResident
+00000000 00000014     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_head.o) (TOC#1,0)
+00000000 00000000     0                         _sce_package_version_sysPrxForUser
+00000004 00000000     0                         _sysPrxForUser_stub_str
+00000000 0000000c     4 .rodata.sceFNID
+00000000 00000004     4         .rodata.sceFNID
+00000000 00000004     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_23.o) (TOC#1,0)
+00000004 00000004     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_90.o) (TOC#1,0)
+00000008 00000004     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_115.o) (TOC#1,0)
+00000000 00000000     1 .rodata.sceVNID
+00000000 00000000     1 .rodata.sceTNID
+00000000 00000000     1 .rodata.sceVStub
+00000000 00000000     1 .rodata.prxconfig
+00000000 00000000     1 .sdata2
+00000000 00000000     1 .sbss2
+00000000 00000000     1 .eh_frame_hdr
+00000000 00000000     1 .preinit_array
+00000000 00000000     1 .init_array
+00000000 00000000     1 .fini_array
+00000000 0000000c     4 .data.sceFStub
+00000000 00000004     4         .data.sceFStub.sysPrxForUser
+00000000 00000004     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_23.o) (TOC#1,0)
+00000000 00000004     0                         _sys_memalign.stub_entry
+00000004 00000004     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_90.o) (TOC#1,0)
+00000004 00000004     0                         _sys_malloc.stub_entry
+00000008 00000004     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_115.o) (TOC#1,0)
+00000008 00000004     0                         _sys_free.stub_entry
+00000000 000005b0     4 .data
+00000000 000005b0     4         .data
+00000000 000005b0     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000010 00000004     0                         shaderOfs
+000000bc 00000004     0                         FontRendererFunc
+000000e4 00000004     0                         GLStateManager_disableLightingFunc
+000000e0 00000004     0                         GLStateManager_disableColorMaterialFunc
+000000dc 00000004     0                         GLStateManager_disableFogFunc
+000000d8 00000004     0                         GLStateManager_enableFogFunc
+000000d4 00000004     0                         GLStateManager_disableAlphaFunc
+000000d0 00000004     0                         GLStateManager_enableAlphaFunc
+000000c0 00000004     0                         GLStateManager_EnableTexture2DFunc
+000000c4 00000004     0                         GLStateManager_DisableTexture2DFunc
+000000c8 00000004     0                         GLStateManager_enableBlendFunction
+000000cc 00000004     0                         GLStateManager_disableBlendFunc
+000000ec 00000004     0                         GLStateManager_disableColorLogicFunc
+000000f0 00000004     0                         GLStateManager_shadeModelFunc
+00000018 00000004     0                         addr1
+0000001c 00000004     0                         addr2
+00000020 00000004     0                         BufferBuilder_Begin
+00000024 00000004     0                         BufferBuilder_Color
+00000028 00000004     0                         Tessalator_Draw
+0000002c 00000004     0                         addr6
+000000f4 00000004     0                         getEntityDataManagerFunc
+000000f8 00000004     0                         ABSORPTION
+000000fc 00000004     0                         DamageSource_canHarmInCreativeFunc
+00000104 00000004     0                         EntityPlayer_canTriggerWalkingFunc
+00000108 00000001     0                         autoJumpEnabled
+0000010c 00000004     0                         EntityPlayerautoJumpupdate
+00000110 00000004     0                         Item_Shield
+00000118 00000004     0                         Item_Minecraft_Air
+00000128 00000004     0                         CREATIVE
+00000130 00000004     0                         LOBBY
+00000178 00000004     0                         SetPosition
+0000017c 00000004     0                         buttonMonitoring
+0000005c 00000010     0                         White
+0000006c 00000010     0                         Green
+0000004c 00000010     0                         Red
+0000008c 00000010     0                         Black
+000000ac 00000010     0                         Gray
+00000004 00000004     0                         btnMonOfs
+00000180 00000004     0                         menuXPos
+00000184 00000004     0                         menuYPos
+00000188 00000004     0                         menuWidth
+0000018c 00000004     0                         menuHeight
+000001f0 00000004     0                         PLAYER::ServerPlayer
+000001f4 00000004     0                         PLAYER::EntityPlayer_isInvulnerable
+000001f8 00000004     0                         PLAYER::TheMinecraft
+000001fc 00000004     0                         PLAYER::CProfile
+00000200 00000008     0                         PLAYER::getMinecraft_opd
+00000208 00000004     0                         PLAYER::getMinecraft
+0000020c 00000008     0                         PLAYER::PlayerUpwardsJumpMotion_opd
+00000214 00000004     0                         PLAYER::PlayerUpwardsJumpMotion
+00000218 00000004     0                         PLAYER::MaxPickUp
+0000021c 00000004     0                         PLAYER::slowFalling
+00000220 00000004     0                         PLAYER::CrackbutNotBreak
+00000224 00000004     0                         PLAYER::GoldenAppleRarityText
+00000228 00000004     0                         PLAYER::GoldenAppleFunctionsSwitched
+0000022c 00000008     0                         PLAYER::GoldenAppleOnEaten_opd
+00000234 00000004     0                         PLAYER::GoldenApple_OnFoodEaten
+00000238 00000008     0                         PLAYER::PotionEffect_opd
+00000240 00000004     0                         PLAYER::PotionEffect
+00000244 00000008     0                         FontRenderer::drawString_opd
+0000024c 00000004     0                         FontRenderer::FontRendererdrawString
+00000000 00000004     0                         mcOfs
+00000008 00000004     0                         gameRenderHook
+0000000c 00000004     0                         ctrlLockOfs
+00000014 00000004     0                         theMcOfs
+00000030 00000004     0                         ofs1
+00000034 00000004     0                         ofs2
+00000038 00000004     0                         ofs3
+0000003c 00000004     0                         ofs4
+00000040 00000004     0                         firstWaitTime
+00000044 00000004     0                         waitTime
+00000048 00000004     0                         checkTxt
+0000007c 00000010     0                         Brown
+0000009c 00000010     0                         Transparent
+000000e8 00000004     0                         GLStateManager_ColorFunc
+00000100 00000004     0                         EnchantmentProtectionFunc
+00000114 00000004     0                         ShieldItem
+0000011c 00000004     0                         CreativeModePointer
+00000120 00000004     0                         SurvivalPointer
+00000124 00000004     0                         AdventurePointer
+0000012c 00000004     0                         SURVIVAL
+00000134 00000001     0                         GameType_CREATIVE
+00000135 00000001     0                         GameType_LOBBY
+00000138 00000004     0                         ConsoleUIController
+0000013c 00000004     0                         Slot
+00000140 00000004     0                         ResultSlot
+00000144 00000004     0                         ItemRare
+00000148 00000004     0                         ItemEpic
+0000014c 00000008     0                         setPlayerGameMode_opd
+00000154 00000004     0                         GetPlayerGameMode
+00000158 00000008     0                         getMaxEnchantmentLevel_opd
+00000160 00000004     0                         getMaxEnchantmentLevel
+00000164 00000008     0                         MultiPlayerGameMode_tickopd
+0000016c 00000004     0                         MultiPlayerGameMode_tick
+00000170 00000008     0                         opd
+00000190 00000004     0                         clientStruct::verify
+00000194 00000004     0                         clientStruct::getView
+00000198 00000004     0                         clientStruct::setView
+0000019c 00000004     0                         clientStruct::origin
+000001a0 00000004     0                         clientStruct::active1
+000001a4 00000004     0                         clientStruct::active2
+000001a8 00000004     0                         clientStruct::targetP
+000001ac 00000004     0                         clientStruct::alive1
+000001b0 00000004     0                         clientStruct::alive2
+000001b4 00000004     0                         clientStruct::invul
+000001b8 00000004     0                         clientStruct::name
+000001bc 00000004     0                         clientStruct::id
+000001c0 00000008     0                         MULTIPLAYER::setGameModeopd
+000001c8 00000004     0                         MULTIPLAYER::setGameMode
+000001cc 00000008     0                         MULTIPLAYER::setServerPlayerGameModeopd
+000001d4 00000004     0                         MULTIPLAYER::setServerPlayerGameMode
+000001d8 00000008     0                         FONTRENDERER::getStringWidthopd
+000001e0 00000004     0                         FONTRENDERER::getStringWidth
+000001e4 00000008     0                         MCPROFILER::endStartScreenopd
+000001ec 00000004     0                         MCPROFILER::endStartScreen
+00000250 00000008     0                         BUFFERBUILDER::Pos_EndVertexopd
+00000258 00000004     0                         BUFFERBUILDER::Pos_EndVertex
+0000025c 00000008     0                         BUFFERBUILDER::renderShadowSingleopd
+00000264 00000004     0                         BUFFERBUILDER::renderShadowSingle
+00000268 00000008     0                         BUFFERBUILDER::Coloropd
+00000270 00000004     0                         BUFFERBUILDER::Color
+00000274 00000008     0                         PARTICLES::addBlockHitEffectsopd
+0000027c 00000004     0                         PARTICLES::addBlockHitEffects
+00000280 00000008     0                         PARTICLES::renderParticleopd
+00000288 00000004     0                         PARTICLES::renderParticle
+0000028c 00000008     0                         PARTICLES::renderParticle1opd
+00000294 00000004     0                         PARTICLES::renderParticle1
+00000298 00000008     0                         ParticleSweepAttack::getFXLayeropd
+000002a0 00000004     0                         ParticleSweepAttack::getFXLayer
+000002a4 00000008     0                         GLStateManager::glStateManager_glNormal3f_opd
+000002ac 00000004     0                         GLStateManager::glStateManager_glNormal3f
+000002b0 00000008     0                         GLStateManager::renderOffsetAABB_opd
+000002b8 00000004     0                         GLStateManager::renderOffsetAABB
+000002bc 00000008     0                         GLStateManager::renderEntityOnFire_opd
+000002c4 00000004     0                         GLStateManager::renderEntityOnFire
+000002c8 00000008     0                         GLStateManager::renderDebugBoundingBox_opd
+000002d0 00000004     0                         GLStateManager::renderDebugBoundingBox
+000002d4 00000008     0                         GLStateManager::EnableBlendFunc_opd
+000002dc 00000004     0                         GLStateManager::EnableBlendFunc
+000002e0 00000008     0                         GLStateManager::DisableBlendFunc_opd
+000002e8 00000004     0                         GLStateManager::DisableBlendFunc
+000002ec 00000008     0                         GLStateManager::disableAlpha_opd
+000002f4 00000004     0                         GLStateManager::disableAlpha
+000002f8 00000008     0                         GLStateManager::enableAlpha_opd
+00000300 00000004     0                         GLStateManager::enableAlpha
+00000304 00000008     0                         GLStateManager::alphFunc_opd
+0000030c 00000004     0                         GLStateManager::alphaFunc
+00000310 00000008     0                         GLStateManager::DisableColorMaterial_opd
+00000318 00000004     0                         GLStateManager::DisableColorMaterial
+0000031c 00000008     0                         GLStateManager::enableLighting_opd
+00000324 00000004     0                         GLStateManager::enableLighting
+00000328 00000008     0                         GLStateManager::DisableLighting_opd
+00000330 00000004     0                         GLStateManager::DisableLighting
+00000334 00000008     0                         GLStateManager::enableLight_opd
+0000033c 00000004     0                         GLStateManager::enableLight
+00000340 00000008     0                         GLStateManager::disableLight_opd
+00000348 00000004     0                         GLStateManager::disableLight
+0000034c 00000008     0                         GLStateManager::colorMaterial_opd
+00000354 00000004     0                         GLStateManager::colorMaterial
+00000358 00000008     0                         GLStateManager::disableDepth_opd
+00000360 00000004     0                         GLStateManager::disableDepth
+00000364 00000008     0                         GLStateManager::enableDepth_opd
+0000036c 00000004     0                         GLStateManager::enableDepth
+00000370 00000008     0                         GLStateManager::depthFunc_opd
+00000378 00000004     0                         GLStateManager::depthFunc
+0000037c 00000008     0                         GLStateManager::depthMask_opd
+00000384 00000004     0                         GLStateManager::depthMask
+00000388 00000008     0                         GLStateManager::disableBlend_opd
+00000390 00000004     0                         GLStateManager::disableBlend
+00000394 00000008     0                         GLStateManager::enableBlend_opd
+0000039c 00000004     0                         GLStateManager::enableBlend
+000003a0 00000008     0                         GLStateManager::blendFunc_opd
+000003a8 00000004     0                         GLStateManager::blendFunc
+000003ac 00000008     0                         GLStateManager::enableFog_opd
+000003b4 00000004     0                         GLStateManager::enableFog
+000003b8 00000008     0                         GLStateManager::disableFog_opd
+000003c0 00000004     0                         GLStateManager::disableFog
+000003c4 00000008     0                         GLStateManager::setFog_opd
+000003cc 00000004     0                         GLStateManager::setFog
+000003d0 00000008     0                         GLStateManager::setFogDensity_opd
+000003d8 00000004     0                         GLStateManager::setFogDensity
+000003dc 00000008     0                         GLStateManager::setFogStart_opd
+000003e4 00000004     0                         GLStateManager::setFogStart
+000003e8 00000008     0                         GLStateManager::setFogEnd_opd
+000003f0 00000004     0                         GLStateManager::setFogEnd
+000003f4 00000008     0                         GLStateManager::glFog_opd
+000003fc 00000004     0                         GLStateManager::glFog
+00000400 00000008     0                         GLStateManager::glFogi_opd
+00000408 00000004     0                         GLStateManager::glFogi
+0000040c 00000008     0                         GLStateManager::enableCull_opd
+00000414 00000004     0                         GLStateManager::enableCull
+00000418 00000008     0                         GLStateManager::disableCull_opd
+00000420 00000004     0                         GLStateManager::disableCull
+00000424 00000008     0                         GLStateManager::cullFace_opd
+0000042c 00000004     0                         GLStateManager::cullFace
+00000430 00000008     0                         GLStateManager::enablePolygonOffset_opd
+00000438 00000004     0                         GLStateManager::enablePolygonOffset
+0000043c 00000008     0                         GLStateManager::disablePolygonOffset_opd
+00000444 00000004     0                         GLStateManager::disablePolygonOffset
+00000448 00000008     0                         GLStateManager::doPolygonOffset_opd
+00000450 00000004     0                         GLStateManager::doPolygonOffset
+00000454 00000008     0                         GLStateManager::enableColorLogic_opd
+0000045c 00000004     0                         GLStateManager::enableColorLogic
+00000460 00000008     0                         GLStateManager::disableColorLogic_opd
+00000468 00000004     0                         GLStateManager::disableColorLogic
+0000046c 00000008     0                         GLStateManager::colorLogicOp_opd
+00000474 00000004     0                         GLStateManager::colorLogicOp
+00000478 00000008     0                         GLStateManager::enableTexGenCoord_opd
+00000480 00000004     0                         GLStateManager::enableTexGenCoord
+00000484 00000008     0                         GLStateManager::disableTexGenCoord_opd
+0000048c 00000004     0                         GLStateManager::disableTexGenCoord
+00000490 00000008     0                         GLStateManager::texGen_opd
+00000498 00000004     0                         GLStateManager::texGen
+0000049c 00000008     0                         GLStateManager::setActiveTexture_opd
+000004a4 00000004     0                         GLStateManager::setActiveTexture
+000004a8 00000008     0                         GLStateManager::enableTexture2D_opd
+000004b0 00000004     0                         GLStateManager::enableTexture2D
+000004b4 00000008     0                         GLStateManager::disableTexture2D_opd
+000004bc 00000004     0                         GLStateManager::disableTexure2D
+000004c0 00000008     0                         GLStateManager::generateTexture_opd
+000004c8 00000004     0                         GLStateManager::generateTexure
+000004cc 00000008     0                         GLStateManager::deleteTexture_opd
+000004d4 00000004     0                         GLStateManager::deleteTexture
+000004d8 00000008     0                         GLStateManager::bendTexture_opd
+000004e0 00000004     0                         GLStateManager::bendTexture
+000004e4 00000008     0                         GLStateManager::glTexImage2D_opd
+000004ec 00000004     0                         GLStateManager::glTexImage2D
+000004f0 00000008     0                         GLStateManager::enableNormalize_opd
+000004f8 00000004     0                         GLStateManager::enableNormalize
+000004fc 00000008     0                         GLStateManager::disableNormalize_opd
+00000504 00000004     0                         GLStateManager::disableNormalize
+00000508 00000008     0                         GLStateManager::shadeModel_opd
+00000510 00000004     0                         GLStateManager::shadeModel
+00000514 00000008     0                         GLStateManager::enableRescaleNormal_opd
+0000051c 00000004     0                         GLStateManager::enableRescaleNormal
+00000520 00000008     0                         GLStateManager::disableRescaleNormal_opd
+00000528 00000004     0                         GLStateManager::disableRescaleNormal
+0000052c 00000008     0                         GLStateManager::colorMask_opd
+00000534 00000004     0                         GLStateManager::colorMask
+00000538 00000008     0                         GLStateManager::clearDepth_opd
+00000540 00000004     0                         GLStateManager::clearDepth
+00000544 00000008     0                         GLStateManager::clearColor_opd
+0000054c 00000004     0                         GLStateManager::clearColor
+00000550 00000008     0                         GLStateManager::getFloat_opd
+00000558 00000004     0                         GLStateManager::getFloat
+0000055c 00000008     0                         GLStateManager::color_opd
+00000564 00000004     0                         GLStateManager::color
+00000568 00000008     0                         GLStateManager::Color_opd
+00000570 00000004     0                         GLStateManager::Color
+00000574 00000008     0                         GLStateManager::DisableColorLogic_opd
+0000057c 00000004     0                         GLStateManager::DisableColorLogic
+00000580 00000008     0                         RenderHelper::enableGUIStandardItemLighting_opd
+00000588 00000004     0                         RenderHelper::enableGUIStandardItemLighting
+0000058c 00000008     0                         GUI::drawTexturedModalRect_opd
+00000594 00000004     0                         GUI::drawTexturedModalRect
+00000598 00000008     0                         EntityPlayerSP::setXPStats_opd
+000005a0 00000004     0                         EntityPlayerSP::setXPStats
+000005a4 00000004     0                         EntityPlayerSP::server_SPacketSetExperience_getExperienceBar
+000005a8 00000004     0                         EntityPlayerSP::NetHandlePlayClient_handleSetExperience
+000005ac 00000004     0                         EntityPlayerSP::CurrentSkinPack
+000005b0 00000000     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\stdafx.o (TOC#1,0)
+000005b0 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_23.o) (TOC#1,0)
+000005b0 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_90.o) (TOC#1,0)
+000005b0 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_115.o) (TOC#1,0)
+000005b0 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_head.o) (TOC#1,0)
+00000000 00000000     1 .data1
+00000000 00000000     1 .tdata
+00000000 00000000     1 .spu_image_writable
+00000000 00000000     1 .rsx_image
+00000000 00000000     1 .tbss
+00000000 00000000     1 .eh_frame
+00000000 00000000     1 .gcc_except_table
+00000000 00000000     1 .toc1
+00000000 000004f0     8 .opd
+00000000 000004f0     8         .opd
+00000000 000004f0     8                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000008     0                         drawShadowText(unsigned int, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>> const&, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int)
+00000008 00000008     0                         drawTitleText(unsigned int, wchar_t const*, unsigned int, unsigned int, unsigned int)
+00000010 00000008     0                         getFontRenderer()
+00000018 00000008     0                         _Z4CallIvJEET_xDpT0_
+00000020 00000008     0                         GlStateManager_disableLighting()
+00000028 00000008     0                         GlStateManager_disableColorMaterial()
+00000030 00000008     0                         GlStateManager_disableFog()
+00000038 00000008     0                         GlStateManager_enableFog()
+00000040 00000008     0                         GlStateManager_disableAlpha()
+00000048 00000008     0                         GlStateManager_enableAlpha()
+00000050 00000008     0                         GlStateManager_EnableTexture2D()
+00000058 00000008     0                         GlStateManager_DisableTexture2D()
+00000060 00000008     0                         GlStateManager_enableBlend()
+00000068 00000008     0                         GlStateManager_disableBlend()
+00000070 00000008     0                         GlStateManager_disableColorLogic()
+00000078 00000008     0                         GlStateManager_shadeModel(int)
+00000080 00000008     0                         textWidth(unsigned int, wchar_t const*)
+00000088 00000008     0                         UI_DrawMenuTitle(wchar_t const*, float, float, int*)
+00000090 00000008     0                         UI_DrawText(wchar_t const*, float, float, int*, float, float)
+00000098 00000008     0                         UI_DrawOptionText(wchar_t const*, float, float, int*)
+000000a0 00000008     0                         AddMenuMainTitle(wchar_t const*, float, float, int*)
+000000a8 00000008     0                         UI_DrawRightText(wchar_t const*, float, float, int*)
+000000b0 00000008     0                         drawText(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>> const&, float, float, unsigned int)
+000000b8 00000008     0                         drawStringwithShadow(wchar_t const*, float, float, unsigned int)
+000000c0 00000008     0                         Tesselator_GetInstance()
+000000c8 00000008     0                         ReadTesselatorInstance(unsigned int)
+000000d0 00000008     0                         Tesselator_Begin(unsigned int)
+000000d8 00000008     0                         Tesselator_Tex2(unsigned int)
+000000e0 00000008     0                         Tesselator_Color(unsigned int, int, int, int, float)
+000000e8 00000008     0                         BufferBuilder_ColorCaller(unsigned int, int, int, int, int)
+000000f0 00000008     0                         BufferBuilder_ColorFunc(float, float, float, float)
+000000f8 00000008     0                         _Z4CallIvJjEET_xDpT0_
+00000100 00000008     0                         Tesselator_End(unsigned int)
+00000108 00000008     0                         BufferBuilder_endVertex(unsigned int, float, float, float, float, float)
+00000110 00000008     0                         unsigned int Call<void, <unsigned int, float, float, float, float, float>>(long long, float...)
+00000118 00000008     0                         pos_EndVertex(unsigned int, float, float, float, float, float)
+00000120 00000008     0                         Tesselator_EndVertex(unsigned int, float, float, float, int*)
+00000128 00000008     0                         BufferBuilder_Position(unsigned int, float, float, float)
+00000130 00000008     0                         PreloadShader()
+00000138 00000008     0                         LoadShader(float, float, float, float)
+00000140 00000008     0                         GUIDrawRect(float, float, float, float, int*)
+00000148 00000008     0                         drawRect(float, float, float, float, int*)
+00000150 00000008     0                         drawGradientRect(float, float, float, float, int*, int*)
+00000158 00000008     0                         DrawHorizontalLine(int, int, int, int*)
+00000160 00000008     0                         DrawVerticalLine(int, int, int, int*)
+00000168 00000008     0                         drawRectangleBox(int, int, int, int, int*)
+00000170 00000008     0                         drawMenuBackground(float, float, float, float, int*, int*)
+00000178 00000008     0                         drawRectBorder(float, float, float, float, int*, int*)
+00000180 00000008     0                         drawTitleRectBorder(float, float, float, float, int*, int*)
+00000188 00000008     0                         UI_DrawShaders(float, float, float, float, int*)
+00000190 00000008     0                         MEGuiTextField_drawSelectionBox(...)
+00000198 00000008     0                         setEnabled()
+000001a0 00000008     0                         GetEntityDataManager(float, float)
+000001a8 00000008     0                         setAbsorptionAmount(float)
+000001b0 00000008     0                         getAbsorptionAmount()
+000001b8 00000008     0                         EnchantmentHelper_getMaxEnchantmentLevel(int, int)
+000001c0 00000008     0                         BlockPos(int, int, int)
+000001c8 00000008     0                         CanHarmInCreative()
+000001d0 00000008     0                         Enchantment(int, int, int)
+000001d8 00000008     0                         getMaxLevel()
+000001e0 00000008     0                         canTriggerWalking()
+000001e8 00000008     0                         isAutoJumpEnabled()
+000001f0 00000008     0                         updateAutoJump(float, float)
+000001f8 00000008     0                         itemstack_isEmpty(int)
+00000200 00000008     0                         SetServerPlayerGameMode(int, int)
+00000208 00000008     0                         GameType_isCreative()
+00000210 00000008     0                         GameSetting_isCreative()
+00000218 00000008     0                         SetGamemode(unsigned int)
+00000220 00000008     0                         PlayerSetGameMode(unsigned int)
+00000228 00000008     0                         EntityPlayer_Invulnerable(void*, void*, float)
+00000230 00000008     0                         sub_B50ED0(int*, int*, double, int)
+00000238 00000008     0                         sys_timer_usleep
+00000240 00000008     0                         sys_sleep(unsigned long long)
+00000248 00000008     0                         sleep(unsigned long long)
+00000250 00000008     0                         getMCButtons()
+00000258 00000008     0                         isMCButtonPressed(unsigned int)
+00000260 00000008     0                         sys_process_getpid
+00000268 00000008     0                         write_process(unsigned long long, void const*, unsigned int)
+00000270 00000008     0                         sys_dbg_read_process_memory(unsigned long long, void*, unsigned int)
+00000278 00000008     0                         sys_dbg_write_process_memory(unsigned long long, void const*, unsigned int)
+00000280 00000008     0                         sys_dbg_write_process_memory_ps3mapi(unsigned long long, void const*, unsigned int)
+00000288 00000008     0                         sys_dbg_read_process_memory_ps3mapi(unsigned long long, void*, unsigned int)
+00000290 00000008     0                         HookFunctionStart(unsigned int, unsigned int, unsigned int)
+00000298 00000008     0                         UnHookFunctionStart(unsigned int, unsigned int)
+000002a0 00000008     0                         gameRender_Stub(unsigned int, unsigned int)
+000002a8 00000008     0                         AddMenuTitle(wchar_t const*)
+000002b0 00000008     0                         AddInstructionText(wchar_t const*)
+000002b8 00000008     0                         AddTitle(wchar_t const*)
+000002c0 00000008     0                         AddOptionText(wchar_t const*)
+000002c8 00000008     0                         AddOption(wchar_t const*, void (*)())
+000002d0 00000008     0                         AddSubOption(wchar_t const*, SubMenus)
+000002d8 00000008     0                         AddBoolOption(wchar_t const*, void (*)(), bool)
+000002e0 00000008     0                         UI_DrawMenuBackground()
+000002e8 00000008     0                         buttonPressed(int, int)
+000002f0 00000008     0                         DrawMenu()
+000002f8 00000008     0                         SelectFunction(void (*)())
+00000300 00000008     0                         RenderMenu()
+00000308 00000008     0                         operator new(unsigned int)
+00000310 00000008     0                         operator new(unsigned int, std::nothrow_t const&)
+00000318 00000008     0                         operator new(unsigned int, unsigned int)
+00000320 00000008     0                         operator new(unsigned int, unsigned int, std::nothrow_t const&)
+00000328 00000008     0                         operator new[](unsigned int)
+00000330 00000008     0                         operator new[](unsigned int, std::nothrow_t const&)
+00000338 00000008     0                         operator new[](unsigned int, unsigned int)
+00000340 00000008     0                         operator new[](unsigned int, unsigned int, std::nothrow_t const&)
+00000348 00000008     0                         operator delete(void*)
+00000350 00000008     0                         operator delete(void*, std::nothrow_t const&)
+00000358 00000008     0                         operator delete(void*, void*)
+00000360 00000008     0                         operator delete(void*, unsigned int)
+00000368 00000008     0                         operator delete(void*, unsigned int, std::nothrow_t const&)
+00000370 00000008     0                         operator delete(void*, unsigned int, void*)
+00000378 00000008     0                         operator delete[](void*)
+00000380 00000008     0                         operator delete[](void*, std::nothrow_t const&)
+00000388 00000008     0                         operator delete[](void*, void*)
+00000390 00000008     0                         operator delete[](void*, unsigned int)
+00000398 00000008     0                         operator delete[](void*, unsigned int, std::nothrow_t const&)
+000003a0 00000008     0                         operator delete[](void*, unsigned int, void*)
+000003a8 00000008     0                         _Minecraft_Simple_Base_export_function
+000003b0 00000008     0                         _Minecraft_Simple_Base_prx_entry
+000003b8 00000008     0                         _Z4CallIjJEET_xDpT0_
+000003c0 00000008     0                         PLAYER::getMinecraftPlayer_opd()
+000003c8 00000008     0                         FontRenderer::DrawString(wchar_t const*, float, float, int*)
+000003d0 00000008     0                         std::_String_val<wchar_t, std::allocator<wchar_t>>::_String_val(std::allocator<wchar_t>)
+000003d8 00000008     0                         std::_String_val<wchar_t, std::allocator<wchar_t>>::_String_val(std::allocator<wchar_t>)
+000003e0 00000008     0                         std::char_traits<wchar_t>::copy(wchar_t*, wchar_t const*, unsigned int)
+000003e8 00000008     0                         std::allocator<wchar_t>::deallocate(wchar_t*, unsigned int)
+000003f0 00000008     0                         std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::_Myptr()
+000003f8 00000008     0                         std::char_traits<wchar_t>::assign(wchar_t&, wchar_t const&)
+00000400 00000008     0                         std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::_Eos(unsigned int)
+00000408 00000008     0                         std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::_Tidy(bool, unsigned int)
+00000410 00000008     0                         std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::size() const
+00000418 00000008     0                         std::_String_base::_Xran()
+00000420 00000008     0                         std::char_traits<wchar_t>::move(wchar_t*, wchar_t const*, unsigned int)
+00000428 00000008     0                         std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::erase(unsigned int, unsigned int)
+00000430 00000008     0                         std::allocator<wchar_t>::max_size() const
+00000438 00000008     0                         std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::max_size() const
+00000440 00000008     0                         std::_String_base::_Xlen()
+00000448 00000008     0                         wchar_t* std::_Allocate<wchar_t>(unsigned int, wchar_t*)
+00000450 00000008     0                         std::allocator<wchar_t>::allocate(unsigned int)
+00000458 00000008     0                         std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::_Copy(unsigned int, unsigned int)
+00000460 00000008     0                         std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::_Grow(unsigned int, bool)
+00000468 00000008     0                         std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::_Myptr() const
+00000470 00000008     0                         std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::assign(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>> const&, unsigned int, unsigned int)
+00000478 00000008     0                         std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::basic_string(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>> const&)
+00000480 00000008     0                         std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::~basic_string()
+00000488 00000008     0                         unsigned int Call<void, <unsigned int, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int>>(long long, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>...)
+00000490 00000008     0                         unsigned int Call<void, <unsigned int, wchar_t const*, unsigned int, unsigned int, unsigned int>>(long long, wchar_t const*...)
+00000498 00000008     0                         unsigned int Call<int, <unsigned int, wchar_t const*>>(long long, wchar_t const*...)
+000004a0 00000008     0                         _Z4CallIjJjEET_xDpT0_
+000004a8 00000008     0                         unsigned int Call<void, <unsigned int, int, int, int, float>>(long long, int...)
+000004b0 00000008     0                         unsigned int Call<void, <unsigned int, int, int, int, int>>(long long, int...)
+000004b8 00000008     0                         float Call<void, <float, float, float, float>>(long long, float...)
+000004c0 00000008     0                         float Call<void, <float, float>>(long long, float...)
+000004c8 00000008     0                         std::char_traits<wchar_t>::length(wchar_t const*)
+000004d0 00000008     0                         std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::_Inside(wchar_t const*)
+000004d8 00000008     0                         std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::assign(wchar_t const*, unsigned int)
+000004e0 00000008     0                         std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::assign(wchar_t const*)
+000004e8 00000008     0                         std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::basic_string(wchar_t const*)
+000004f0 00000000     8                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\stdafx.o (TOC#1,0)
+00000000 00000000     1 .dynamic
+00000000 00000000     1 .ctors
+00000000 00000000     1 .dtors
+00000000 00000000     1 .jcr
+00000000 00000000     1 .got
+00000000 00000000     1 .toc
+00000000 00000000     1         .toc
+00000000 00000000     1                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000000     1                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\stdafx.o (TOC#1,0)
+00000000 00000000     1 .tocbss
+00000000 00000000     1 .toc.sceStub
+00000000 00000000     1 .toc.sceStub
+00000000 00000000     1 .toc.tls
+00000000 00000000     1 .sdata
+00000000 00000000     1 .dynsbss
+00000000 00000000     1 .sbss
+00000000 00000000     1 .scommon
+00000000 00000000     1 .plt
+00000000 00000000     1 .dynbss
+00000000 00002d20     4 .bss
+00000000 00002d20     4         .bss
+00000000 00002d20     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00002d04 00000004     0                         mc
+00002d18 00000004     0                         MinOptions
+00002d10 00000004     0                         CurrentOpt
+00002d0c 00000004     0                         CurrentMenu
+00002d1c 00000002     0                         self
+00002d14 00000004     0                         MaxOptions
+00000000 00000001     0                         clientUpdated
+00000004 00000004     0                         scrollTick
+00000008 00000064     0                         keyPressed
+0000006c 00000064     0                         freeFirst
+000000d0 00000064     0                         resetWait
+00000134 00000064     0                         resetWait2
+00000198 00000064     0                         lockFirst
+000001fc 00000fa0     0                         getTime
+0000119c 00000fa0     0                         timeMath
+0000213c 000003e8     0                         gotTime
+00002524 00000004     0                         subMax
+00002528 00000004     0                         scroll
+0000252c 00000001     0                         isOpen
+0000252e 000007d0     0                         charA2wcharA_
+00002d00 00000004     0                         userAddr
+00002d08 00000004     0                         autoJumpTime
+00002d20 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_23.o) (TOC#1,0)
+00002d20 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_90.o) (TOC#1,0)
+00002d20 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_115.o) (TOC#1,0)
+00002d20 00000000     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_head.o) (TOC#1,0)
+00000000 00000000     1 .common
+00000000 00000000     1 .stab
+00000000 00000000     1 .stabstr
+00000000 00000000     1 .stab.excl
+00000000 00000000     1 .stab.exclstr
+00000000 00000000     1 .stab.index
+00000000 00000000     1 .stab.indexstr
+00000000 00000000     1 .comment
+00000000 00000000     1 .debug
+00000000 00000000     1 .line
+00000000 00000000     1 .debug_srcinfo
+00000000 00000000     1 .debug_sfnames
+00000000 00000518     1 .debug_aranges
+00000000 00000500     1         .debug_aranges
+00000000 00000500     1                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000500 00000018     1                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\stdafx.o (TOC#1,0)
+00000000 0000249d     1 .debug_pubnames
+00000000 0000248b     1         .debug_pubnames
+00000000 0000248b     1                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+0000248b 00000012     1                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\stdafx.o (TOC#1,0)
+00000000 000063a7     1 .debug_info
+00000000 00006381     1         .debug_info
+00000000 00006381     1                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00006381 00000026     1                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\stdafx.o (TOC#1,0)
+00000000 0000020a     1 .debug_abbrev
+00000000 000001f6     1         .debug_abbrev
+00000000 000001f6     1                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+000001f6 00000014     1                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\stdafx.o (TOC#1,0)
+00000000 00000abd     1 .debug_line
+00000000 00000aa3     1         .debug_line
+00000000 00000aa3     1                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000aa3 0000001a     1                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\stdafx.o (TOC#1,0)
+00000000 00000000     1 .debug_frame
+00000000 00003535     1 .debug_str
+00000000 00003535     1         .debug_str
+00000000 00003535     1                 Dwarf1 (TOC#1,0)
+00000000 00000000     1 .debug_loc
+00000000 00000000     1 .debug_macinfo
+00000000 00000000     1 .debug_weaknames
+00000000 00000000     1 .debug_funcnames
+00000000 00000000     1 .debug_typenames
+00000000 00000000     1 .debug_varnames
+00000000 00000000     1 .debug_pubtypes
+00000000 00000000     1 .debug_ranges
+00000000 0000007c     4 .text._Z4CallIvJEET_xDpT0_
+00000000 0000007c     4         .text._Z4CallIvJEET_xDpT0_
+00000000 0000007c     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 0000007c     0                         ._Z4CallIvJEET_xDpT0_
+00000000 00000094     4 .text._Z4CallIvJjEET_xDpT0_
+00000000 00000094     4         .text._Z4CallIvJjEET_xDpT0_
+00000000 00000094     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000094     0                         ._Z4CallIvJjEET_xDpT0_
+00000000 0000010c     4 .text._Z4CallIvJjfffffEET_xDpT0_
+00000000 0000010c     4         .text._Z4CallIvJjfffffEET_xDpT0_
+00000000 0000010c     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 0000010c     0                         unsigned int Call<void, <unsigned int, float, float, float, float, float>>(long long, float...)
+00000000 00000050     4 .text.sys_timer_usleep
+00000000 00000050     4         .text.sys_timer_usleep
+00000000 00000050     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000050     0                         .sys_timer_usleep
+00000000 00000030     4 .text.sys_process_getpid
+00000000 00000030     4         .text.sys_process_getpid
+00000000 00000030     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000030     0                         .sys_process_getpid
+00000000 00000080     4 .text._Z4CallIjJEET_xDpT0_
+00000000 00000080     4         .text._Z4CallIjJEET_xDpT0_
+00000000 00000080     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000080     0                         ._Z4CallIjJEET_xDpT0_
+00000000 0000001c     4 .text._ZNSt11_String_valIwSaIwEEC1ES0_
+00000000 0000001c     4         .text._ZNSt11_String_valIwSaIwEEC1ES0_
+00000000 0000001c     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 0000001c     0                         std::_String_val<wchar_t, std::allocator<wchar_t>>::_String_val(std::allocator<wchar_t>)
+00000000 00000054     4 .text._ZNSt11_String_valIwSaIwEEC2ES0_
+00000000 00000054     4         .text._ZNSt11_String_valIwSaIwEEC2ES0_
+00000000 00000054     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000054     0                         std::_String_val<wchar_t, std::allocator<wchar_t>>::_String_val(std::allocator<wchar_t>)
+00000000 00000070     4 .text._ZNSt11char_traitsIwE4copyEPwPKwj
+00000000 00000070     4         .text._ZNSt11char_traitsIwE4copyEPwPKwj
+00000000 00000070     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000070     0                         std::char_traits<wchar_t>::copy(wchar_t*, wchar_t const*, unsigned int)
+00000000 00000054     4 .text._ZNSaIwE10deallocateEPwj
+00000000 00000054     4         .text._ZNSaIwE10deallocateEPwj
+00000000 00000054     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000054     0                         std::allocator<wchar_t>::deallocate(wchar_t*, unsigned int)
+00000000 00000068     4 .text._ZNSbIwSt11char_traitsIwESaIwEE6_MyptrEv
+00000000 00000068     4         .text._ZNSbIwSt11char_traitsIwESaIwEE6_MyptrEv
+00000000 00000068     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000068     0                         std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::_Myptr()
+00000000 0000003c     4 .text._ZNSt11char_traitsIwE6assignERwRKw
+00000000 0000003c     4         .text._ZNSt11char_traitsIwE6assignERwRKw
+00000000 0000003c     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 0000003c     0                         std::char_traits<wchar_t>::assign(wchar_t&, wchar_t const&)
+00000000 0000008c     4 .text._ZNSbIwSt11char_traitsIwESaIwEE4_EosEj
+00000000 0000008c     4         .text._ZNSbIwSt11char_traitsIwESaIwEE4_EosEj
+00000000 0000008c     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 0000008c     0                         std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::_Eos(unsigned int)
+00000000 00000130     4 .text._ZNSbIwSt11char_traitsIwESaIwEE5_TidyEbj
+00000000 00000130     4         .text._ZNSbIwSt11char_traitsIwESaIwEE5_TidyEbj
+00000000 00000130     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000130     0                         std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::_Tidy(bool, unsigned int)
+00000000 00000020     4 .text._ZNKSbIwSt11char_traitsIwESaIwEE4sizeEv
+00000000 00000020     4         .text._ZNKSbIwSt11char_traitsIwESaIwEE4sizeEv
+00000000 00000020     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000020     0                         std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::size() const
+00000000 00000010     4 .text._ZNSt12_String_base5_XranEv
+00000000 00000010     4         .text._ZNSt12_String_base5_XranEv
+00000000 00000010     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000010     0                         std::_String_base::_Xran()
+00000000 00000070     4 .text._ZNSt11char_traitsIwE4moveEPwPKwj
+00000000 00000070     4         .text._ZNSt11char_traitsIwE4moveEPwPKwj
+00000000 00000070     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000070     0                         std::char_traits<wchar_t>::move(wchar_t*, wchar_t const*, unsigned int)
+00000000 00000204     4 .text._ZNSbIwSt11char_traitsIwESaIwEE5eraseEjj
+00000000 00000204     4         .text._ZNSbIwSt11char_traitsIwESaIwEE5eraseEjj
+00000000 00000204     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000204     0                         std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::erase(unsigned int, unsigned int)
+00000000 00000044     4 .text._ZNKSaIwE8max_sizeEv
+00000000 00000044     4         .text._ZNKSaIwE8max_sizeEv
+00000000 00000044     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000044     0                         std::allocator<wchar_t>::max_size() const
+00000000 00000070     4 .text._ZNKSbIwSt11char_traitsIwESaIwEE8max_sizeEv
+00000000 00000070     4         .text._ZNKSbIwSt11char_traitsIwESaIwEE8max_sizeEv
+00000000 00000070     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000070     0                         std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::max_size() const
+00000000 00000010     4 .text._ZNSt12_String_base5_XlenEv
+00000000 00000010     4         .text._ZNSt12_String_base5_XlenEv
+00000000 00000010     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000010     0                         std::_String_base::_Xlen()
+00000000 00000054     4 .text._ZSt9_AllocateIwEPT_jS1_
+00000000 00000054     4         .text._ZSt9_AllocateIwEPT_jS1_
+00000000 00000054     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000054     0                         wchar_t* std::_Allocate<wchar_t>(unsigned int, wchar_t*)
+00000000 00000050     4 .text._ZNSaIwE8allocateEj
+00000000 00000050     4         .text._ZNSaIwE8allocateEj
+00000000 00000050     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000050     0                         std::allocator<wchar_t>::allocate(unsigned int)
+00000000 00000220     4 .text._ZNSbIwSt11char_traitsIwESaIwEE5_CopyEjj
+00000000 00000220     4         .text._ZNSbIwSt11char_traitsIwESaIwEE5_CopyEjj
+00000000 00000220     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000220     0                         std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::_Copy(unsigned int, unsigned int)
+00000000 000001e4     4 .text._ZNSbIwSt11char_traitsIwESaIwEE5_GrowEjb
+00000000 000001e4     4         .text._ZNSbIwSt11char_traitsIwESaIwEE5_GrowEjb
+00000000 000001e4     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 000001e4     0                         std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::_Grow(unsigned int, bool)
+00000000 00000068     4 .text._ZNKSbIwSt11char_traitsIwESaIwEE6_MyptrEv
+00000000 00000068     4         .text._ZNKSbIwSt11char_traitsIwESaIwEE6_MyptrEv
+00000000 00000068     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000068     0                         std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::_Myptr() const
+00000000 00000224     4 .text._ZNSbIwSt11char_traitsIwESaIwEE6assignERKS2_jj
+00000000 00000224     4         .text._ZNSbIwSt11char_traitsIwESaIwEE6assignERKS2_jj
+00000000 00000224     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000224     0                         std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::assign(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>> const&, unsigned int, unsigned int)
+00000000 000000a0     4 .text._ZNSbIwSt11char_traitsIwESaIwEEC1ERKS2_
+00000000 000000a0     4         .text._ZNSbIwSt11char_traitsIwESaIwEEC1ERKS2_
+00000000 000000a0     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 000000a0     0                         std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::basic_string(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>> const&)
+00000000 00000044     4 .text._ZNSbIwSt11char_traitsIwESaIwEED1Ev
+00000000 00000044     4         .text._ZNSbIwSt11char_traitsIwESaIwEED1Ev
+00000000 00000044     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000044     0                         std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::~basic_string()
+00000000 00000150     4 .text._Z4CallIvJjSbIwSt11char_traitsIwESaIwEEjjjjjEET_xDpT0_
+00000000 00000150     4         .text._Z4CallIvJjSbIwSt11char_traitsIwESaIwEEjjjjjEET_xDpT0_
+00000000 00000150     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000150     0                         unsigned int Call<void, <unsigned int, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int>>(long long, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>...)
+00000000 000000f4     4 .text._Z4CallIvJjPKwjjjEET_xDpT0_
+00000000 000000f4     4         .text._Z4CallIvJjPKwjjjEET_xDpT0_
+00000000 000000f4     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 000000f4     0                         unsigned int Call<void, <unsigned int, wchar_t const*, unsigned int, unsigned int, unsigned int>>(long long, wchar_t const*...)
+00000000 000000b0     4 .text._Z4CallIiJjPKwEET_xDpT0_
+00000000 000000b0     4         .text._Z4CallIiJjPKwEET_xDpT0_
+00000000 000000b0     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 000000b0     0                         unsigned int Call<int, <unsigned int, wchar_t const*>>(long long, wchar_t const*...)
+00000000 00000098     4 .text._Z4CallIjJjEET_xDpT0_
+00000000 00000098     4         .text._Z4CallIjJjEET_xDpT0_
+00000000 00000098     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000098     0                         ._Z4CallIjJjEET_xDpT0_
+00000000 00000100     4 .text._Z4CallIvJjiiifEET_xDpT0_
+00000000 00000100     4         .text._Z4CallIvJjiiifEET_xDpT0_
+00000000 00000100     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000100     0                         unsigned int Call<void, <unsigned int, int, int, int, float>>(long long, int...)
+00000000 00000104     4 .text._Z4CallIvJjiiiiEET_xDpT0_
+00000000 00000104     4         .text._Z4CallIvJjiiiiEET_xDpT0_
+00000000 00000104     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000104     0                         unsigned int Call<void, <unsigned int, int, int, int, int>>(long long, int...)
+00000000 000000dc     4 .text._Z4CallIvJffffEET_xDpT0_
+00000000 000000dc     4         .text._Z4CallIvJffffEET_xDpT0_
+00000000 000000dc     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 000000dc     0                         float Call<void, <float, float, float, float>>(long long, float...)
+00000000 000000ac     4 .text._Z4CallIvJffEET_xDpT0_
+00000000 000000ac     4         .text._Z4CallIvJffEET_xDpT0_
+00000000 000000ac     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 000000ac     0                         float Call<void, <float, float>>(long long, float...)
+00000000 00000040     4 .text._ZNSt11char_traitsIwE6lengthEPKw
+00000000 00000040     4         .text._ZNSt11char_traitsIwE6lengthEPKw
+00000000 00000040     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000040     0                         std::char_traits<wchar_t>::length(wchar_t const*)
+00000000 000000bc     4 .text._ZNSbIwSt11char_traitsIwESaIwEE7_InsideEPKw
+00000000 000000bc     4         .text._ZNSbIwSt11char_traitsIwESaIwEE7_InsideEPKw
+00000000 000000bc     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 000000bc     0                         std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::_Inside(wchar_t const*)
+00000000 0000018c     4 .text._ZNSbIwSt11char_traitsIwESaIwEE6assignEPKwj
+00000000 0000018c     4         .text._ZNSbIwSt11char_traitsIwESaIwEE6assignEPKwj
+00000000 0000018c     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 0000018c     0                         std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::assign(wchar_t const*, unsigned int)
+00000000 0000008c     4 .text._ZNSbIwSt11char_traitsIwESaIwEE6assignEPKw
+00000000 0000008c     4         .text._ZNSbIwSt11char_traitsIwESaIwEE6assignEPKw
+00000000 0000008c     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 0000008c     0                         std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::assign(wchar_t const*)
+00000000 00000094     4 .text._ZNSbIwSt11char_traitsIwESaIwEEC1EPKw
+00000000 00000094     4         .text._ZNSbIwSt11char_traitsIwESaIwEEC1EPKw
+00000000 00000094     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000094     0                         std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::basic_string(wchar_t const*)
+00000000 00000010     8 .psp_lib_markimport_
+00000000 00000010     8         .psp_lib_markimport_
+00000000 00000010     8                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000020     4 .psp_lib_mark_
+00000000 00000020     4         .psp_lib_mark_
+00000000 00000020     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000008     0                         __PSPEXP__module_info
+00000008 00000008     0                         __PSPREN__module_info___psp_moduleinfo
+00000010 00000008     0                         __PSPEXP__module_start
+00000018 00000008     0                         __PSPREN__module_start__Minecraft_Simple_Base_prx_entry
+00000000 0000001c     4 .psp_lib_mark_cellPrx_Minecraft_Simple_Base
+00000000 0000001c     4         .psp_lib_mark_cellPrx_Minecraft_Simple_Base
+00000000 0000001c     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000008     0                         __PSPLIB_cellPrx_Minecraft_Simple_Base
+00000008 00000004     0                         __PSPSFN_cellPrx_Minecraft_Simple_Base_cellPrx_Minecraft_Simple_Base_stub
+0000000c 00000008     0                         __PSPEXP_cellPrx_Minecraft_Simple_Base__Minecraft_Simple_Base_export_function
+00000014 00000008     0                         __PSPREN_cellPrx_Minecraft_Simple_Base__Minecraft_Simple_Base_export_function__Minecraft_Simple_Base_export_function
+00000000 00000008     8 .psp_lib_markimport_cellPrx_Minecraft_Simple_Base
+00000000 00000008     8         .psp_lib_markimport_cellPrx_Minecraft_Simple_Base
+00000000 00000008     8                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000004     4 .rodata._ZNSbIwSt11char_traitsIwESaIwEE4nposE
+00000000 00000004     4         .rodata._ZNSbIwSt11char_traitsIwESaIwEE4nposE
+00000000 00000004     4                 C:\Users\ddhol\OneDrive\Documents\Visual Studio 2013\Projects\Minecraft_Simple_Base\Minecraft_Simple_Base\PS3_Debug\prx.o (TOC#1,0)
+00000000 00000004     0                         std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::npos
+00000000 0000003c     4 .psp_libgen_markfunc
+00000000 00000014     4         .psp_libgen_markfunc
+00000000 00000014     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_23.o) (TOC#1,0)
+00000000 00000014     0                         _sys_memalign
+00000014 00000014     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_90.o) (TOC#1,0)
+00000014 00000014     0                         _sys_malloc
+00000028 00000014     4                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_115.o) (TOC#1,0)
+00000028 00000014     0                         _sys_free
+00000000 0000004c     1 .sceversion
+00000000 00000013     1         .sceversion
+00000000 00000013     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_23.o) (TOC#1,0)
+00000013 00000013     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_90.o) (TOC#1,0)
+00000026 00000013     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_115.o) (TOC#1,0)
+00000039 00000013     1                 C:\usr\local\cell\target\ppu\lib\liblv2_stub.a(_sysPrxForUser_0001_head.o) (TOC#1,0)

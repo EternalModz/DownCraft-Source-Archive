@@ -1,0 +1,10 @@
+C:\Users\EternalModz\Desktop\Everything for DownCraft\RTM Tools\InjectSPRX V2\injectSPRX\bin\Debug\inject.exe.config
+C:\Users\EternalModz\Desktop\Everything for DownCraft\RTM Tools\InjectSPRX V2\injectSPRX\bin\Debug\inject.exe
+C:\Users\EternalModz\Desktop\Everything for DownCraft\RTM Tools\InjectSPRX V2\injectSPRX\bin\Debug\inject.pdb
+C:\Users\EternalModz\Desktop\Everything for DownCraft\RTM Tools\InjectSPRX V2\injectSPRX\obj\Debug\InjectSPRX V2.csproj.AssemblyReference.cache
+C:\Users\EternalModz\Desktop\Everything for DownCraft\RTM Tools\InjectSPRX V2\injectSPRX\obj\Debug\InjectSPRX V2.csproj.SuggestedBindingRedirects.cache
+C:\Users\EternalModz\Desktop\Everything for DownCraft\RTM Tools\InjectSPRX V2\injectSPRX\obj\Debug\injectSPRX.Properties.Resources.resources
+C:\Users\EternalModz\Desktop\Everything for DownCraft\RTM Tools\InjectSPRX V2\injectSPRX\obj\Debug\InjectSPRX V2.csproj.GenerateResource.cache
+C:\Users\EternalModz\Desktop\Everything for DownCraft\RTM Tools\InjectSPRX V2\injectSPRX\obj\Debug\InjectSPRX V2.csproj.CoreCompileInputs.cache
+C:\Users\EternalModz\Desktop\Everything for DownCraft\RTM Tools\InjectSPRX V2\injectSPRX\obj\Debug\inject.exe
+C:\Users\EternalModz\Desktop\Everything for DownCraft\RTM Tools\InjectSPRX V2\injectSPRX\obj\Debug\inject.pdb

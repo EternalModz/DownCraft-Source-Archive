@@ -1,0 +1,8 @@
+C:\Users\randy\Documents\GitHub\4J-DevKit\Source Csharp\injectSPRX V2\run\bin\Debug\run.exe.config
+C:\Users\randy\Documents\GitHub\4J-DevKit\Source Csharp\injectSPRX V2\run\bin\Debug\run.exe
+C:\Users\randy\Documents\GitHub\4J-DevKit\Source Csharp\injectSPRX V2\run\bin\Debug\run.pdb
+C:\Users\randy\Documents\GitHub\4J-DevKit\Source Csharp\injectSPRX V2\run\obj\Debug\run.csproj.AssemblyReference.cache
+C:\Users\randy\Documents\GitHub\4J-DevKit\Source Csharp\injectSPRX V2\run\obj\Debug\run.csproj.SuggestedBindingRedirects.cache
+C:\Users\randy\Documents\GitHub\4J-DevKit\Source Csharp\injectSPRX V2\run\obj\Debug\run.csproj.CoreCompileInputs.cache
+C:\Users\randy\Documents\GitHub\4J-DevKit\Source Csharp\injectSPRX V2\run\obj\Debug\run.exe
+C:\Users\randy\Documents\GitHub\4J-DevKit\Source Csharp\injectSPRX V2\run\obj\Debug\run.pdb

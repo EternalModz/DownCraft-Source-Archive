@@ -1,0 +1,21 @@
+DownCraft SPRX V2.1
+
+Working for CFW & HEN (TESTED SO DONT TELL ME ITS NOT WORKING JUST READ IT AND FOLLOW ALL STEP >.<)
+
+Step 1. Change your PS3 language to: English (United State)
+Step 2. If you using a ps3 HEN install the game BLES01976 it's on my website you should install it with multiman and if you are on CFW no need only if you got a problem
+Step 3. Change Minecraft language to English
+Step 4. Change the MediaPS3.arc to the default download it on my website and remplace it in: dev_hdd0/game/BLES01976 or NPEB01899/USRDIR/Common/Media delete the MediaPS3.arc and add the default
+Step 5. Place the EBOOT.BIN of DownCraft SPRX in your update game folder into your PS3 like this: dev_hdd0/game/BLES01976/USRDIR or dev_hdd0/game/NPEB01976/USRDIR
+Step 6. Take the MC.sprx and place it in: dev_hdd0/tmp/ if you have already a file called MC.sprx delete or remplace it by the new
+Step 7. Restart your PS3 and check if you have follow all step
+Step 8. Before using SPRX for play with on online, you need first sign in into the PSN before start Minecraft, if you start minecraft and after you sign in you can't play on online
+
+For open the menu press L1 + UP, please don't add another controller and if your world is full the menu can't work
+Bugs now: don't go faster in menu and when you close the menu wait 2 secondes before move or something else it's better
+
+Any report on comment youtube / discord server but i have played with this for 5 days it's work fine for me !
+
+- Misaki DEV
+
+PS: Also if you make a video about the SPRX Menu give me the link of your video on discord for i post it in my server

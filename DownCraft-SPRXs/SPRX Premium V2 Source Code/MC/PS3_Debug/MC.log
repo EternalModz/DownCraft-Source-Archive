@@ -1,0 +1,22 @@
+﻿Build started 20/10/2021 18:48:17.
+     1>Project "C:\Users\rstei\Google Drive\DownCraft Project\SPRX Developpement\SPRX Premium - Old Source\MC\MC.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         prx.cpp
+         ps3ppusnc.exe -D_DEBUG -D__CELL_ASSERT__ -D__PS3__ -DLIBNAME=cellPrx_MC -DSTUBNAME=cellPrx_MC_stub -o PS3_Debug\prx.o -c -Xdepmode=1 -MD -Xmserrors -I. -IC:/usr/local/cell\target\ppu\include -IC:/usr/local/cell\target\common\include -I"C:/usr/local/cell\host-win32\sn\ppu\include" -g -O0 -Xc-=rtti "C:\Users\rstei\Google Drive\DownCraft Project\SPRX Developpement\SPRX Premium - Old Source\MC\prx.cpp"
+     1>C:\Users\rstei\Google Drive\DownCraft Project\SPRX Developpement\SPRX Premium - Old Source\MC\PS3.h(460): warning 942: missing return statement at end of non-void function "cPrint"
+         
+     1>C:\Users\rstei\Google Drive\DownCraft Project\SPRX Developpement\SPRX Premium - Old Source\MC\PS3.h(465): warning 942: missing return statement at end of non-void function "clientIntPrint"
+         
+     1>C:\Users\rstei\Google Drive\DownCraft Project\SPRX Developpement\SPRX Premium - Old Source\MC\Dialog.h(230,6): warning 178: variable "ret" was declared but never referenced
+         
+     1>C:\Users\rstei\Google Drive\DownCraft Project\SPRX Developpement\SPRX Premium - Old Source\MC\Dialog.h(272,6): warning 552: variable "ret" was set but never used
+         
+       Link:
+         C:\usr\local\cell\host-win32\sn\bin\ps3ppuld64.exe -oformat=fsprx -o "C:\Users\rstei\Google Drive\DownCraft Project\SPRX Developpement\SPRX Premium - Old Source\PS3_Debug\MC.sprx" -L"C:/usr/local/cell\host-win32\lib\prx\ldscripts" --start-group PS3_Debug\prx.o libsn.a libm.a libio_stub.a libfs_stub.a C:/usr/local/cell\target\ppu\lib\libsnc.a C:/usr/local/cell\target\ppu\lib\libsysutil_userinfo_stub.a C:/usr/local/cell\target\ppu\lib\libhttp_stub.a C:/usr/local/cell\target\ppu\lib\libhttp_util_stub.a C:/usr/local/cell\target\ppu\lib\libnet_stub.a C:/usr/local/cell\target\ppu\lib\libnetctl_stub.a C:/usr/local/cell\target\ppu\lib\libsysutil_np_trophy_stub.a C:/usr/local/cell\target\ppu\lib\libl10n_stub.a C:/usr/local/cell\target\ppu\lib\libsysutil_game_stub.a C:/usr/local/cell\target\ppu\lib\libsysutil_np_stub.a C:/usr/local/cell\target\ppu\lib\libc.a C:/usr/local/cell\target\ppu\lib\libc_stub.a "C:\Program Files (x86)\SN Systems\PS3\ppu\lib\sn\libsn.a" C:/usr/local/cell\target\ppu\lib\libio_stub.a C:/usr/local/cell\target\ppu\lib\libsysutil_stub.a C:/usr/local/cell\target\ppu\lib\libsysmodule_stub.a C:/usr/local/cell\target\ppu\lib\libsyscall.a C:/usr/local/cell\target\ppu\lib\libstdc++_stub.a "C:/usr/local/cell\target\ppu\lib\fno-exceptions\libstdc++_stub.a" "C:/usr/local/cell\target\ppu\lib\fno-exceptions\fno-rtti\libstdc++_stub.a" C:/usr/local/cell\target\ppu\lib\libgcm_sys_stub.a "C:/usr/local/cell\host-win32\spu\lib\gcc\spu-lv2\4.1.1\libgcc.a" libsn.a libm.a libio_stub.a libfs_stub.a --end-group
+         MC.vcxproj -> C:\Users\rstei\Google Drive\DownCraft Project\SPRX Developpement\SPRX Premium - Old Source\PS3_Debug\MC.sprx
+         Moving Stub Library cellPrx_MC_stub.a -> C:\Users\rstei\Google Drive\DownCraft Project\SPRX Developpement\SPRX Premium - Old Source\PS3_Debug\
+     1>Done Building Project "C:\Users\rstei\Google Drive\DownCraft Project\SPRX Developpement\SPRX Premium - Old Source\MC\MC.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.77
