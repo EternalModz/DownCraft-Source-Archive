@@ -16,3 +16,7 @@ In private discussions with Misaki, we have mutually agreed that it is best for 
 
 ## Why am I re-releasing code that Misaki already released?
 I am releasing this code once again because many people don't have some of the code that I have. I helped Misaki many times in his RTM projects, and he never gave me credit for the times I helped him. I would like to give the community my work and show them how I assisted Misaki in designing and cleaning up his tools. I want everyone to have access to the source code of these projects, and I think it's very unfair that I worked so hard to help him, yet he didn't even include my name in the credits of any of his projects.
+
+## Proof of ownership
+*NOTE: This image has been upscaled.*
+![Proof (Upscaled)](Images/Proof%20(Upscaled).jpg)
