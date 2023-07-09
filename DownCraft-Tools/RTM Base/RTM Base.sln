@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTM Base", "RTM Base\RTM Base.csproj", "{EEEE8314-D555-4E22-8DBD-8A734061EE4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEEE8314-D555-4E22-8DBD-8A734061EE4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEEE8314-D555-4E22-8DBD-8A734061EE4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEEE8314-D555-4E22-8DBD-8A734061EE4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEEE8314-D555-4E22-8DBD-8A734061EE4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDBA597B-23D2-43CA-9E11-D178C8A8E3D2}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,69 @@
+TrueAncestor SELF Resigner
+
+v1.91
+1.Fix issue when resigning SELF/SPRX with all zero klicensee.
+
+v1.90
+1.Add custom sign SELF/SPRX files.
+2.Add raps folder, rap file can be put here to resign local type selfs.
+
+v1.85
+1.Turn on compress data switch as default.
+2.Add decrypt SELF/SPRX option.
+3.Add Klic Pool file in tool folder.
+4.Fix bug in resigning npdrm self file.
+
+v1.81
+1.Turn on control flags switch as default.
+2.Auto-change control flags switch when 4.21+ alt switch is changed.
+3.Fix resign NPDRM SELF/SPRX option, previous version not working.
+4.Update instructions.
+
+v1.8
+1.Rename to TrueAncestor SELF Resigner.
+2.Support batch resigning SELF/SPRX files.
+3.Add options for CEX CFW.
+4.Set non-compress data as default.
+5.Change ELF patching method, credit to Ftsm.
+6.Update instructions.
+
+v1.6
+1.Add alternative option for 4.21 CFW.
+2.Add instructions.
+3.Hide scetool screen feedback.
+
+v1.51
+1.Fix script logic error in option 3.
+
+v1.5
+1.Support resign EBOOT compitable for all CFW.
+2.Merge 3.55/3.41 option with 4.XX option.
+
+v1.41
+1.Add supporting resign 4.25 EBOOT to 4.21 in 4.XX options.
+2.Fix 4.25 EBOOT resign to 3.55/3.41/DEX.
+
+v1.4
+1.Re-make user interface and script.
+2.Re-make scetool key file (appldr to 4.30/npdrm to 4.25).
+3.Add 3.41 CFW support.
+4.Add decrypt FSELF option.
+5.Auto-load ContentID from npdrm EBOOT.
+6.Fix 3.55/3.41 resign for some games.
+
+v1.12
+1.Fix a script logic.
+
+v1.11
+1.Fix 3.55 resign for some games.
+
+v1.1
+1.Add 3.55 CFW support.
+2.Add keys to 4.25.
+
+v1.0
+1.Add decrypt EBOOT option.
+2.Add DEX support.
+
+4.21 EBOOT Resigner
+1.Resign EBOOT for 4.21 CFW usage.

@@ -1,0 +1,27 @@
+C:\Users\rstei\source\repos\MC Eboot Builder\MC Eboot Builder\bin\Debug\MC Eboot Builder.exe.config
+C:\Users\rstei\source\repos\MC Eboot Builder\MC Eboot Builder\bin\Debug\MC Eboot Builder.exe
+C:\Users\rstei\source\repos\MC Eboot Builder\MC Eboot Builder\bin\Debug\MC Eboot Builder.pdb
+C:\Users\rstei\source\repos\MC Eboot Builder\MC Eboot Builder\bin\Debug\Siticone.UI.dll
+C:\Users\rstei\source\repos\MC Eboot Builder\MC Eboot Builder\obj\Debug\MC Eboot Builder.csproj.AssemblyReference.cache
+C:\Users\rstei\source\repos\MC Eboot Builder\MC Eboot Builder\obj\Debug\MC_Eboot_Builder.Form1.resources
+C:\Users\rstei\source\repos\MC Eboot Builder\MC Eboot Builder\obj\Debug\MC_Eboot_Builder.Properties.Resources.resources
+C:\Users\rstei\source\repos\MC Eboot Builder\MC Eboot Builder\obj\Debug\MC Eboot Builder.csproj.GenerateResource.cache
+C:\Users\rstei\source\repos\MC Eboot Builder\MC Eboot Builder\obj\Debug\MC Eboot Builder.csproj.CoreCompileInputs.cache
+C:\Users\rstei\source\repos\MC Eboot Builder\MC Eboot Builder\obj\Debug\MC Eboot Builder.csproj.CopyComplete
+C:\Users\rstei\source\repos\MC Eboot Builder\MC Eboot Builder\obj\Debug\MC Eboot Builder.exe
+C:\Users\rstei\source\repos\MC Eboot Builder\MC Eboot Builder\obj\Debug\MC Eboot Builder.pdb
+C:\Users\rstei\source\repos\MC Eboot Builder\MC Eboot Builder\bin\Debug\Guna.UI.dll
+C:\Users\rstei\source\repos\MC Eboot Builder\MC Eboot Builder\bin\Debug\Guna.UI2.dll
+C:\Users\rstei\Google Drive\DownCraft Project\MC Eboot Builder\MC Eboot Builder\bin\Debug\MC Eboot Builder.exe.config
+C:\Users\rstei\Google Drive\DownCraft Project\MC Eboot Builder\MC Eboot Builder\bin\Debug\MC Eboot Builder.exe
+C:\Users\rstei\Google Drive\DownCraft Project\MC Eboot Builder\MC Eboot Builder\bin\Debug\MC Eboot Builder.pdb
+C:\Users\rstei\Google Drive\DownCraft Project\MC Eboot Builder\MC Eboot Builder\obj\Debug\MC Eboot Builder.csproj.AssemblyReference.cache
+C:\Users\rstei\Google Drive\DownCraft Project\MC Eboot Builder\MC Eboot Builder\obj\Debug\MC_Eboot_Builder.Form1.resources
+C:\Users\rstei\Google Drive\DownCraft Project\MC Eboot Builder\MC Eboot Builder\obj\Debug\MC_Eboot_Builder.Properties.Resources.resources
+C:\Users\rstei\Google Drive\DownCraft Project\MC Eboot Builder\MC Eboot Builder\obj\Debug\MC Eboot Builder.csproj.GenerateResource.cache
+C:\Users\rstei\Google Drive\DownCraft Project\MC Eboot Builder\MC Eboot Builder\obj\Debug\MC Eboot Builder.csproj.CoreCompileInputs.cache
+C:\Users\rstei\Google Drive\DownCraft Project\MC Eboot Builder\MC Eboot Builder\obj\Debug\MC Eboot Builder.csproj.CopyComplete
+C:\Users\rstei\Google Drive\DownCraft Project\MC Eboot Builder\MC Eboot Builder\obj\Debug\MC Eboot Builder.exe
+C:\Users\rstei\Google Drive\DownCraft Project\MC Eboot Builder\MC Eboot Builder\obj\Debug\MC Eboot Builder.pdb
+C:\Users\rstei\Google Drive\DownCraft Project\MC Eboot Builder\MC Eboot Builder\bin\Debug\Newtonsoft.Json.dll
+C:\Users\rstei\Google Drive\DownCraft Project\MC Eboot Builder\MC Eboot Builder\bin\Debug\Newtonsoft.Json.xml

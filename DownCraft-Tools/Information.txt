@@ -1,3 +1,5 @@
 These folders / projects have been cleaned out. I have gone through each one and I have removed all of the loggers, malware and other unwanted code. I hope it helps. I have also removed all updaters and all code relating to webclients and Discord RPCs. These projects should all now be safe to open and use.
 
+NOTE: There is some un-touched code in here that I have added in from when I bought the source code from Misaki. I suggest still looking through the code that I have not cleaned yet. There may still be harmful stuff in there. Good luck!
+
 - EternalModz

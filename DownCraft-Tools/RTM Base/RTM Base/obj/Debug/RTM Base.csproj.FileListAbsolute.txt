@@ -1,0 +1,24 @@
+C:\Users\rstei\source\repos\RTM Base\RTM Base\bin\Debug\RTM Base.exe.config
+C:\Users\rstei\source\repos\RTM Base\RTM Base\bin\Debug\RTM Base.exe
+C:\Users\rstei\source\repos\RTM Base\RTM Base\bin\Debug\RTM Base.pdb
+C:\Users\rstei\source\repos\RTM Base\RTM Base\bin\Debug\Guna.UI.dll
+C:\Users\rstei\source\repos\RTM Base\RTM Base\bin\Debug\Guna.UI2.dll
+C:\Users\rstei\source\repos\RTM Base\RTM Base\obj\Debug\RTM Base.csprojAssemblyReference.cache
+C:\Users\rstei\source\repos\RTM Base\RTM Base\obj\Debug\RTM_Base.Form1.resources
+C:\Users\rstei\source\repos\RTM Base\RTM Base\obj\Debug\RTM_Base.Properties.Resources.resources
+C:\Users\rstei\source\repos\RTM Base\RTM Base\obj\Debug\RTM Base.csproj.GenerateResource.cache
+C:\Users\rstei\source\repos\RTM Base\RTM Base\obj\Debug\RTM Base.csproj.CopyComplete
+C:\Users\rstei\source\repos\RTM Base\RTM Base\obj\Debug\RTM Base.exe
+C:\Users\rstei\source\repos\RTM Base\RTM Base\obj\Debug\RTM Base.pdb
+C:\Users\rstei\Bureau\RTM Base\RTM Base\bin\Debug\RTM Base.exe.config
+C:\Users\rstei\Bureau\RTM Base\RTM Base\bin\Debug\RTM Base.exe
+C:\Users\rstei\Bureau\RTM Base\RTM Base\bin\Debug\RTM Base.pdb
+C:\Users\rstei\Bureau\RTM Base\RTM Base\bin\Debug\PS3Lib.dll
+C:\Users\rstei\Bureau\RTM Base\RTM Base\bin\Debug\PS3ManagerAPI.dll
+C:\Users\rstei\Bureau\RTM Base\RTM Base\obj\Debug\RTM Base.csprojAssemblyReference.cache
+C:\Users\rstei\Bureau\RTM Base\RTM Base\obj\Debug\RTM_Base.Form1.resources
+C:\Users\rstei\Bureau\RTM Base\RTM Base\obj\Debug\RTM_Base.Properties.Resources.resources
+C:\Users\rstei\Bureau\RTM Base\RTM Base\obj\Debug\RTM Base.csproj.GenerateResource.cache
+C:\Users\rstei\Bureau\RTM Base\RTM Base\obj\Debug\RTM Base.csproj.CopyComplete
+C:\Users\rstei\Bureau\RTM Base\RTM Base\obj\Debug\RTM Base.exe
+C:\Users\rstei\Bureau\RTM Base\RTM Base\obj\Debug\RTM Base.pdb

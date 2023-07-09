@@ -1,0 +1,2241 @@
+// <Credits>
+// Offset credits go to: Misakiii, MayhemModding, TheRouletteBoi, DublinModz,
+// KKC Kobra, LordVirus, EternalModz, OhItsDiiTz, PhoenixARC, TheBlackRabbit,
+// NELUxP,  and Eddie Mac <Credits>
+
+GOD MODE: 0x00424661  -- 20 F8 90 E8 01 00 A0 7C 08 03 A6 CB E1 00 88 EB E1
+
+INSTANT DAMAGE 0x00324E90 --  3F 00 00 00 3F 80 00 00 40 66 80 00 00 00 00 00 3F
+
+KNOCKBACK 0x00324EB8 -- 3E CC CC CD 00 00 00 00 40 00 00 00 00 00 00 00 F8
+
+WATER JUMP -- 0x00289343 -- 3F 94 7A E1 47 AE 14 7B 3F D3 33 33 40 00 00 00 3C
+
+UNLIMITED PICK UP 0x001E9E37 -- 01 80 A3 00 00 98 83 01 97 80 85 03 9C 80 84 00 00 7C 89 03 A6 4E 9E
+
+ANTI KB 0x00324EB8 -- 3E CC CC CD 00 00 00 00 40 00 00 00 00 00 00 00 F8
+
+ONE HIT 0x00181949 -- E0 08 90 3B E3 5D 30 C0 3F 00 00 C0 9F 00 04 EC 23 20 7A C0 BF 00 08
+
+FAST BOW 0x000E77BD -- E0 08 90 3B E3 19 18 C0 3F 00 00 C0 9F 00 04 EC 23
+
+ALL PLAYERS FAST MINE 0x000F5920 -- FF E0 08 90 83 E1 00 74 2C 1F 00 00 41 82 00 74 30
+
+ALL PLAYERS SPEED AND ZOOM 0x000184E0 -- FF E0 08 90 3C E0 FF FF 30 7B 00 10 FB A1 00 A0 38
+
+FREEZE HEART 0x013DBB40 -- 00 00 00 0C 4F 8B ED AC 75 CF 24 28 4C 17 EF 92 18
+
+
+
+NON HOST 
+
+
+SPEED JUMP 0x0032D439 -- 68 F5 C3 3E 26 AD 89 BE 19 99 9A 3E 19 99 9A BF C3
+
+MULTI JUMP 0x001EC6D3 -- 18 FC 14 88 00 62 C7 00 00 4C C1 13 82 41 86 00 08
+
+SUPER JUMP 0x0032D458 -- 3F B4 7A E1 47 AE 14 7B 3F EF 5C 29 00 00 00 00 F8
+
+REACH KILL AURA 0x001F68BC -- 00 00 00 00 3C 60 00 1F 38 63 68 BC C0 23 00 00 4E
+
+AUTO JUMP 0x00A40398 -- 40 81 00 18 30 64 FF FF
+
+SUPER SPEED 0x0032D43D -- 26 AD 89 BE 19 99 9A 3E 19 99 9A BF C3 33 33 33 33
+
+REACH 0x00A71438 -- 40 90 00 00 60 00 00 00 F8 21 FF 91 7C 08 02 A6 F8
+and 0x00A71434 -- 40 A0 00 00 40 90 00 00 60 00 00 00 F8 21 FF 91 7C
+
+NO COLLISION 0x00011190 -- 00 00 00 00 00 00 00 00 F8 21 FF 91 7C 08 02 A6 F8
+
+INSTANT MINE 0x00A29F98 -- 3F 80 00 00 3E 00 00 00 41 20 00 00 60 00 00 00 F8
+
+INSTANT HIT 0x00A2ADDC -- 3E 80 00 00 40 00 00 00 60 00 00 00 F8 21 FB A1 7C
+
+UNLIMITED CRAFT 0x008C40C7 -- 00 4E 80 00 20 4E 80 00 20 F8 21 FF 81 7C 08 02 A6
+
+ANTI TELEPORT BY HOST 0x00331950 -- 3F 7A E1 48 3F 66 66 66 F8 21 FF 41 7C 08 02 A6 F8
+
+NO SLOW 0x001EF830 -- 3F 80 00 00 60 00 00 00 F8 21 FF 61 7C 08 02 A6 F8
+
+UFO MODE 0x0032D458 -- 3F B4 7A E1 47 AE 14 7B 3F EF 5C 29 00 00 00 00 F8
+
+JUMP FORWARD x2 0x0032D439 -- 68 F5 C3 3E 26 AD 89 BE 19 99 9A 3E 19 99 9A BF C3
+
+CAM DOWN 0x00424340 -- FC 01 10 00 40 82 00 14 3C 60 00 42 38 63 41 D4 C3
+
+CAM DOWN PRESS R3 0x004243A0 -- FC 20 F8 90 E8 01 00 90 7C 08 03 A6 CB E1 00 78 EB
+
+FLY MODE 0x00A406F4 -- 40 00 00 4B 9D AB C1 2C 03 00 00 41
+
+TOGGLE SPRINT 0x00A405B4 -- 41 82 00 38 C0 24 00 08 FC 01 D8 00 41 80 00
+
+NAME OVER HEAD 0x00A1716C -- 40 82 00 1C 2C 1D 00 00 41 82 02 A0 80 7D 01
+
+XRAY 0x009DE49C -- FC 60 30 90 80 85 00 1C 80 84 00 00 7C 89 03
+
+HUD MINI GAME 0x00A174A8 -- 40 82 00 24 3C 60 01 46 38 80 00 1F 30 63 56
+
+SHOW ARMOR 0x0085E5E8 -- 40 81 00 20 63 43 00 00 38 80 00 01 4B FF C1
+
+INCREASE BOW DISTANCE 0x000E7788 -- 3E AA AA AB 3F 80 00 00 F8 21 FF 71 7C 08 02
+
+HEARTS POISSON 0x0085E5A4 -- 40 82 00 0C 2C 1D 00 00 41 82 00 08 38 E0 00
+
+FAST BOW TEST 0x000E77BD -- E0 08 18 48 92 20 FD 48 92 FC B5 48 64 EA 7D
+
+BLANK SURVIVAL CRAFTING 0x013D7BD4 -- 31 5C 22 50 31 5C 1B 50 31 5A C9 30 31 5C 23
+
+CRAZY HEAD 0x009FB4B4 -- 40 82 00 24 EC 3E 07 B2 EC 3D 0F 7A FC 01 F8
+
+REFRESH HUD 0x013DBB40 -- 00 00 00 0C 4F 8B ED AC 75 CF 24 28 4C 17 EF
+
+
+
+
+FUN MOD 
+
+APOCALIPSE:
+0x00A14F58 -- BF 80 00 00 3F 80 00 00 BF C0 20 C5 00 00 00
+0x003A13B8 -- 40 C0 00 00 3F 80 00 00 00 00 00 00 43 7F 00
+
+CHANGE WALK:
+0x00A14F5C -- 3F 80 00 00 BF C0 20 C5 00 00 00 00 3D 80 00
+
+FUNNY SCREEN:
+0x00A14F58 -- BF 80 00 00 3F 80 00 00 BF C0 20 C5 00 00 00 00 3D
+
+CHANGE PLAYERS POSSITION:
+0x00A14F58 -- 
+
+FUNNY SOUND: 
+0x00A29F98 -- 3F 80 00 00 3E 00 00 00 41 20 00 00 60 00 00 00 F8
+
+PLAYERS RUN:
+0x0032E4AC -- 3F 80 00 00 3E CC CC CD 60 00 00 00 F8 21 FF 71 7C 08 02
+
+SKY COLOR 
+0x003A13B8 -- 40 C0 00 00 3F 80 00 00 00 00 00 00 43 7F 00 00 F8 21 FF
+
+FOV:
+0x013D498C -- 3F 80 00 00 BD C4 29 83 00 00 00 00 3F D1 26 14 5E 9E CD
+
+FOG:
+0x013D4918 -- 3F 80 00 00 00 00 00 00 3F 00 00 00 BF 00 00 00 01 3F 95
+
+HUD COLOR:
+0x3001B324 -- 3F 80 00 00 3F 80 00 00 3F 80 00 00 3F 80 00 00 00 00 00
+
+INVISIBLE HUD 0x0085E440 -- 38 80 00 01 4B FF C5 0D 57 C3 18 38 7C 7F 18 14 33 E3 00
+
+SIZE HUD 0x0085EA30 --  40 82 00 18 62 C3 00 00 38 80 00 1B 48 03 0B 55 60 7F 00
+
+Add New box items: 0x0085EBE8 -- 40 82 00 40 3C 60 01 44 80 63 A8 F0 7C 1F 18 00 40 82 00 14 62 83 00
+
+Remove Hud Items: 0x0085F1DC -- 40 82 00 70 63 63 00 00 FB 61 09 D0 62 C4 00 00 38 A0 00 1F 4B F6
+
+
+
+
+
+
+
+
+
+Non Host Anti KB: 0x00010870 -- 00 00 00 00 00 00 00 00 F8 21 FF 51 7C 08 02 A6 F8 01 00 C0 DB
+
+0x013CA4A4
+
+
+
+
+
+Save Map: 0x00A2E3FC -- 41 82 00 94 2C 04 00 00 40 82 00 8C 62 23 00 00 4B
+
+Auto Select 0x00AF1DD4 -- 40 82 00 1C 80 7E 00 00 30 63 07 D8 78 63 00 20 E8 83
+
+A test: 0x00A40764
+
+
+Disable MOB: 0x3B40F4 -- 41 82 00 14 48 65 5E 85 48 67 A0 19 2C 03 00 00 41 82 00 20 80 9F 00
+
+Disable Swim: 0x3474FC -- 41 80 02 84 3B 40 00 00 63 D7 00 00 7C 17 E8 00 40 80 02 64 63 96 00
+
+Fire Creeper Explode: 0x191D64 -- 39 40 00 00 F8 61 00 18 80 7F 00 04 90 61 00 A8 3C 60 00 19 80 9E
+
+Disable Explode Creeper: 0x192000 -- 41 13 00 4C 80 BF 00 00 63 E3 00 00 80 A5 00 14 80 A5 00 00 7C A9 03
+
+AUTO Mine: 0xA2B9E0 -- 41 82 00 1C 62 43 00 00 48 47 48 91 38 80 00 00 38 A0 00 01 4B FF F6
+
+AUTO HIT: 0xA2e8c8 -- 41 82 00 24 63 C3 00 00 48 47 19 A9 30 63 07 D8 E8 81 01 60 78 63 00
+
+DAYS/NIGHT: 0x001AD54C -- 3F 80 00 00 3F 00 00 00 3E AA AA AB F8 21 FF 71 7C 08 02 A6 F8 01 00
+
+
+
+Auto Change View: 0x00A2EAD0 -- 40 82 00 20 80 7E 00 00 E8 81 01 48 30 63 07 D8 78 63 00 20 E8 A3 00
+
+Split Screen: 0x00A2EF54 -- 41 82 00 08 3B E0 00 01 3C 60 01 5C 80 63 AF 8C 80 83 00 00 80 84 00
+
+Hide items: 0x00A36020 -- BF 80 00 00 41 80 00 00 F8 21 FF 61 7C 08 02 A6 F8 01 00 B0 DB A1
+
+Change walk: 0x00331950 -- 3F 7A E1 48 3F 66 66 66 F8 21 FF 41 7C 08 02 A6 F8 01 00 D0 DB 81
+
+Change Items to WTF: 0x00A36020 -- BF 80 00 00 41 80 00 00 F8 21 FF 61 7C 08 02 A6 F8 01 00 B0 DB A1
+
+
+Place Block Invisible: 0x00A627E4 -- 2C 05 00 00 41 82 00 54 80 9B 02 58 7C A5 20 10 7C A3 16 70 7C 63
+
+Fake Froze game: 0x00C10138 -- 3F F0 00 00 00 00 00 00 F8 21 FF 61 7C 08 02 A6 F8 01 00 B0 FB E1 00
+
+No Jump: 0x0032D459 -- B4 7A E1 47 AE 14 7B 3F EF 5C 29 00 00 00 00 F8 21 FE E1 7C 08 02
+
+Realist Jump: 0x013E49B0 -- 3F 80 00 00 01 40 96 00 3F B0 57 4B 13 57 5D 84 3F E4 5E ED 19 4C
+
+Blue Fog: 0x013E4A60 -- 3F 80 00 00 00 00 00 00 3E 89 30 A3 3F DD B3 D7 3F 80 00 00 01 40 95
+
+Stop Walk: 0x0032E4AC -- 3F 80 00 00 3E CC CC CD 60 00 00 00 F8 21 FF 71 7C 08 02 A6 F8 01 00
+
+
+
+Break view: 0x00A8AEC4 -- 3F 80 00 00 3E 99 99 9A 42 B4 00 00 BF 80 00 00 3D CC CC CD 3D 4C CC
+
+Remove all block: 0x00A8F22C -- 3F 80 00 00 3E 80 00 00 3D 4C CC CD 40 A0 00 00 3D CC CC CD 40 00 00
+
+
+
+Want Fast Swim?
+Yea
+
+
+A mettre :
+
+Kill aura: 00 00 00 00 3C 60 00 1F 38 63 68 BC C0 23 00 00 4E 80 00 20 F8 21 FF 91 7C 08 02 A6 F8 01 00 80 C0 23 00 84 C0
+
+
+Super Jump: 
+3F B4 7A E1 47 AE 14 7B 3F EF 5C 29 00 00 00 00 F8 21 FE E1 7C 08 02 A6 F8 01 01 30 DA C1 00 D0 DA E1 00 D8 DB 01 00 E0 DB 21 00 E8 DB 41
+
+Multi Jump:
+18 FC 14 88 00 62 C7 00 00 4C C1 13 82 41 86 00 08 38 E0 00 01 2C 05
+
+Levation: 0x003A5FB0 -- 3F EF 5C 29 00 00 00 00 F8 21 FE E1 7C 08 02 A6 F8 01 01 30 DA E1 00
+
+a finir: 000000000032D460
+
+Walk on water: 0x003A5F40 -- 3F E9 99 99 A0 00 00 00 3F 94 7A E1 40 00 00 00 3F 74 7A E1 47 AE 14
+
+Snik view: 0x004ACF88 -- FC 01 10 00 40 82 00 14 3C 60 00 4B 38 63 CD 54 C0 23 00 18 EF FF 08
+
+Remove all text: 0x0077F7CC -- 41 82 01 38 3C 60 00 78 38 63 F7 70 C3 E3 00 00 38 60 00 09 A3 9D 00
+
+Change Posistion view: 0x00A8C398 -- 41 82 01 38 3C 60 00 A9 83 FF 22 18 38 63 BE B8 2C 9F 00 03 2F 1F 00
+
+Super Water Jump: 0x003A5F40 --3F E9 99 99 A0 00 00 00 3F 94 7A E1 40 00 00 00 3F 74 7A E1 47 AE 14
+
+Speed Crouch in water run and press R3: 0x003A5F50 -- BF 74 7A E1 47 AE 14 7B 3F E3 33 33 40 00 00 00 3F E0 00 00 00 00 00
+
+Set View Up (Funny): 0x00A887D8 -- 3F 00 00 00 3F 80 00 00 3D CC CC CD 3C 4C CC CD F8 21 FF 31 7C 08 02
+
+
+Remove Swim: 0x003A5F20 -- 3F 66 66 66 3C A3 D7 0A 40 40 00 00 3F 0B C6 A9 3E AA AA AB 3F 80 00
+
+Change movement swim: 0x003A5F24 -- 3C A3 D7 0A 40 40 00 00 3F 0B C6 A9 3E AA AA AB 3F 80 00 00 40 14 00
+
+View outside map: 0x00A8AEC4 -- 3F 80 00 00 3E 99 99 9A 42 B4 00 00 BF 80 00 00 3D CC CC CD 3D 4C CC
+
+Look forback: 0x00A8AEBC -- 43 34 00 00 00 00 00 00 3F 80 00 00 3E 99 99 9A 32 B4 00 00 BF 80
+
+
+
+Arms speed hit: 0x00AC1EB0 -- 40 00 00 00 3E CC CC CD BE CC CC CD 3F 23 D7 0B BF 19 99 9A BF 38 51
+
+Reverse arms: 0x00AC1EBC -- 3F 23 D7 0B BF 19 99 9A BF 38 51 EB 42 34 00 00 00 00 00 00 42 8C 00 00
+
+Arms up or down: 0x00AC1EC0 -- BF 19 99 9A BF 38 51 EB 42 34 00 00 00 00 00 00 42 8C 00 00 C1 A0 00 00
+
+Hud wtf: 0x00784CE8 -- 3F 85 96 9F 60 00 00 00 F8 21 FF 71 7C 08 02 A6 F8 01 00 A0 DB E1 00 88
+
+Water Atmosphere: 38ACC8 -- 3B 40 00 00 63 D7 00 00 7C 17 E8 00 40 80 02 70 63 96 00 00 7C 16 D8
+
+Burn: 0x00229280 -- 40 81 00 A4 88 7F 01 F5
+
+Color fog: 0x00A887DC -- 3F 80 00 00 3D CC CC CD 3C 4C CC CD F8 21 FF 31 7C 08 02 A6 F8 01 00
+
+
+
+
+Fast Swim: 3A5F24 -- 3C A3 D7 0A  40 40 00 00
+
+Pick up items idk: 30CB54 -- 40 81 00 34 80 9C 00 30 63 63 00 00 80 84 00 00 7C 89 03 A6 4E 9E 04
+
+Infinity Oxygen in water: 39E3F8 -- 
+
+Change language to alien: 0x0077F7B0 -- 41 80 00 0C 83 A4 00 04 48 00 00 0C 33 A4 00 04 7B BD 00 20 A0 7D 00
+
+Return to XMB: 0x0077EF9C -- 41 80 00 28 80 61 00 74 48 55 05 65 48 00 00 1C 2C 1D 00 00 41 82
+
+Mini xRay / Zoom: 0x00A8AED8 -- 3D 4C CC CD 3F 00 00 00 3E 80 00 00 60 00 00 00 F8 21 FE 61 7C 08
+
+New Xray: 0x00A8BEC8 -- 3D 40 CC CD 3D CC CC CD 40 A0 00 00 3D 23 D7 0A 3C 8E FA 35 BF C9
+
+Broke texture minecraft: 0x00A8BEC4 -- 40 00 00 00 3D 40 CC CD 3D CC CC CD 40 A0 00 00 3D 23 D7 0A 3C 8E FA
+
+A test: 0x00A8BEC0 -- 3F 80 00 00 40 00 00 00 3D 40 CC CD 3D CC CC CD 40 A0 00 00 3D 23 D7
+
+Shockwave: 0x00A8BEB8 -- 00 00 00 00 3D 8F 5C 29 3F 80 00 00 40 00 00 00 3D 40 CC CD 3D CC CC
+
+Horror gameplay: 0x00A8D640 -- 3F 80 00 00 3F 73 33 33 3D 4C CC CD 3D CC CC CD 3F C0 00 00 3F 26 66
+
+Aretter: A9F788
+
+
+Toss: 0x00AE4820 
+
+Change sky night light: 0x003865B8
+
+
+
+Run crouch: 0x00AF4A5C
+
+Real Super Man: 0x00AF5894 
+
+Jsp vole: 0x00AF5988
+
+See reverse map if you jump: 0x014C6840 
+
+
+Kill aura: 0x00236CC0 -- 00 00 00 00 60 00 00 00 3C 60 00 23 38 63 6C C0 C0 23 00 00 4E 80 00
+
+Rotation run: 0x014C6840 -- 3F 80 00 00 01 4E C9 90 3F B0 57 4B 13 57 5D 84 3F E4 5E ED 19 4C 93
+
+Active Fly mode: 0x00AF5988 -- 40 82 00 38 2C 1F 00 00 40 82 00 30 80 78 06 08 2C 03 00 00 40 82 00
+
+
+Idk a test: 0x003BC358
+
+
+
+Wall hack: 0x30012913
+
+Weater change: 0x0038E6E0
+
+
+See name: 0x00AD1948
+
+Game speed: 0x00C13588
+
+Fly mode press 1x X: 0x00AF7524
+
+
+Light blink: 0x00386640 -- 48
+
+Game yellow: 0x0038665C -- FF
+
+Night Sky: 0x0038678C
+
+New carrer in inventory: 0x00907748
+
+
+Water: 0x003A7448
+
+
+
+0x00387968 Change to F remove star in sky     0x00387B50
+
+White star change to F 0x00387971
+
+
+
+
+Day / Night: 0x014C6A18
+
+New Fog Colors: 0x014C6970
+
+
+Suicide mode / Jump x999999: 0x003A76B8
+
+
+Fast Build (Surival): 0x00AE820C
+
+
+Remove block crack: 0x00AE6448
+
+
+
+
+Speed Swim: 0x003A762C
+
+HUD LOADING: 0x014CE3B0
+
+
+
+Time Speed: 0x001D733C
+
+
+Dark Storm: 0x0038F31C
+
+
+Game Speed Static: 0x00AEB1F4
+
+
+Can fly: 0x00AF9FD8
+
+
+Local Snow: 0x01315C74
+
+
+
+
+
+
+Sombre dans la nuit: 0x00A937F0
+
+Blackout: 0x00A937F0
+
+
+Flash light: 0x00A937F4 
+
+
+More ration light / Green: 0x00A937F8
+
+Light moon / Blue: 0x00A937FC   Blue / remove light: 0x00A93800
+
+Little cyan / Yellow: 0x00A93804
+
+Hell / red: 0x00A93808
+
+Purple black: 0x00A9380C
+
+
+
+Pause particles: 0x00AE9EF0
+
+----------------------------------------------------------------
+
+New fake froze: 0x00AEA394
+
+Fake froze with slow: 0x00AEA3A4
+
+
+Semi Black Screen: 0x00AEBA54
+
+Disable Fly Creative: 0x00AFA338
+
+
+Need place only 1 block (Survival): 0x00AE85A4
+
+
+Place instant block (Survival): 0x00AE864C
+
+Instant place (Survial): 0x00AE868C
+
+Instant Place 2 (Survival): 0x00AE8694
+
+
+
+Remove Hit: 0x0039F8D8
+
+
+Big Players: 0x00AD253C
+
+Up or down players: 0x00AD2540
+
+Players Position: 0x00AD2544
+
+Position Arms and legs: 0x00AD2548
+
+
+
+Indicator Players Red after hit: 0x00AD20CC
+
+
+
+No Slow Down & Reverse Walk: 0x003AB448
+
+Infinity Place Block: 0x00105AAC
+
+Up or Down: 0x003A76B0
+
+
+
+
+Instant place block: 0x00AE861C
+
+
+
+
+Sky with after hit: 0x00AD4268
+
+
+Particles Rain break Block
+
+
+Remove Particles: 0x00B49FC0
+
+Particles Fly Break Block: 0x00B4A360
+
+Slow Or Fast Break Block: 0x00B4A368
+
+
+New big particles :0x00517D90
+
+
+
+
+
+----NEW----
+
+Block Invisible: 0x00389B44
+
+
+
+
+Pierre: 0x309291C1
+
+Name 1: 0x3000E1BF
+
+
+
+
+0x00393E3C = Small Rain = 3E
+Blind Black with particles: 0x00393E3C = BF FF
+
+Orange avec ciel noir: 3F FF
+
+
+
+
+Menu SPRX: 4D 00 69 00 6E 00 65 00 63 00 72 00 61 00 66 00 74 00 20 00 53 00 50 00 52 00 58 00 20 00 56 00 31 00 0A 00 0A 00 53 00 65 00 6C 00 66 00 20 00 4D 00 65 00 6E 00 75 00 0A 00 46 00 75 00 6E 00 20 00 4D 00 65 00 6E 00 75 00 0A 00 4C 00 6F 00 62 00 62 00 79 00 20 00 4D 00 65 00 6E 00 75 00 0A 00 41 00 74 00 74 00 61 00 63 00 6B 00 20 00 4D 00 65 00 6E 00 75 00 0A 00 BB 00 4E 00 61 00 6D 00 65 00 20 00 4D 00 65 00 6E 00 75 00 0A 00 43 00 72 00 65 00 64 00 69 00 74 00 73 00 0A 00 0A 00 44 00 6F 00 77 00 6E 00 43 00 72 00 61 00 66 00 74 00 A9 00 20 00 56 00 65 00 72 00 73 00 69 00 6F 00 6E 00 20 00 56 00 39
+
+
+
+
+Creatif: 0x30B23D51
+
+
+New speed: 0x003AA9A1   = 68
+
+
+Remove place blocks: 0x00AB0700 change to 41
+
+
+New no colission: 0x00389C84 - 0x00389E4C
+
+
+Kick XMB: 0x00389E60
+
+
+
+
+
+Spawn = 0x014D3718 change to 10
+
+Position sword: 0x00AD4D08
+
+
+
+Player swim in grass= 0x00AD8670
+
+
+
+0x30DBB130 = Black HUD colors
+
+Suicide = 3F FF 0x003ABDD8
+
+
+Hit critical 0x003ABDD8 = 3F AF
+
+
+Frappé text: 0x30B24661
+
+
+
+
+Regions local:
+0x3000ABF8
+0x3000AC68
+0x3000ACD8
+0x3000AD48
+
+Name:
+Host = 0x326A8488
+2 players = 0x326A84A8
+3 players: 0x326A84C8
+4 players: 0x326A84E8
+5 players: 0x326A8508
+
+
+Regions with name others
+
+2: 
+Name: 0x326B5338
+Regions: 0x326B534C
+Avatar PSN: 0x326B53B8
+--------------
+3:
+Name: 0x326B5338
+Region: 0x326B534C
+Avatar PSN: 0x326B53B8
+-----------------
+4:
+name: 0x326B5338
+region: 0x326B534C
+Avatar PSN: 0x326B53B8
+
+
+Offset time: 0x326C9B0B
+
+
+0x32A5B50B
+0x32DE7C64
+0x32DE7C82
+0x32DE7CF5
+0x32DE7D13
+0x32DE7DB6
+0x32DEA2E0
+
+0x32E4B706
+0x32E4CDC0
+
+
+
+
+
+
+1= 37
+2= 30
+3= 31
+4 = 32
+5 = 33
+6 = 34
+7 = 35
+8 = 36
+
+
+
+0x326B5514 peux être pour les regions et avatar
+
+
+
+0543455861749499
+
+
+
+
+
+0x003ACEFC = Jambes
+0x00785D4C = Ont colors items
+Fake lag= 0x00C22AF8
+Disable run= 0x00B04B18
+New sky: 0x00410748
+Positon noms items: 0x00710EF8
+Remove case gray: 0x007860D8
+
+Lock arms: 0x00A87FFC
+Animation hit arms: 0x00A87FE8
+Animation 2 ème arms: 0x00A87FEC
+Arms Speed + Wtf body all move: 0x00A87FF0
+Player make skate + weird walk: 0x00A87FF8
+Legs animations: 0x00A88004
+Items in hand: 0x00A88008
+Arms when you hit: 0x00A88020
+
+
+
+Build: 0x0132833D
+
+Duration potions: 0x01323B2B
+
+
+Hearth hurt time: 0x01321761
+
+
+
+Survival to creative: 0x002F0350
+Creative to Survival: 0x002F0370
+Hud survival to creative: 0x002F0380
+Hud Creative to survival: 0x002F03A0
+
+
+
+
+0x00AF13A3= Press X open inventory
+L2 Break / pose= 0x00AF13AB
+Squarre: 0x00AF13C2
+0x00AF13DA: L3
+
+
+0x01327D34= Slow
+
+Ice walk: 0x002278EC
+
+
+No anim walk / hit / run : 0x00227BE4
+
+Cant mine survival: 0x00AED920
+
+Lock Change Game Mode: 0x002F03D8
+
+Change Gamemode Hidden: 0x002F03BC
+
+Removed Adventure Gamemode: 0x002F0410
+
+
+
+
+Name in game: 0x320C4A8D
+
+Game States: 0x32103440
+
+Inventory: 14D9328
+
+
+
+Change items texture: 0x00CD6CB0
+
+
+Better FPS: 0x00AF27E4
+
+
+
+TNT Dont explode: 
+0x00245D0C
+
+New Wall Hack: 0x00A9B770
+
+Instant In Block: 0x003ABDD0
+
+Float Up: 0x003ABDD0
+
+
+
+
+=============================================================================
+
+ESP Cheat = 0x00A9B76C
+
+Much FPS = 0x00A9B768 //Pas Mis
+
+Change Graphisme= 0x00A9B714
+
+Fog on block = 0x00A9B7F4 //Pas Mis
+
+
+0x0010E0C4 Change to 48 = Fake Broken Block
+
+
+For Super Speed all = 18
+
+
+Flash Map Wall hack : 0x00A9B8C8 = FC 20 C8 //Pas mis
+
+
+Make or remove rain 0x00A9DA5C //Pas Mis
+
+Good Speed with jump: 0x003ABD50 = 3F 40 00 01 = 3E 26 AD 89
+
+
+New position cam: 0x00A9B870
+
+New Posittion cam: 0x00A9B9CC
+
+Tnt can't break blocks: 0x00245DF0 = 00
+
+Giant Gameplay: 0x00A9B6DC
+
+Walk Same Water: 0x003ABEE8 //Pas Mis
+
+Knockback: 0x003ABF44
+
+Moon = 0x003ABF90 //Pas mis
+
+
+Super Jump: 0x003ABDD0 //Pas Mis
+
+Remove hud inventory: 0x0090FE18
+
+Remove pointer aim: 0x0090FF54
+
+Reverse hud creatif to survival and survival to creatif: 0x0090FF90 //Pas MIs
+
+Show oxygen: 0x0090FFD4 //Pas Mis
+
+Show armor: 0x0090FFE0 //Pas Mis
+
+Show heart golden: 0x0090FFF8 //Pas Mis
+
+Reserse creatif to survival: 0x00910048 //Pas Mis
+
+Hud inventory invisible: 0x00910200 //Pas Mis
+
+Show players like battle= 0x009103F0
+
+Medium explode creeper = 0x001CC864
+
+Creeper Cant break blocks: 0x001CC82C
+
+Make Creeper bot / big creeper = 0x001CC824
+
+Crouch when you fly = 0x00B04C74 //Pas mis
+
+No Slow = 0x003AFB68 4F
+0x001CC7E8
+
+Remove anim walk / run 3th personn: 0x00A9BAB8 //Pas Mis
+
+Show Aim 3th personn: 0x0090FE18 //Pas Mis
+
+Down on screen HUD inventory = 0x0090FCC4
+
+Block Crack = 0x00AED8B8 //Pas Mis
+
+Cant Break Block Survival = 0x00AED920 //Pas Mis
+
+Particles but cant broken = 0x00AED93C //Pas Mis
+
+Faster Broken Blocks: 0x00AED944 or 0x00AED93C
+
+Fast Broke block: 0x00AED95C //Pas Mis
+
+Items textures shader : 0x00AF9450 //Pas mis
+
+Cant grab items : 0x00310B14
+
+Wtf weird view: 0x00A9B81C //Pas Mis
+
+Game lag remove FPS: 0x00AF2638
+
+Can't change weather = 0x00393E8C
+
+Day / Night = 0x001DA1D8 //Pas Mis
+
+Look down Head all = 0x00A88190
+
+Look up head all = 0x00A881F0
+
+New arms: 0x00A87FF0
+
+
+
+
+Hide Arms: 0x00A9BEE8 or 0x00A9BF60 //Mis
+Cut arms / Reverse: 0x00A9BEE0 //Pas Mis
+Good Time: 0x00A9CEFC //Mis
+Blackout: 0x00A9CEE8 //Pas Mis
+Hide only inventory: 0x0090FF98 //Pas Mis
+Bar XP: 0x00910048 //Pas Mis
+
+
+New walk remove anim: 0x00A9BA48 //Pas Mis
+
+
+Turn Camera: 0x00A9BC40 //Pas Mis
+Destroy view: 0x00A9BC40 //Pas Mis
+Stop Bow: 0x000FB4C5 //Mis
+No Colission Bypass all: 0x00011A50 //Mis
+Others Anti KB: 0x00011ACC //Mis
+Instant UP: 0x00011B00 //Pas MIs
+New Anti TP: 0x00011BD0 //Pas Mis
+Change rotation legs body when walk: 0x014D6998 //Mis
+Fog: 0x014D6A48 //Mis
+Dag / night: 0x014D6AF0
+All Hud: 0x014DBAFC
+15686FC for lock all
+
+
+
+------------------------------------------------------
+
+
+
+0x003A4248
+
+
+1.83: FJ Label White: 0x31E9092C
+1.83: Another FJ Label White: 0x31E907EC
+1.83: FJ Label Small White: 0x31E9173C
+1.83 All Messages down: 0x31E9297C
+1.83: Int Shader: 0x31E9023C
+1.83: Shader background: 0x31E906FC
+1.83 Another JF_LabelWhite: 0x31E907EC
+1.83 Another shader background: 0x31E8FFDC
+1.83 Inventaire shader: 0x31ED30DC
+1.83 Button Square shader: 0x31ED37EC
+1.83 Shader Creatif: 0x31ED3DDC
+1.83 For text: 0x31E937BC
+
+1.83 Float Explode Creeper: 0x001CC7E8       for make big with much block broken = 42 FF //ADDED
+1.83 All Players sky red black: 0x00393E3C 5F 80 Pluie et Orange autres couleurs //NEED LOOK
+1.83 new flash sky all players: 0x00393E40 3F FF //NEED LOOK
+1.83 Instant dead with fire: 0x00225900 //ADDED
+1.83 All burn fire: 0x00225FA8 //ADDED
+1.83 Bypass all no colission: 0x002271B0 //ADDED
+1.83 Jump Instant up: 0x00011ADC  et a test 11AE0 //ADDED
+1.83 can go little in block and if force no colission: 0x00011B38 //NO NEED PUT IN TOOL
+1.83 Go outside map: 0x00011B9C //NO NEED PUT IN TOOL
+1.83 Players light on body: 0x00AD8EE0 //ADDED
+1.83 Lock Screen: 0x00AF268C //NEED SEE !!!!
+1.83 Run Black Screen: 0x00018D40 //NO NEED PUT IN TOOL
+1.83 Fly weird: 0x002271FC //ADDED
+1.83 Indicator blue, red,rainbow,  : 0x00AD8398 //MAYBE LATER
+1.83 Models mini: 0x00AD86E8 //ADDED
+1.83 Lag values: AF2C60 //ADDED
+1.83 Remove Explose creeper: 0x001CCC04 //NO NEED ADD IN TOOL
+1.83 Creeper instant explode when spawned :0x001CCC34 //ADDED
+1.83 Wolf Turn head: 06C0618 //ADDED
+1.83 Wolf Remove Water: 006C0638 //ADDED
+1.83 Disconnect players: 0x00245B14 41 33 //MAYBE MAKE MORE PARTICLES WITH TNT
+1.83 Tnt can't break blocks: 0x00245DF8 //ADDED
+1.83 Tnt make more particles: 0x00245E60 //ADDED
+1.83: 0x004A3FC0: Disable grab items (cant go in inventory) //ADDED
+1.83: Make sky colors: 0x00393E40 //NO NEED IN TOOL
+1.83: Wolf spin head (if use bone): 0x006C0540 45 //MAYBE LATER
+1.83 Wolf turn head (if use bone): 0x006C0548 //MAYBE LATER
+1.83 Tnt fly when activate: 0x0051E560 //ADDED
+1.83 Tnt instant explode when activate: 0x0051E6A8 //ADDED
+
+1.83 Sound Arrow: 0x000FB56C
+1.83 Arrow no direction: 0x000FB560
+1.83 Move with Hud
+
+1.83 Foze Screen: 0x00AF0C54
+
+
+1.83: 
+00444AE4: Minecart furnace tick
+0446A00: Minecart hopper tick
+
+0x002267B8: Anti AFK
+002267F8: Foot Step
+
+--NEW--
+0x00ABD5B8: Lock Head View //No need
+0x00ABD168: Sensibility Head //ADDED
+0x00ABD5E4: A test head pour all //NO NEED
+0x00B04ABC: Swim in grass //ADDED
+0x00A98054: 47 80 = Wave 80 80 = Black
+0x00A9837C: Sombre Theme
+0x00A97FF4 = Return XMB (Violant)
+0x00A99AD0: Hurt Cam //ADDED
+0x003A40A4: No Fall Damage host //ADDED
+0x004B009C: Max level host //ADDED
+0x002F0288: Old Fly (Need rejoin or die for it's work)
+
+
+0x003AA784: New Hight Jump (better) 3F 47 7F 42
+0x003AA79C: New Jump forbback (bette)
+0x003ABEE8: Same Sneak
+
+0x003ABD50: Speed a try
+0x00A9B770: Another Wall Hacks = 40 best //ADDED
+
+
+0x003AA9A0: New speed //ADDED
+0x003AAAA0: Players slide //ADDED
+0x00225DEC: Remove Swim Fly animations
+
+0x3000CF68: Walk with inventory open (change items and more) //ADDED
+0x002F0288: Can have damage in creative
+
+
+-------------NEW----------
+1.83: TNT Invisible when activate (go down) 0x0051E560 //ADDED
+1.83: Remove light change colors light: 0x00A9CEE8 //ADDED
+
+
+1.83 Idea for new critical mods: hight jump with auto jump: 0x003AA784 = hight //ADDED
+1.83 New funny knowback: 0x003A4020 = BF 80 //ADDED
+1.83 Tnt make little particles: 0x00245C54 //ADDED
+1.83 EPS PLayer Transparence and debug mode skins black or white = 0x30012AB3 //ADDED
+1.83 All map transparante with players and fog: 0x300136D3 //ADDED
+1.83 Hand shader: 0x30013773 //NO NEED IN TOOL
+
+1.83 Fog: 0x00A9EAD4 (ESP for players, cheast, sign) //ADDED
+1.83 Cloud: 0x0038B96C //ADDED
+1.83 Speed Cloud: 0x00B258CC //ADDED
+1.83 Up or down cloud: 0x00B258E8 //ADDED
+1.83 Wtf cloud: 0x00B258F0 //ADDED
+1.83 Cloud in sky same like blocks: 0x00B2591C //ADDED
+1.83 Shadow players: 0x300040FF //ADDED
+1.83 Unlimited Breath: 0x003A765C //ADDED
+
+
+1.83 ALL PLAYERS INVISIBLE: 0x00A9B76C //NO NEED
+1.83 Another shadow foot: 0x00ADA8F8 //NO NEED
+1.83 Float Name in air: 0x00ADAB0C =======
+1.83 Show player name when you are on player: 0x00ADAB14 ======
+1.83 Another float name: 0x00ADAB1C ======
+1.83 Black Screen: 0x00ADAB40 //ADDED !
+1.83 Power Light: 0x00A9CEF8 //ADDED
+1.83 All players light / black skins: 0x003AD390 //ALREADY ADDED
+1.83 Players light flash black: 0x003AD8FC //ALREADY ADDED
+1.83 Another flash player: 0x003AD918 //NO NEED
+1.83 Walk Alone: 0x003ABE20 //ALREADY ADDED
+1.83: Jump / vibrate: 0x003ABE28 //NO NEED
+1.83 Another Walk weird: 03ABE30 //NO NEED
+1.83 TNT Weird sound explode: 0x00245BEC //ADDED
+1.83 Fast x2 all players broken block and stop broken: 0x0010E0C4 40 20 //ALREADY ADDED
+1.83 Name over head in head: 0x00ADA930 B0 = Up down E0 if player run go up //ADDED
+1.83 Little lag, head rotation faster, map lag: 0x00A9B7C4 //ADDED
+
+1.83: New light flah sky: 0x00393E3C: BF 80 //NO NEED
+1.83: New indicator hit blue: 0x00AD8398 //NO NEED
+1.83: Change Position mobs / players (rape or mini or weird view) 0x00AD8810 //NO NEED
+1.83: Static Arms / legs animations: 0x00AD8814 //NO NEED
+1.83: Block / slow run: 0x003ABE20 //NO NEED
+1.83: Kill players instant teleport: 0x003ABE30 = 88 //ADDED
+1.83 Shake Camera Like Explode: 0x00A9B7C4 //ADDED
+1.83 Walk Alone: 0x003ABE20 //NO NEED
+1.83 Remove Sound TNT: 0x00245BE4 //NO NEED
+1.83 Tnt Slow explode sound: 0x00245BEC //NO NEED
+1.83 Damage Fall But no heart removed / God Mode / Instant Kill: 0x003A406C //ADDED
+1.83 Rotate screen when damage hurt cam: 0x00A99AD4 //NO NEED
+1.83 new remove hurt cam: 0x00A99B10 //NO NEED
+1.83 another hide / big items: 0x00AF93E0 //NO NEED
+1.83 Another all anime run: 0x003ACF4C //NO NEED
+1.83 Another no colission: 0x00011264 //NO NEED
+1.83 Instant Kill Mobs / players: 0x003A406C //ALREADY ADDED
+1.83 Creeper Explode Another Area / remove explode / Stop explode: 0x001CC8F4 //NO NEED
+1.83 Break block is instant place: 0x00AEEC0C //NO NEED
+1.83 New instant hit: 0x00AEEBF4 //NO NEED
+
+
+
+
+
+//NEW MODS FOR NEW UPDATE
+
+0x00AD8370: Bool Disable Hit Damage colors //No need
+0x00AD8380: Bool All Players have skins red ! //ADDED
+0x00EB9438: Entity Spawn = dead ! //ALREADY ADDED
+0x00410804: Sky Change Colors //NO NEED
+0x300136D3: Remove FOG //NO NEED
+0x00225E88: Fast Remove Fire on me //ADDED
+0x00225E54: All have skins red like damage fire //NO NEED
+0x00011B00: Walk on max heigt map (tp instant) //ADDED
+0x000FB4C4: Bow no much power / stop //NO NEED
+0x000FB530: Bow have more power //NO NEED
+0x00225FCC: Remove Fire Animation + Remove fire if you go out //ADDED
+0x0022601C: Realistic Sound Effect Fire //NO NEED
+0x0022603C: New Another Sound Effect Fire //NO NEED
+0x00226170: Kill all with creative too //ALREADY ADDED
+
+0x00011A0C: Crash ?
+
+0x00AED920: Disable Mine //NO NEED
+0x00AED95C: Instant Mine all players see ?? or not
+
+
+
+0x003AA784: Super Jump V2 //ADDED
+0x004B00B4: Remove Label XP / Reset XP //ADDED
+0x004B009C: Level 30 - 30 - 30 change to 40 //NO NEED
+
+0x003A40C8: New No fall damage (need test non host)
+0x003A406C: No fall damage remove 1 heart with 28 - 18 = Instant dead - D8 = Remove Much heart
+0x003105FC: Grab items remove in inventory
+0x002ADCF0: Auto Regenate //ADDED
+Freeze PS3 All players  = 0x00393E3C CF and enable Anti Kick for block sky and FF = For Flash Sky Lagplayers = Rainbow + Snow
+0x003ABF90 = Gravity Moon //ADDED
+0x009103B8 = Remove all hud on screen //NO NEED
+0x01711F50 = Game Stats 
+00C94310 need look restricted
+0x000924FC = Flat Texture Block //ADDED
+0x00092504 = Items in hand more up //ADDED
+
+
+
+0x000924B0 = Enable Disable Shadow on players //NO NEED
+0x00245B08: Pitch volume TNT sound //MAYBE LATER
+0x00245B14: TNT sound changed to storm if changed to 3E //No need now
+0x00245B18: Disable explode tnt sound //No need
+0x00B0470C: New toggle sprint //ADDED
+0x00AD8374: See all players red damage //NO NEED
+00000000009E23C: Black fog with sky //HOST NON HOST //NO NEED
+000000000065FB68: Flying potions //HOST //ADDED
+0x3000AAF8: Hud gameplayers colors // HOST NON HOST //ADDED
+
+0x320E9D20: Name GAME START on account (offline, alone, multiplayers, menu, afk //TOUT //NO
+
+014D92D4 INV
+0x00CD6CA8 = Number to 100
+0x000FB55C: Block all arrows //ADEED
+0x000FB644: Disable Arrows //ADDED
+0x004A3DA0: When you walk screen much move //ADDED
+
+0x00B54920: Fly more up BF //ADDED
+0061956C: Dead instant and locked in loading //NO NEED
+0x0070BAFC: Reverse Inventory Slots //NO NEED
+0x00159220: Lock Survial Game HUD //NO NEED
+0x0022C860: Change Direction Aim + If fly = Teleport to max map //ADDED
+0x00AFAD68: Background or shader white on items //NO NEED
+00B244B4: Game lag texture bug all is lagged //ADDED
+00B281FC: Line block lagged //ADDED
+00912F84: Force see logs servers
+0x001D3BF8: Block All Game if run + make invisible and tp no work //ADDED
+003A4A3C: Messages ur name spam in lobby if you take fall damage //ADDED
+003A7BBC: Demi God mode V2 //ADDED
+0040F62C: Bras bizzare bugger lol //ADDED
+004668BC: New speed all players ? 68 = best speed //ADDED
+007151B0: Remove players in list //ADDED
+00717334: Change postion Players List //ADDED
+00729B70: Logo couleurs symbole players list //ADDED
+00729B94: Disable mic view players list //ADDED
+0079E32C: Petit text //ADDED
+0x0079E8E4: Postion all text HUD on screen //ADDED
+00ACD860: Change items switch to others fake items //NO NEED
+00AD8990: Arms weird broken //ADDED
+005BF354: Kill all mobs spawner with a eggs //ADDED
+003AAC58: With elyta you die under world and little lag with //NO NEED
+00A9DA5C: Change air to snow ! //ADDED
+00A97E2C: Fov like if you run ! //NO NEED
+00A996D4: If you run fov for run change //NO NEED
+00A9DA5C: Make rain! //NO NEED
+00AA4394: For sky black //ADDED
+00A5EF38: Players move weird //NO NEED
+00A97E2C: If block broken you have a zoom //NO NEED
+00A9A880: Zoom in head //NO NEED
+
+0x00B281B0: Put line selected block to black or white //ADDED
+0x00B281B4: Block selected line for black //ADDED
+0x00B281B8: Line block selected more big /AADDED
+0x00B281C0: Block selected line size big or small //ADDED
+0x00B28278: Block Line Colors red //ADDED
+0x00B2834C: Block line go up //NO NEED
+0x00B28350: Block line go left and right all map //NO NEED
+
+0x00912E5C: Logs server shader
+912E5C: A tests
+Scafold place block up = 50 49 0x0022C804 //ADDED
+Functions Line of block: 000000B281B0 
+Speed 86 = Legit same potions level 2 0x003ABD51 /ADDED
+0x003ABDD1: Graviry Moon //ADDED
+
+
+Anti AFK + Jump to max map with all mobs: 0x002267B8 //ADDED
+0x00246A34: Stop Gravity entity blocks //ADDED
+0x00ACCD44: Pos block in hand or inventory //ADDED
+0x00B2473C: Remove Sun //ADDED
+0x00B24748: Sun little and big // ADDED
+0x00B2477C: Change sun to moon //ADDED
+0x00B24870: Sky Red (weird) //ADDED
+0x00B24814: Sky black with light //NO WORK
+0x00B26994: Smoke Lobby //ADDED
+0x00A9B2B0: Look in block (see all maps) //ADDED
+0x00A9B2B4: Free cam //ADDED
+0x00A9AC50: If R3 view 3rd you can see under map
+0x00B1E650: Big Particles lava
+0x00B1E6EC: Particles Lava go in sky
+0x00B1E724: Others big particles lava
+0x00B1E2DC: Smoke Particles
+0x00B1E30C: Smoke Fire pos
+0x00B1E340: Disable Smoke fire
+0x00B01094: Destroy game, can look reverse, can't move, can't see hand move
+0x00AF38C8: Hide hand //ADDED
+0x00ACDCF8: Items block hand layer //ADDED
+0x00A6B4A0: Light eyes enderman //ADDED
+0A93C30: Firework particles go up or down
+00A93C34: Firework Particles big or small //ADDED
+0x00A93C5C: Explosion Firework cicle //ADDED
+0x00ACDD88: Change Direction Items in hand //ADDED
+0x00ACCD3C: Change light items on hand //ADDED
+Items in hand: 0x00A88008 //ADDED
+Arms when you hit: 0x00A88020 //ADDED
+0x00AD2A94: hand left //ADDED
+0AD3D0C: Hand mods //ADDED
+
+0x00A9A880: Head R3 weird (idk if it's all players)
+0x00A9AC50: Little walk hack if R3 pressed on walls
+0x00B28218: Remove Lines Blocks //NO NEED
+0x00B2827C: Lines Blocks Blue //ADDED
+0x00B2834C: UP or Down lines blocks //NO NEED
+0x0079E32E: Reverse Text = D8 //NO NEED
+0x00A9D960: Weird Rain wtf //ADDED
+0x00AA38A8: Remove Fog //ADDED
+0x00AA38B0: Add more fog //NO NEED NOW
+0x00011B14: Glitched Walk on ground (idk if all players) (Can take damage) //NO WORK
+0x003A3FF8: All players no delay attack damages //ADDED
+0x00AD8398: Change colors damage to Blue or Red depends your position //ADDED
+0x00A9B7C4: Rotation head lag (need test on all players)
+0x00B259A4: Make lags with cloud (need test on all players) //NO WORK FOR OTHERS
+Add strings for correct MediaPS3 + Language US //
+Freeze Legs: 0 00B5CE4C FFE00890 //ADDED
+Particles weird: 0 00B53350 FFE00890 //ADDED
+Stop damage: 0 00B96574 FFE00890 //NO NEED
+Change blocks design: 0 00C00830 FFE00890 //NO NEED
+Change all dimention world: 0 00B244B4 FFE00890 //NO NEED
+Weird arms: 0 0040F62C FFE00890 //NO NEED
+Stop break blocks: 0 0040F5BC FFE04890 //NO NEED
+Numbers on blocks: 0 00AFA7A8 FFE00890 //NO NEED
+Instant mine blocks :0 00AEDC3C FFE00890 //ALREADY HAVE
+ 
+FOV All Players ? : 0x00989D08 //ADDED
+Inventory HUD: 0x008FC6D4 //ADDED
+
+
+FOV Colors: 0x00A98054 //NO NEED
+Remove Animation Fire: 0x002258D8 //NO NEED
+Take Damage All Players: 0x0039E2DC //ADDED
+Auto Build: 0x00AEF730 //ADDED
+Unlimited Food: 0x0043E9FF //ADDED
+Give More Health: 0x004B1D84 //NO NEED
+Fast Build: 0x00AEF690
+Disable instruction on screen: 0x008FC618
+Can use tool in world not in menu: 0x3000CF68
+
+Enable Box on Me (Not hit box): 0x0003AE00 //ADDED
+Change Weather to Rain / Sun (Without Turn it on): 0x00393F94 //ADDED
+Change Pos players: 0x00AD876C //NO NEED
+Make all lobbys red when you hit a players: 0x00AD85F8 //NO NEED
+Disable Fire animations: 0x002261A4 //NO NEED
+Stop Animation Textures: 0x00AEE928 //NO NEED
+Old Fly, Mods no Attack You, God Mode, No Fall Damage: 0x002F0288 //ADDED
+Disable Boat Go in: 00E0F90
+UP / Down Fishing Road: 02C2918
+Finish rod in water = long distance: 02C2920
+Stop Fishing Rod: 02C2D90 
+Bug Fishing rod detache quand on l'attache: 2C2DA4
+Stop Changing Weather: 000393E8C
+Slow / fast rocket fireworks: 028FA60
+Faster Hit Hand: 00AD2B70
+Hand Move if camera move: AD2B84
+Move hit hand changed a litte bit: 0AD2B94
+Bigger Hand move hit: 00AD2BA4
+Join player 2, 3, 4, fake players: 000AEFA74
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//NEED LOOK//
+Name in game: 0x320C4A8D
+Game States: 0x32103440
+Inventory: 14D9328
+Change items texture: 0x00CD6CB0
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ //------------------- ALL NEW REGION AND PICTURES PLAYERS --------------- //
+Players + Region PS3:
+
+Players 1 name: 0x30F46BD4
+Region: 0x30F46BEA
+Profils picture: 0x30F46C90
+
+
+Non host:
+
+Host: 0x30F473F4 //NEED TEST
+Region: 0x30F4740A
+Pic: 0x30F474B0
+
+Players2: 0x30F47544
+Region: 0x30F4755A
+Pic: 0x30F47600
+
+Players 3: 0x30F476A4
+Region: 0x30F476BA
+Pic: 0x30F47760
+
+Players 4: 0x30F47804
+Region: 0x30F4781A
+Pic: 0x30F478C0
+
+Players 5: 0x30F47964
+Region: 0x30F4797A
+Pic: 0x30F47A20
+//-------------------- ALL PLAYERS REGION
+
+
+//--------- NO HOST-------------
+
+Name: 0x30F47544
+Region: 0x30F4755A
+Pic: 0x30F47600
+
+Players Actualy in world: 
+Host: 0x30F47D80
+Player2: 0x30F47DA0
+Player3: 0x30F47DC1
+
+
+
+
+
+
+Host Players Range: 0x30BB9780, 0x30BBA2C0, 0x30F472A4, 0x32090E84,   0x3268B3D8, 0x32692328, 0x32692374, 0x32692A10, 0x32698464, 0x326984B0, 0x32698A2C        Work: 0x3268B3D8, 0x32692328, 0x32692374, 0x32698464, 0x326984B0, 
+
+Corrupt Map (chunk can't load) enable Godmode + Instant Damage + Knockback
+
+Freeze name head need test: 0ADA8F8
+
+
+
+
+
+0000A82178: Continuer a l
+
+
+
+
+
+0 3325FBC0 0000008200
+
+
+
+
+
+0 00A9DA5C FFE04890
+0 00A9E1A4 FFE04890
+0 00A9E274 FFE04890
+For time snow or rain
+
+
+
+
+0x00393E3C: BF = Sky Blink //ADDED
+
+0 3325FBC0 0100010101
+0 330B12B0 0100010101 
+= For change to creative survival or adventure
+
+01000101 01 ---- CREATIVE MODE 
+00000000 01 ---- SURVIVAL MODE 
+00000000 00 ---- ADVENTURE MODE 
+
+Maybe ? 
+0 330E8EDF FFFFFFFFFF
+0 330E8F7F 0000000000
+0 331BAD90 0000000000
+
+
+   sub_225948 = Server ?
+   00004A3BA0 = Arrêter a la !
+   
+
+00A99AD0
+
+
+
+
+0x00A84EA0: Peux-être explosion de particles plus grosse! 
+
+
+Explosion particles: 0A84E88
+04A3BA0: Peux être items a proximité
+
+
+
+
+
+if unlimited craft on = storm light more
+ §45§0 = rainbow name
+ 0A = Carrer sur le noms
+
+ 
+
+
+
+
+
+
+3F 80 00 00 3F 80 00 00 3F 80
+HUD GAMEPLAY
+
+
+Reset
+Red
+Cyan
+Red Blue
+Purple
+Green
+Purple Green
+Yellow
+Blue
+Yellow Blue
+Cyan Red
+Black White
+Pink Red
+
+
+
+
+
+
+
+
+
+
+
+ {*CONTROLLER_ACTION_JUMP*} 
+ .{.*.C.O.N.T.R.O.L.L.E.R._.A.C.T.I.O.N._.J.U.M.P.*.}{.*.C.O.N.T.R.O.L.L.E.R._.A.C.T.I.O.N._.J.U.M.P.*.}. (Espace)
+
+
+
+
+
+
+
+
+
+
+003D70F4
+
+
+
+
+--------------------------------------------------------------STRING US OFFSETS FOR 1.83-------------------------------------------------------------
+IF YOU CHANGE LANGUAGE GAME, REBOOT THE GAME FOR SEE CORRECT ADDRESSES !
+
+
+
+Strings US:
+
+
+Join the game : 0x30FB0927 - has joined the game.
+Leave the game: 0x30FB0967 - has left the game. 
+Was killed by (source): 0x30F69A87 //NEED LOOK
+was slain by (source): 0x30F701A7 //NEED LOOK
+was shot by (source): 0x30F7F667 //NEED LOOK
+
+
+
+
+
+Maybe Split screen US: 0x30FB7F01
+Return back: Press START to join game
+		PS3.SetMemory(0x30FB7F01, Encoding.ASCII.GetBytes(fixText("Welcome\nTo\nDownCraft\n\nMake By MisakixMoDz")));
+                        PS3.SetMemory(0x00AF2210, new byte[] { 0x40 });
+                        System.Threading.Tasks.Task.Delay(200).Wait();
+                        PS3.SetMemory(0x00AF2210, new byte[] { 0x41 });
+
+
+
+
+
+Pour US //ALL WORK
+
+Infos box: 0x31E74E1C
+All in one: 0x31E74CEC 
+White shader: 0x31E7508C //  3F 80 00 00 43 DC 00 00 41 60 00 00
+FJ_LabelWhite: 0x31E7564C
+FJ_LabelSmallWhite: 0x31E7659C
+All Text down: 0x31E7953C
+Transparence Rectangle: 0x31E71D6C
+Int shader of Press Start Messages: 0x31E71E5C
+Picture Show controler on press start: 0x31E721EC
+Shadow picture controller on press start: 0x31E7266C
+Text Press Start: 0x31E7275C
+Transparent rectangle controller remove blink: 0x31E72E8C
+Blink on controller show: 0x31E72F7C
+FJ_Label_SmallWhite: 0x31E752EC
+
+
+
+FOR ESPACE = 0A
+
+
+Inventory: 0x309277E1
+
+
+
+Players: 3333A22C
+
+
+
+Lobby: 
+
+1 325BEFD8 lobby 
+1 325BF04E lobby 
+1 325D2F44 lobby.
+1 3267C0A0 lobby.
+1 32680AD3 lobby.
+
+
+
+
+  
+			
+
+
+
+--------------------------------------------------------------STRING US OFFSETS FOR 1.83----------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+God mode non host
+
+Teleport 500 to 0 instant die and invisible
+
+
+
+
+1CC89C 39 40 00 00                       li        r10, 0        # Load Immediate
+
+
+
+
+
+
+
+
+REACH a test: 0x00A98828
+
+
+
+
+
+
+
+
+
+0x00ADA978
+
+
+
+
+
+
+
+Idea for name changer: add a premium name for see what you read and add (if is possible add colors with §)
+(123) MisakixMoDz (123) with colors = C2 A7 30 C2 A7 67 28 31 32 33 29 20 C2 A7 64 4D 69 73 61 6B 69 78 4D 6F 44 7A 20 C2 A7 30 C2 A7
+
+-------------------------------------
+POUR LE TELEPORT
+
+
+
+
+ string getLocation() //Hold on my brother is calling me ok
+        {
+  string xyz = " ";
+  for (int i = 0; i < 3; i++) {
+    xyz += Math.Round(PS3.Extension.ReadDouble(
+                          PS3.Extension.ReadUInt32(
+                              PS3.Extension.ReadUInt32(
+                                  PS3.Extension.ReadUInt32(0x13DC92C) + 0x44) +
+                              0x90) +
+                          0x08 * (uint)i))
+               .ToString() +
+           ",";
+  }
+  return xyz;
+        }
+		
+		
+		
+		
+		
+		DANS LE BUTTON SAVE ADD:
+		
+		 string get = getLocation();
+            textBox2.Text = get.Remove(get.Length - 1, 1);
+			
+			
+
+          BUTTON TELEPORT:
+		  
+		  
+		   string[] split = Regex.Split(textBox1.Text, ",");
+            setLocation(Convert.ToInt32(split[0]), Convert.ToInt32(split[1]), Convert.ToInt32(split[2]));
+			
+			
+			
+			
+			
+			
+			 private void setLocation( int x, int y, int z)
+        {
+  double[] xyz1 = {x, y, z};
+  double[] xyz2 = {x + .6, y + 1.8, z + .6};
+  List<byte> xyzBytes = new List<byte>();
+  for (int i = 0; i < 3; i++) {
+    byte[] rev1 = BitConverter.GetBytes(xyz1[i]);
+    Array.Reverse(rev1);
+    xyzBytes.AddRange(rev1);
+  }
+  for (int i = 0; i < 3; i++) {
+    byte[] rev2 = BitConverter.GetBytes(xyz2[i]);
+    Array.Reverse(rev2);
+    xyzBytes.AddRange(rev2);
+  }
+  PS3.SetMemory(
+      PS3.Extension.ReadUInt32(
+          PS3.Extension.ReadUInt32(PS3.Extension.ReadUInt32(0x13DC92C) + 0x44) +
+          0x90),
+      xyzBytes.ToArray());  // Dont Need It. Try It Out
+        }
+
+
+
+
+OFFSET 1.75 = 0x13EC92C
+
+Fog/Clearness: 0x9E10A8 //ADDED
+Position: 0xA14F5C //ALEADY
+Unlimited Breath: 0x3284CC => Ici 3A765C
+Ennemies Igniore You: 0x443070 A chercher 039AD00
+Cloud: 0x3438CC Colors //ADDED
+Super Jump: 0x32D458
+Cloud: 0xA60D24
+
+
+
+
+Button Dpad Monitoring 1.83:
+
+0 3000CF78 00000400
+0 3000CF7C 00000400
+
+-------------------------------------------------------------------------------
+FOR THE MENU
+-------------------------------------------------------------------------------
+
+
+
+
+
+
+// 1.83 US //
+
+Int Shader: 0x31E74F7C
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+For text: 3F F0 00 00 00 00 00 00 00 00 00 00 3F F0 00 00 42 F0 00 00 42 73 80
+3F80000000000000000000003F80
+
+1.83 All in one: 0x31E8C8CC
+1.83 Another All in one: 0x31E8FEAC
+
+
+
+0x31E4E38C
+
+
+3F F0 00 00 00 00 00 00 00 00 00 00 3F F0 00 00 43 E5 00 00 43
+3F F0 00 00 00 00 00 00 00 00 00 00 3F F0 00 00 42 80 00 00 42 E2 00
+
+3F80000000000000000000003F80000040000000400000
+
+0x3F, 0xF0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x3F, 0xF0, 0x00, 0x00 42 80 00 00 42 E0 00
+
+
+
+-------------------------------------
+For 1.32
+------------------------------------
+Label cord char: ?...........?...@...@...........................................................................1EQ..............................................9......................12.`..&1...1...1...A...........@...........................................................1...1..P............C...........................C...A...C...B@..
+
+c..O....`.f..`.12.`....F.J._.L.a.b.e.l.W.h.i.t.em.f..h12.`....1...1...A...........@...........................................................1...........,..`12.`........A....0]..`..O.......12.`.....0]..`..O.......12.`.....0`.....12.`........
+
+
+LabelWhite Cord    //0x31DA9350  :  3F 80 00 00 00 00 00 00 00 00 00 00 3F 80 00 00 40 00 00 00 40 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF FF 01 00 FF FF FF FF 00 00 00 00 00 00 00 00
+FJ_LABEL   //0x31DA96C1   :   46 00 4A 00 5F 00 4C 00 61 00 62 00 65 00 6C 00 57 00 68 00 69 00 74 00 65 6D 00 66 CF 03 68 31 32 82 60 00 19 06 9E 31 B7 C9 F8 31 B7 CA 90 41 A0 00 00 00 00 00 00 00 00 00 00 40 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 31 C6 9A F8 00 00 00 01 00 00 00 00 2C AB 02 60 31 32 82 60 00 18 04 9E 00
+HINT SHADER  //0x31DA8C30   :   3F 80 00 00 00 00 00 00 00 00 00 00 3F 80 00 00 43 DC 00 00 41 60 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF FF 00 00 FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 31 B2 39 C0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+Button Monitoring: 0x3000c128//   00 00 00 11 31 EF 95 50 00 00 00 00 00 00 00 11 00 00 00 01 3F 80 00 00 00 00 00 11 31 EF 95 C0 00 00 00 00 00 00 00 11 00 00 00 01 3F 80 00 00 00 00 00 11 31 EF 96 30 00 00 00 00 00 00 00 11 00 00 00 01 3F 80 00 00 00 00 00 11 31 EF 96 A0 FF FF FF FF 00 00 00 00 01 37 DF A0 00 00 00 00 00 00 00 00 00 00 18 43 01 2D 22 60 00 00 00 00 00 00 00 20 00 00 00 7F 00 00 00 5F 00 00 00 47 42 BE 00 00 01 03 32 15 31 74 6C E0 02 00 00 00 31 74 68 00 31 74 45 A0 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 30 00 C2 10 30 00 C2 14 30 00 C2 08 30 00 C2 0C 3F 80 00 00 30 00 C2 18 30 00 C2 19 00 00 00 00 31 74 BE D0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 30 00 C2 7C 30 00
+
+New shader: 0x31DA90F0 //3F 80 00 00 00 00 00 00 00 00 00 00 3F 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF FF 00 00 FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF FF FF FF 00 00 00 00 00 00 00 01 00 00 00
+
+---------------------------------------
+
+0x3092FB21
+
+
+
+Possible pour FJ Label:
+0x3092FB21
+0x309389E1
+0x3093E2A1
+0x30943B21
+
+0x31E76711
+
+
+Coter: 0x014DBAF0  0x014DBAFC
+
+
+For text: 3F 80 00 00 00 00 00 00 00 00 00 00 3F 80 00 00 44 50 00 00 43 00 00
+
+0x31E74E4C
+
+
+
+
+
+
+
+Possible pour button :0x3000E74C
+
+For Scroll bar: 3F 80 00 00 00 00 00 00 00 00 00 00 3F 80 00 00 BF 80 00 00 40 C0 00 00 65 20 74 6F 20 61 64 64 20 74 68 65 20 6C 65 76 65 6C 20 74 6F 20 79
+
+For Shader: 3F 80 00 00 00 00 00 00 00 00 00 00 3F 80 00 00 BF 80 00 00 40 C0 00 00 20 62 65 20 75 73 65 64 2E 20 41 20 68 6F 72 73 65 20 69 73 20 74 61 6D 31 38 DC 08 79 20 61 74 74 65 6D 70 74 69 6E 67 20 74 6F 20 72 69 64
+
+
+
+For button : 00 00 00 11 31 EE A3 90 00 00 00 00 00 00 00 11 00 00 00 01 3F 80 00 00 00 00 00 11 31 EE A4 00 00 00 00 00 00 00 00 11 00 00 00 01 3F 80 00 00 00 00 00 11 31 EE A4 70 00 00 00 00 00 00 00 11 00 00 00 01 3F 80 00 00 00 00 00 11 31 EE A4 E0 FF FF FF FF 00 00 00 00 01 37 DF A0 00 00 00 00 00 00 00 00 00 00 18 43 01 2D 22 60 00 00 00 00 00 00 00 20 00 00 00 7F 00 00 00 5F 00 00 00 47 42 BE 00 00 01 03 32 15 31 73 81 90 02 00 00 00 31 73 74 B0 31 73 35 50 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 30 00 C2 10 30 00 C2 14 30 00 C2 08 30 00 C2 0C 3F 80 00 00 30 00 C2 18 30 00 C2 19 00 00 00 00 31 73 C2 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 30 00 C2 7C 30 00 C2
+
+Here is for button :0x3000CE38
+
+
+
+
+
+
+
+
+01 01 01 01 00 00 00 00 00 00 00 00 00 00 0A 00 00 00 0A 00 00 00 0A 00 00 00 0A 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 11 00 00 00 03 3F 80 00 00 00 00 00 11 34 51 06 50 00 00 00 00 00 00 00 11 00 00 00 00 3F 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 11 00 00 00 04 3F 80 00 00 00 00 00 11 31 33 D9 30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 6A 55 6D 08 9F 00 00 02 64 00 00 00 7E 00 00 04 58 00 00 00 B0 00 00 00 00 00 00 00 11 00 00 00 00 3F 80 00 00 00 00 00 00 00 00 00 00 FF FF FF FF 00 00 00 00 00 00 00 12 00 00 00 00 95 00 1F 01 00 00 00 00 31 2B 99 E0 31 2B 84 00 31 32 C5 30 31 6F D0 90 31 B3 70 40 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 31 23 B0 20 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 30 01 0C 20 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0C 00 00 00 0F 00 00 00 00 30 01 0C 50 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0C 00 00 00 0F 00 00 00 00 30 01 0C 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0B 00 00 00 0F 00 00 00 00 30 01 0C B0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0B 00 00 00 0F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+
+After: 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 35 00 00 00 00 3F 80 00 00 00 00 00 35 33 89 9A E0 00 00 00 00 00 00 00 11 00 00 00 00 3F 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 11 00 00 00 00 3F 80 00 00 00 00 00 11 31 33 D9 30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 6A 55 6F 8D 90 00 00 02 5B 00 00 00 77 00 00 02 D9 00 00 01 1F 00 00 00 00 00 00 00 11 00 00 00 00
+
+
+0x1483c14
+
+
+
+NPUB31419.BLUS31426.NPUB31419-.BLUS31426-.UP4433-NPUB31419_00.UP4433-NPUB31419_00-TEXTUREPACKS2........................UP4433-NPUB31419_00-TRIALUPGRADE0001........................US01....
+
+
+/dev_hdd0/game/NPUB31419/USRDIR
+
+
++.......+.......+.......+.......+.......+.......+.......+.......+.......+.......+.......+.......+.......+.......+.......+.......+.......+.......+.......+.......+.......+.......+.......+......
+
+
+
+
+
+
+
+
+
+
+For Button:
+
+
+
+
+                R1 = 0x40,
+                R2 = 0x40,
+                R3 = 0x01,
+                L1 = 0x80,
+                L2 = 0x80,
+                L3 = 0x02,
+                DpadUp = 0x04,
+                DpadDown = 0x08,
+                DpadLeft = 0x10,
+                DpadRight = 0x20,
+                Cross = 0x01,
+                Square = 0x04,
+                Circle = 0x02,
+                Triangle = 0x08,
+                Select = 0x20,
+                Start = 0x10
+
+
+
+
+
+
+*/
+MENU HUD
+/*
+
+HUD: 3F 30 00 00 00 00 00 00 00 00 00 00 41 80 00 00 43 EC 00 00 41 00 00 00
+TEXT: 
+
+
+
+
+
+debug:
+
+'02F5C87438600001')
+
+'02F5C87438600000')
+
+
+
+
+{
+   for(;;)
+   {
+	   if(Functions::IsOpen)
+	   {
+          for(int i = 0; i < 18; ++i)
+		  {
+
+		  }
+	   }
+   }
+}
+
+
+
+if (ButtonMonitoring::ButtonPressed(ButtonMonitoring::DpadUp))
+
+
+
+
+
+
+
+
+
+
+00 00 00 11 31 EF 95 50 00 00 00 00 00 00 00 11 00 00 00 01 3F 80 00 00 
+00 00 00 11 31 EF 95 C0 00 00 00 00 00 00 00 11 00 00 00 01 3F 80 00 00 
+00 00 00 11 31 EF 96 30 00 00 00 00 00 00 00 11 00 00 00 01 3F 80 00 00 
+00 00 00 11 31 EF 96 A0 FF FF FF FF 00 00 00 00 01 37 DF A0 00 00 00 00 
+00 00 00 00 00 00 18 43 01 2D 22 60 00 00 00 00 00 00 00 20 00 00 00 7F 
+00 00 00 5F 00 00 00 47 42 BE 00 00 01 03 32 15 31 74 6C E0 02 00 00 00 
+31 74 68 00 31 74 45 A0 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 30 00 C2 10 30 00 C2 14 30 00 C2 08 30 00 C2 0C 3F 80 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+Code given = nothing
+My Code = ?
+Others random code = ?
+
+
+First slots players banned: 0x30903C94
+2 Slots Player Banned: 0x3090D4D4
+
+
+
+Lines aim US
+
+First lines: 4F 88 00 00 00 00 00 00 00 00 00 00 3E 00 00 00 40 0A 00 00 43 DA 00
+Seconds line: 3C 00 00 00 00 00 00 00 00 00 00 00 4F 80 00 00 41 F5 00 00 41 00 00 00
+
+Blackscreen: 4F 80 00 00 00 00 00 00 00 00 00 00 4F 80 00 00 00 00 00 00 41 AF 00 with rectangle
+Change colors screen to a better for eyes: 4F 80 00 00 00 00 00 00 00 00 00 00 4F 80 00 00 00 00 00 00 40 DA 00 00
+
+
+
+
+-------------------------------------------------
+Messages Welcome on attach:
+
+
+Language US: 0x30FB7F01
+Split Screen: 0x00AF2210
+
+US: Language PS3 + Games
+
+
+Infos box white: 0x31E751EC - 0x31E7627C
+Long Box: 0x31E756AC
+FJ_LabelWhite text: 0x31E757AC - 0x31E758EC
+FJ_SmallWhite: 0x31E766FC
+FJ_SmallWhite another: 0x31E7683C
+------------------------------------------------
+
+
+
+
+----Test----:
+
+0x31E758EC LabelWhite
+0x31E7683C: SmallWhite
+
+
+
+
+
+MAX CHAR FOR NAME CHANGER: 
+
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+
+60
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+12DolphinModel: 0A5FF40
+20DragonBreathParticle: 0000A60804
+12DripParticle: 0000A632F0
+15DrownedRenderer: 00A63F40 
+11ElytraModel: 000A655E0
+11ElytraLayer: 0000A6591C
+19BlockEntityRenderer: 000000A67FB8 
+20EnchantTableRenderer: 00A67F88
+13EndermanModel: 000A6B7C4
+14EndermiteModel: 00A6BF7C
+13EnderParticle: 0A6C4F0
+14EndRodParticle: 00A6CB6C
+19EvocationFangsModel: 00A8174C
+22EvocationFangsRenderer: 00A81B4C
+12IllagerModel: 00A834FC
+21ExperienceOrbRenderer: 0A842B0
+13HumanoidModel: A89BE4
+20FallingBlockRenderer: 000A8E2A4
+19FallingDustParticle: 00A8EF84
+16FireballRenderer: 00A92CB8
+N18FireworksParticles16FireworksStarterE: 000A937C0
+N18FireworksParticles22FireworksSparkParticleE: 0000A93CA0
+19FishingHookRenderer: 0000A95738
+13FrustumCuller: 00000AA3470
+9FishModel: 00000AA7E38
+12FishRenderer: 000AAB1E4
+13FlameParticle: 0000AAC248
+16FootstepParticle: 0AAED8C
+8GameMode: 0000000AAF6AC
+10GhastModel: 000AB4618
+18HumanoidArmorLayer: 000000AB5B48
+16GiantMobRenderer: 0000AB5D48 
+13SoundInstance: 00AB63F4
+13GuardianModel: 0000AB7488
+HeartParticle: 00AB99A4
+21HugeExplosionParticle: 000ABB074
+25HugeExplosionSeedParticle: 00000ABB5A8
+N14GameModePacket9EmptyDataE: 0000B09764
+000B0FD18: Ticking blocks (multiplayer)
+Level Tick: AF0FA4
+Level entity tick: AF0D68
+Level renderer tick: AF0CF0
+Game renderer tick:  AF0BF0
+Sound engine update: AF2974
+Light update: AF29B8
+Sleeping AF2C58
+Display update: AF2C74
+6Screen:   AF53AC
+DeathScreen: AF53B0
+Idk how make    AF5634
+4JSpursJob_LevelRenderer_cull Maybe idk :  AF5660
+Game render player idx %d: AF2AB4
+Check for fire: 225F60
+Play fizz sound:  226048
+Clipy: 227190
+ClipX:   227238
+ClipZ: 2272EC
+Step up:  2273D0
+Falling check:  227A14
+Block:  227AB4
+FenceBlock:  227AC4
+WallBlock: 227AE8
+FenceGateBlock: 227B0C
+Check fall damage:  227B5C227B5C227B5C227B5C
+Make step sound:  227C5C
+checkInsideBlocks:  227E4C
+Update entity after falling:  228034
+%s%s: 6FD724
+PS3/Sound/:   6FD728
+Minecraft.msscmp:   6FD72C
+bad huffman code: C4E8D0
+ Direction4AxisE :     EA2FC4
+ solidRender:     AD8F04
+ /minecraft_save/gamedata.rs:     C8CC48
+ deque<T> too long:       C8D1D4
+list<T> too long:      C9134C
+length_error:   C91368
+SonyCommerce_PS3 tick:    C92378
+GET:  C93348
+EP4433-NPEB01899_00:     C93798
+969e9d21-527c-4c22-b539-f8e479f690bc:  C93AD8
+GAMEDATA:  C93C24
+Texture tick: AEE914
+WPACK:    841A84
+Get cubes:     226FF4
+StairBlock4HalfE:    EA5C7C
+Property    EA6008
+4Item:  FB7E8
+ArrowItem: FB7E8
+EntityRender:  AD9270
+LivingEntityRenderer %d: AD8910
+prepareMobModel:   AD8DCC
+setupAnim: AD8E08
+renderLayers:   AD9130
+TitleScreen:  ADD078
+4JSpursJob_LevelRenderer_FindNearestChunk:  ADE43C
+Level:  AE74BC
+MultiPlayerLevel:  AE74C4
+BlockItem:  AE79C4
+Maybe OWNER        AE9270
+AE94EC: NBT maybe
+ box test: D168A8 
+D17D24: #lo
+D17D3C: %lo
+D17D68: %+ld
+D17D80: %ld
+D17DB4: %#lX
+D95D94: BlockEntity
+D95F14: EnderChestBlockEntity
+4619B8: Monster tick
+389560: Setup
+389504: Level::getCubes
+38A908: Update level renderer
+38A94C: Check entity boxes
+20224: Abstract Horse tick
+20AAC: Horse::travel
+2165C: Owner UUID
+4D05A8: PKN8BedBlock4PartE
+912F5C: invalid vector<T> subscript
+912F64: St12out_of_range
+913A30: Keyboard
+913AFC: Intro
+91444C: Launcher more options
+1CCBD0: Creeper tick
+AF7568: list<T> too long
+C66F30: sceNpLookupTerm () done. ret = 0x%x\n
+C66FA0: sceNpLookupAbortTransaction () done. ret = 0x%x\n
+C68D0C: UserSelectFinishCallback() result : 0x%x\n
+ C68D58:   SELECTED USER  id : %u, name : \"%s\"\n
+C68D80: CELL_USERINFO_RET_CANCEL : User canceled and closed user list.\n
+73A364: Name
+80A47C: TumbleGenerator::CleanUpLayer::WipeData
+80A6F0: TumbleGenerator::CleanUpLayer::Relight
+B8A160:  Tick block '%i'
+B8A1D8: Tick Extra block '%i'
+B89F58 : Tick toBeTicked ticks (length=%i)
+6C05A0: Wolf tick
+6C20B0: FoodItem
+73769C:  ScrollBarTrack
+737CC8: MainPanel.CreativeTabs
+3D5CF8:  Boat
+215214: updatePath
+723740:  Icon
+7236FC: BeaconEffectTick
+724314: KeyboardOutline
+F88870: HostOptionsList
+F88C0C: AcceptButton
+F88A5C: Gamertag
+F889E8: PlayerOptionsList
+0002F4CF4: Guardian
+0245E0C: Finalizing explosion size %d
+4A3D7C: Inventory tick
+04A3DA4: LivingEntity::aiStep
+004A3FCC: Touch nearby entities
+049FA30: Tick food data
+49F920: LivingEntity::tick
+4EB150: Chunk file at %d, %d is missing level data, skipping\n
+5179C8: blockdust
+517964: blockcrack
+0517900: iconcrack
+051789C: barrier
+0517838: heart
+05177D4: slime
+00C5369C: outofmem
+001CB208: Ocelot
+05996B8: ShoreLayer::getArea
+743FB0: Label9
+0074FDFC: Animated
+0000009085B8: slot_%d
+0908544: player
+00005526F4: Scanning for free space\n
+053A830: RangedAttackMob
+053722C: SandBlock7VariantE
+0000051E5A8: Primed tnt tick
+0517FA4: chestrefill
+0517F40: conduit
+0517EDC: current_down 
+0517E78: bubble_pop
+0517E14: spit
+0517D4C: totem
+0517CE8: fallingdust
+0517C84: sweepAttack
+517C20: damageIndicator
+517BBC: endRod
+0517B58: dragonbreath
+517AF4: mobappearance
+0517A90: take
+517A2C: droplet
+517770: snowshovel
+051770C: snowballpoof
+5176A8: reddust
+0516C1C: splash
+00516B54: fireworksSpark
+064CE90: TreeFeature adding cocoa
+75A19C: fourj.FJ_ScrollArrow
+075A1EC: Background
+026AA1C: 12EnderCrystal
+00980FDC: BUTTON DPAD
+038D88C: Sending block entity updates
+038D4A4: Ticking block entity %I64d
+38CFD4: Entity removed handlers
+0038CD1C: Ticking global entities
+0383994: Setting blocks dirty
+03826C0: Check block light
+00035F908: ImposeContinentsLayer::getArea
+000737534: ScrollUpArrow
+004A8F20: AxeItem
+005593AC: RoofTreeFeature::place
+0004F33E4: Biome decorate
+005BBB7C: PN13HalfSlabBlock4HalfE
+03A40F8: EntityDamageSource
+0637DB0: BlockRotProcessor
+03DB930 :MapItemSavedData::tickCarriedBy
+68B3C8 :Vex
+03F8C64 :LookAtTradingPlayerGoal
+003F908C :16LootItemFunction
+03F90C8 :22LootingEnchantFunction
+003FA0EC :1LootItemEntityPropertyCondition
+
+00160368 :32ClientboundPlayerAbilitiesPacket
+01609FC :33ClientboundBlockDestructionPacket
+160D80  :43ClientboundBlockCollectionDestructionPacket
+1614E0: 31ClientboundLevelParticlesPacket
+01620D0: 33ClientboundChangeDifficultyPacket
+162508: 28ClientboundMapItemDataPacket
+163B40: 31ClientboundOpenSignEditorPacket
+00016423C: 29ClientboundPlayerCombatPacket
+1649E0: 28ClientboundPlayerSleepPacket
+016505C: 29ClientboundResourcePackPacket
+00165858: 26ClientboundSetBorderPacket
+001661CC: 26ClientboundSetCameraPacket
+001665E8 :25ClientboundCooldownPacket
+0166AA0 :25ChunkVisibilityAreaPacket
+166FA4: 32ClientboundDamageIndicatorPacket
+01673B8 :24ClientboundPowerupPacket
+016778C: 39ClientboundMGPlayerSettingsUpdatePacket
+0393D48: Weather tick
+0005871F8: 36ServerboundAcceptTeleportationPacket
+0000000000A84F10: ExplosionParticles
+079911C: Visible_A
+79AB64: Slider
+00C37304 :19VillagerZombieModel
+001799DC: ClientboundBossEventPacket
+000000D2F2BC client bound chat packets
+000A95734 :19FishingHookRenderer
+000517068: mobSpellAmbient
+0005170CC: witchMagic
+0000517130: dripWater
+0517194: dripLava
+0005171F8: angryVillager
+00051725C: happyVillager
+0005172C0: townaura
+000517324: note
+00517388: portal
+005173EC: endportal
+0000517450: enchantmenttable
+005174B4: ender
+0517518: flame
+00051757C: lava
+000005175E0: footstep
+0517644: cloud
+00517DB0: ink
+0051B98C: 6Region
+0051EAB4: N15PrismarineBlock7VariantE
+00064817C: 9SwellGoal
+000648F6C: 12SwimIdleGoal
+06C5950: 29WaterAvoidingRandomStrollGoal
+0006C8B10: N13VillagePieces19CobbleStoneSelectorE
+000006C8B98: N13VillagePieces12VillagePieceE
+6C8D48: N13VillagePieces4WellE
+000000708228: 15DLCMaterialFile
+0708BB4: 13DLCUIDataFile
+0709360: 10FJ_FuiNode
+0709F58: 19FJ_Label_HUD_Splash
+00000709FF8: 22FJ_Label_HUD_SplashBig
+000070A1D8: 7FJ_List
+000070A1D8: 9FJ_List2D
+070A318: 18FJ_List_MenuButton
+070A3B8: 13FJ_ListButton
+00070A4F8: 23FJ_ListButtonController
+00000070A638: 18FJ_List_ListButton
+0070A6D8: 28FJ_List_ListButtonPlayerList
+00000078D87C: 21FJ_FurnaceFlame_Small
+005376B4: N15PurpurSlabBlock7VariantE
+0000B0E8C4: 18MockedLevelStorage
+0000B0E8FC: N5boost6detail17sp_counted_impl_pI18MockedLevelStorageE
+0000520240: 10TypedBoxedIPN19PrismarineSlabBlock7VariantEE
+000003AD8C: AirBlock
+0003B464: N10AnvilBlock5AnvilE
+00003D578: 11EntityBlock
+00003E60C: 22BasePressurePlateBlock
+003F418: PN13BaseRailBlock9RailShapeE
+0A655E0: 11ElytraModel
+0000460A18: 24CanAttackPlayerPredicate
+00460A14: 26MobNearestPlayerTargetGoal
+04618D0: 7Monster
+00462BDC: 19MushroomIslandBiome
+0000452B98: N18NetherBridgePieces24CastleSmallCorridorPieceE
+000452D34: N18NetherBridgePieces14CastleEntranceE
+04E11B4: 8Painting
+0004E1684: invalid vector<T> subscript
+0004E2334: 11PickaxeItem
+04E27F0: 15PistonBlockItem
+004E59C0: 10PotionItem
+0004E8F2C: 15OldChunkStorage
+0463A04: 22MinigamePlayerChunkMap
+000005F32A8: 13DataItem_ImplIhE
+000000000857F58: 18DirectionalDegrade
+000857FDC: 21RandomDissolveDegrade
+0000000858A30: 24TargetAreaRuleDefinition
+00000859014: 30GrantPermissionsRuleDefinition
+00000B1E37C: 18LargeSmokeParticle
+0005DB758: 15StoneBrickBlock
+0002C2994: Fishing hook tick
+000E0F0C: Boat tick
+0000322CD8: Hanging entity tick
+0725FB8: DLCTick

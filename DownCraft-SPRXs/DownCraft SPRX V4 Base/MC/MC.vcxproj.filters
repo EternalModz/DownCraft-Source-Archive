@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="prx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Buttons.h" />
+    <ClInclude Include="dialog.h" />
+    <ClInclude Include="Functions.h" />
+    <ClInclude Include="huds.h" />
+    <ClInclude Include="menu.h" />
+    <ClInclude Include="Offsets.h" />
+    <ClInclude Include="ps3.h" />
+    <ClInclude Include="struct.h" />
+    <ClInclude Include="SubMenus.h" />
+    <ClInclude Include="UI.h" />
+    <ClInclude Include="var.h" />
+    <ClInclude Include="GameFunctions.h" />
+    <ClInclude Include="Hooking.h" />
+    <ClInclude Include="IDs.h" />
+  </ItemGroup>
+</Project>

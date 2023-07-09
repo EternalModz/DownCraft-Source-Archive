@@ -1,0 +1,37 @@
+C:\Users\rstei\source\repos\DownCraft Bedrock Edition\DownCraft Bedrock Edition\obj\Debug\DownCraft_Bedrock_Edition.Properties.Resources.resources
+C:\Users\rstei\source\repos\DownCraft Bedrock Edition\DownCraft Bedrock Edition\obj\Debug\DownCraft Bedrock Edition.csproj.GenerateResource.cache
+C:\Users\rstei\source\repos\DownCraft Bedrock Edition\DownCraft Bedrock Edition\obj\Debug\DownCraft Bedrock Edition.csproj.CoreCompileInputs.cache
+C:\Users\rstei\source\repos\DownCraft Bedrock Edition\DownCraft Bedrock Edition\bin\Debug\DownCraft Bedrock Edition.exe.config
+C:\Users\rstei\source\repos\DownCraft Bedrock Edition\DownCraft Bedrock Edition\bin\Debug\DownCraft Bedrock Edition.exe
+C:\Users\rstei\source\repos\DownCraft Bedrock Edition\DownCraft Bedrock Edition\bin\Debug\DownCraft Bedrock Edition.pdb
+C:\Users\rstei\source\repos\DownCraft Bedrock Edition\DownCraft Bedrock Edition\obj\Debug\DownCraft Bedrock Edition.exe
+C:\Users\rstei\source\repos\DownCraft Bedrock Edition\DownCraft Bedrock Edition\obj\Debug\DownCraft Bedrock Edition.pdb
+C:\Users\rstei\source\repos\DownCraft Bedrock Edition\DownCraft Bedrock Edition\obj\Debug\DownCraft_Bedrock_Edition.Main.resources
+C:\Users\rstei\source\repos\DownCraft Bedrock Edition\DownCraft Bedrock Edition\bin\Debug\Memory.dll
+C:\Users\rstei\source\repos\DownCraft Bedrock Edition\DownCraft Bedrock Edition\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\rstei\source\repos\DownCraft Bedrock Edition\DownCraft Bedrock Edition\bin\Debug\Memory.xml
+C:\Users\rstei\source\repos\DownCraft Bedrock Edition\DownCraft Bedrock Edition\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\rstei\source\repos\DownCraft Bedrock Edition\DownCraft Bedrock Edition\obj\Debug\DownCraft Bedrock Edition.csproj.CopyComplete
+C:\Users\rstei\source\repos\DownCraft Bedrock Edition\DownCraft Bedrock Edition\bin\Debug\Guna.UI.dll
+C:\Users\rstei\source\repos\DownCraft Bedrock Edition\DownCraft Bedrock Edition\bin\Debug\Guna.UI2.dll
+C:\Users\rstei\source\repos\DownCraft Bedrock Edition\DownCraft Bedrock Edition\bin\Debug\Siticone.UI.dll
+C:\Users\rstei\source\repos\DownCraft Bedrock Edition\DownCraft Bedrock Edition\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\rstei\Desktop\PC\Games\Minecraft Bedrock\DownCraft Bedrock\DownCraft Bedrock Edition\DownCraft Bedrock Edition\bin\Debug\DownCraft Bedrock Edition.exe.config
+C:\Users\rstei\Desktop\PC\Games\Minecraft Bedrock\DownCraft Bedrock\DownCraft Bedrock Edition\DownCraft Bedrock Edition\bin\Debug\DownCraft Bedrock Edition.exe
+C:\Users\rstei\Desktop\PC\Games\Minecraft Bedrock\DownCraft Bedrock\DownCraft Bedrock Edition\DownCraft Bedrock Edition\bin\Debug\DownCraft Bedrock Edition.pdb
+C:\Users\rstei\Desktop\PC\Games\Minecraft Bedrock\DownCraft Bedrock\DownCraft Bedrock Edition\DownCraft Bedrock Edition\bin\Debug\Memory.dll
+C:\Users\rstei\Desktop\PC\Games\Minecraft Bedrock\DownCraft Bedrock\DownCraft Bedrock Edition\DownCraft Bedrock Edition\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\rstei\Desktop\PC\Games\Minecraft Bedrock\DownCraft Bedrock\DownCraft Bedrock Edition\DownCraft Bedrock Edition\bin\Debug\Memory.xml
+C:\Users\rstei\Desktop\PC\Games\Minecraft Bedrock\DownCraft Bedrock\DownCraft Bedrock Edition\DownCraft Bedrock Edition\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\rstei\Desktop\PC\Games\Minecraft Bedrock\DownCraft Bedrock\DownCraft Bedrock Edition\DownCraft Bedrock Edition\obj\Debug\DownCraft Bedrock Edition.csprojAssemblyReference.cache
+C:\Users\rstei\Desktop\PC\Games\Minecraft Bedrock\DownCraft Bedrock\DownCraft Bedrock Edition\DownCraft Bedrock Edition\obj\Debug\DownCraft_Bedrock_Edition.Properties.Resources.resources
+C:\Users\rstei\Desktop\PC\Games\Minecraft Bedrock\DownCraft Bedrock\DownCraft Bedrock Edition\DownCraft Bedrock Edition\obj\Debug\DownCraft Bedrock Edition.csproj.GenerateResource.cache
+C:\Users\rstei\Desktop\PC\Games\Minecraft Bedrock\DownCraft Bedrock\DownCraft Bedrock Edition\DownCraft Bedrock Edition\obj\Debug\DownCraft Bedrock Edition.csproj.CoreCompileInputs.cache
+C:\Users\rstei\Desktop\PC\Games\Minecraft Bedrock\DownCraft Bedrock\DownCraft Bedrock Edition\DownCraft Bedrock Edition\obj\Debug\DownCraft Bedrock Edition.csproj.CopyComplete
+C:\Users\rstei\Desktop\PC\Games\Minecraft Bedrock\DownCraft Bedrock\DownCraft Bedrock Edition\DownCraft Bedrock Edition\obj\Debug\DownCraft Bedrock Edition.exe
+C:\Users\rstei\Desktop\PC\Games\Minecraft Bedrock\DownCraft Bedrock\DownCraft Bedrock Edition\DownCraft Bedrock Edition\obj\Debug\DownCraft Bedrock Edition.pdb
+C:\Users\rstei\Desktop\PC\Games\Minecraft Bedrock\DownCraft Bedrock\DownCraft Bedrock Edition\DownCraft Bedrock Edition\obj\Debug\DownCraft_Bedrock_Edition.Infos.resources
+C:\Users\rstei\Desktop\PC\Games\Minecraft Bedrock\DownCraft Bedrock\DownCraft Bedrock Edition\DownCraft Bedrock Edition\bin\Debug\Json.Net.dll
+C:\Users\rstei\Desktop\PC\Games\Minecraft Bedrock\DownCraft Bedrock\DownCraft Bedrock Edition\DownCraft Bedrock Edition\bin\Debug\Newtonsoft.Json.dll
+C:\Users\rstei\Desktop\PC\Games\Minecraft Bedrock\DownCraft Bedrock\DownCraft Bedrock Edition\DownCraft Bedrock Edition\bin\Debug\Newtonsoft.Json.xml
+C:\Users\rstei\Desktop\PC\Games\Minecraft Bedrock\DownCraft Bedrock\DownCraft Bedrock Edition\DownCraft Bedrock Edition\obj\Debug\DownCraft_Bedrock_Edition.Main.resources
